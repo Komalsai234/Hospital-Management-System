@@ -1,6 +1,6 @@
 # Healthcare System Database Schema
 
-This README documents the database schema for a healthcare system. It includes tables for managing patient information, medical records, appointments, billing, and more.
+This is the MYSQL database schema for a healthcare system. It includes tables for managing patient information, medical records, appointments, billing, and more.
 
 ## 1. Patient Table
 - **Primary Key:** Patient ID
@@ -185,9 +185,44 @@ This README documents the database schema for a healthcare system. It includes t
 - **Primary Key:** Prescription ID
 - **Foreign Key:** Patient ID, Doctor ID, Medicine ID, Appointment ID
 
-| Attribute            | Data Type      | Description                               |
-|----------------------|----------------|-------------------------------------------|
-| Prescription ID      | INT            | Unique identifier for each prescription   |
-| Patient ID           | INT            | Unique identifier for each patient        |
-| Doctor ID            | INT            | Unique identifier for each doctor         |
-| Medicine ID          | INT            |
+| Attribute           | Data Type          | Description                                  |
+|---------------------|--------------------|----------------------------------------------|
+| Prescription ID     | INT                | Unique identifier for each prescription      |
+| Patient ID          | INT                | Unique identifier for each patient           |
+| Doctor ID           | INT                | Unique identifier for each doctor            |
+| Medicine ID         | INT                | Unique identifier for each medicine          |
+| Medicine Dosage     | VARCHAR(255)       | Dosage of the prescribed medicine            |
+| Medicine Duration   | VARCHAR(255)       | Duration for taking the medicine             |
+| Prescribed Date     | TIME STAMP         | Date and time when the prescription was made |
+| Prescription Status | ENUM               | Status of the prescription: Active, etc.     |
+| Appointment ID      | INT                | Identifier for the related appointment       |
+
+## 17. Lab Test Table
+- **Primary Key:** Test ID
+
+| Attribute   | Data Type | Description                       |
+|-------------|-----------|-----------------------------------|
+| Test ID     | INT       | Unique identifier for each lab test|
+| Test Name   | INT       | Name of the lab test              |
+| Price       | FLOAT     | Cost of the lab test              |
+
+## 18. Lab Table
+- **Primary Key:** Lab Record ID
+- **Foreign Key:** Patient ID, Referred Doctor ID, Test ID
+
+| Attribute         | Data Type     | Description                                    |
+|-------------------|---------------|------------------------------------------------|
+| Lab Record ID     | INT           | Unique identifier for each lab record          |
+| Patient ID        | INT           | Unique identifier for each patient             |
+| Referred Doctor ID| INT           | Identifier for the doctor referring the test   |
+| Test ID           | INT           | Unique identifier for each test                |
+| Test Date Time    | DATE NOT NULL | Date and time when the lab test was conducted  |
+
+## 19. Pharmacy Table
+- **Primary Key, Foreign Key:** Medicine ID
+
+| Attribute           | Data Type | Description                            |
+|---------------------|-----------|----------------------------------------|
+| Medicine ID         | INT       | Unique identifier for each medicine    |
+| Quantity Available  | INT       | Stock quantity of the medicine         |
+| Last Restocked      | DATE      | Most recent restock date of the medicine|
