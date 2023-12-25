@@ -22,9 +22,12 @@
 
 ### **Doctor Dashboard**
   - **Patient Details:** Doctors can access detailed patient information by entering the patient's ID, mirroring real-world scenarios of patient-doctor interactions.
-  - **Patient Report:** Access and review patient lab test results, which are stored in MongoDB, including high-resolution images like CT scans and X-rays.
-  - **Patient Prescription:** View previous prescriptions and continue with the existing regimen or prescribe new medications as needed.
-  - **Check Appointments:** Doctors can view their daily appointment schedules, facilitating better time management and patient care.
+    
+  - **Patient Report:** Access and review patient lab test results, which are stored in MongoDB, including high-resolution images like CT scans and X-rays
+    
+  - **Patient Prescription:** View previous prescriptions and continue with the existing regimen or prescribe new medications as needed
+    
+  - **Check Appointments:** Doctors can view their daily appointment schedules, facilitating better time management and patient care
 
 
 
@@ -37,13 +40,19 @@
 
 
 ### **ADMIN Dashboard**
-  - **Register Doctor:** Allows the admin to register new doctors into the system, adding them to the MySQL server.
-  - **Diagnosis Center:** Entry and management of lab tests performed, including date and timestamps.
-  - **Book a Room:** Check and manage room availability across different categories (General Ward, Suite, Deluxe, Executive, Standard) and handle bookings.
-  - **Admit/Discharge** a Patient: Manage patient admissions and discharges, ensuring efficient room allocation and avoiding double bookings.
-  - **Pharmacy Management:** Monitor medicine availability, update sales/restock information, and add new medicines to the inventory.
-  - **Patient Bills:** Generate combined bills for lab tests and room rent, accounting for any advances paid by admitted patients.
-  - **Patient Report** Management: Store and manage completed lab reports, CT scans, and X-rays in MongoDB, ensuring secure and efficient data handling.
+  - **Register Doctor:** Allows the admin to register new doctors into the system, adding them to the MySQL server
+    
+  - **Diagnosis Center:** Entry and management of lab tests performed, including date and timestamps
+    
+  - **Book a Room:** Check and manage room availability across different categories (General Ward, Suite, Deluxe, Executive, Standard) and handle bookings
+    
+  - **Admit/Discharge** a Patient: Manage patient admissions and discharges, ensuring efficient room allocation and avoiding double bookings
+
+  - **Pharmacy Management:** Monitor medicine availability, update sales/restock information, and add new medicines to the inventory
+    
+  - **Patient Bills:** Generate combined bills for lab tests and room rent, accounting for any advances paid by admitted patients
+    
+  - **Patient Report** Management: Store and manage completed lab reports, CT scans, and X-rays in MongoDB, ensuring secure and efficient data handling
 
 
   
