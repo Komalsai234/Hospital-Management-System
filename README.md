@@ -27,7 +27,7 @@ functionalities of the Hospital Management System. This
 approach allows for a comprehensive demonstration of the
 system's capabilities.
 
-**[Click Here for the Dataset](https://github.com/Komalsai234/Hospital-Management-System/tree/436e1662abdbe00717a51cc540da0d4692bf1e55/Dataset)**
+[**Click Here for the Dataset**](https://github.com/Komalsai234/Hospital-Management-System/tree/436e1662abdbe00717a51cc540da0d4692bf1e55/Dataset)
 
 
 
@@ -115,7 +115,7 @@ possible.**
 **https://hospital-management-system.streamlit.app/**
 
 
-**[Click Here for Features of Streamlit Interface](https://github.com/Komalsai234/Hospital-Management-System/tree/436e1662abdbe00717a51cc540da0d4692bf1e55/Dataset)**
+[**Click Here for Features of Streamlit Interface**](https://github.com/Komalsai234/Hospital-Management-System/tree/436e1662abdbe00717a51cc540da0d4692bf1e55/Dataset)
 ## Instructor
 
 ### Dr. Sanajanasri J P, Assistant Professor, Amrita School of AI
