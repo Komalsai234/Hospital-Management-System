@@ -227,9 +227,6 @@ This is the MYSQL database schema for a healthcare system. It includes tables fo
 | Quantity Available  | INT       | Stock quantity of the medicine         |
 | Last Restocked      | DATE      | Most recent restock date of the medicine|
 
-
-
-
 # MongoDB Database Structure and Schema for Hospital Management System
 
 ## Overview
