@@ -226,3 +226,47 @@ This is the MYSQL database schema for a healthcare system. It includes tables fo
 | Medicine ID         | INT       | Unique identifier for each medicine    |
 | Quantity Available  | INT       | Stock quantity of the medicine         |
 | Last Restocked      | DATE      | Most recent restock date of the medicine|
+
+
+
+
+# MongoDB Database Structure and Schema for Hospital Management System
+
+## Overview
+
+This section outlines the database structure used in the Hospital Management System, focusing on the implementation of MongoDB and its GridFS feature. GridFS is crucial for managing large medical datasets, such as high-resolution images and comprehensive diagnostic reports.
+
+## GridFS Implementation
+
+GridFS in MongoDB addresses the challenges of storing files larger than the BSON document size limit (16MB). It enhances efficiency and scalability by splitting large files into smaller, manageable chunks.
+
+### Key Components of GridFS
+
+1. **fs.files Collection**
+   - Contains metadata for each file, including:
+     - `_id`: Unique identifier.
+     - `filename`: Name of the file.
+     - `uploadDate`: Date of file upload.
+
+2. **fs.chunks Collection**
+   - Stores the binary chunks of each file.
+   - Each chunk is linked to its parent file via a `files_id` field.
+
+This structure enables efficient data transfer and supports concurrent read/write operations, essential in hospital environments.
+
+## Schema Design for 'Lab Reports' Collection
+
+The 'lab reports' collection is a critical component of the database, structured as follows:
+
+- **Patient ID**: Foreign key linking to the patient ID in the SQL database.
+- **Tests**: Array of embedded documents, each representing an individual lab test, containing:
+  - `Test name`: Name of the lab test.
+  - `Test datetime`: Timestamp of the lab test administration.
+  - `File id`: Unique identifier for the file in GridFS.
+
+## Advantages in HMS
+
+The integration of GridFS streamlines the workflow in HMS by:
+- Facilitating the upload of large files without overburdening the network.
+- Allowing clinicians to access and download only necessary parts of a file, enhancing efficiency during patient consultations and treatment planning.
+- 
