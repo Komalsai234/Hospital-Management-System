@@ -19,20 +19,6 @@
 
 The Hospital Management System (HMS) is designed to streamline the operations of healthcare facilities. Leveraging MySQL Engine from AWS RDS and MongoDB, this dual-database system efficiently handles structured patient data and unstructured medical records. It features a user-friendly interface developed with Streamlit for the needs of patients, doctors, and administrators.
 
-
-<a name='DatasetDescription'></a>
-## Dataset Description
-Given the sensitive nature of real-world hospital data
-and the strict confidentiality protocols it necessitates,
-our project employs synthetic data to simulate the
-functionalities of the Hospital Management System. This
-approach allows for a comprehensive demonstration of the
-system's capabilities.
-
-[**Click Here for the Dataset**](https://github.com/Komalsai234/Hospital-Management-System/tree/436e1662abdbe00717a51cc540da0d4692bf1e55/Dataset)
-
-
-
 <a name='tectstack'></a>
 ## Tech Stack
 - **Databases:** MySQL, MongoDB
@@ -50,6 +36,19 @@ system's capabilities.
 - Scala
 - AWS Account
 - Streamlit Account
+
+
+<a name='DatasetDescription'></a>
+## Dataset Description
+Given the sensitive nature of real-world hospital data
+and the strict confidentiality protocols it necessitates,
+our project employs synthetic data to simulate the
+functionalities of the Hospital Management System. This
+approach allows for a comprehensive demonstration of the
+system's capabilities.
+
+[**Click Here for the Dataset**](https://github.com/Komalsai234/Hospital-Management-System/tree/436e1662abdbe00717a51cc540da0d4692bf1e55/Dataset)
+
 
 <a name='HowtoRunthisAppLocally'></a>
 ## How to Run this App Locally
