@@ -26,6 +26,8 @@
   - **Patient Prescription:** View previous prescriptions and continue with the existing regimen or prescribe new medications as needed.
   - **Check Appointments:** Doctors can view their daily appointment schedules, facilitating better time management and patient care.
 
+
+
   ![App Screenshot](https://github.com/Komalsai234/Hospital-Management-System/blob/633682ebb91536d26b8a009214a87362dc55acfc/Screenshots/Doctor.png)
 
 ### **ADMIN Login**
@@ -42,6 +44,8 @@
   - **Pharmacy Management:** Monitor medicine availability, update sales/restock information, and add new medicines to the inventory.
   - **Patient Bills:** Generate combined bills for lab tests and room rent, accounting for any advances paid by admitted patients.
   - **Patient Report** Management: Store and manage completed lab reports, CT scans, and X-rays in MongoDB, ensuring secure and efficient data handling.
+
+
   
 
   ![App Screenshot](https://github.com/Komalsai234/Hospital-Management-System/blob/633682ebb91536d26b8a009214a87362dc55acfc/Screenshots/Admin-1.png)
