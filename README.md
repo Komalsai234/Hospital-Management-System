@@ -4,17 +4,21 @@
 
 # Contents
 
-
-- [Introduction](#Introduction)
-- [Dataset Description](#DatasetDescription)
-    - [Tech Stack](#tectstack)
+* [Introduction](#introduction)
+* [Dataset Description](#DatasetDescription)
+* [Tech Stack](#tectstack)
     - [Prerequisites](#prerequisites)
     - [How to Run this App Locally](#HowtoRunthisAppLocally)
     - [Streamlit](#streamlit)
     - [Contributors](#contributors)
 
+<a name='introduction'></a>
+## Introduction 
+
 The Hospital Management System (HMS) is designed to streamline the operations of healthcare facilities. Leveraging MySQL Engine from AWS RDS and MongoDB, this dual-database system efficiently handles structured patient data and unstructured medical records. It features a user-friendly interface developed with Streamlit for the needs of patients, doctors, and administrators.
 
+
+<a name='DatasetDescription'></a>
 ## Dataset Description
 Given the sensitive nature of real-world hospital data
 and the strict confidentiality protocols it necessitates,
@@ -24,6 +28,7 @@ approach allows for a comprehensive demonstration of the
 system's capabilities.
 
 
+<a name='tectstack'></a>
 ## Tech Stack
 - **Databases:** MySQL, MongoDB
 - **User Interface:** Streamlit 
@@ -31,6 +36,8 @@ system's capabilities.
 - AWS EC2
 - Apache Spark
 
+
+<a name='prerequisites'></a>
 ## Prerequisites
 - Anaconda 
 - Python
@@ -39,7 +46,7 @@ system's capabilities.
 - AWS Account
 - Streamlit Account
 
-
+<a name='HowtoRunthisAppLocally'></a>
 ## How to Run this App Locally
 
 ### Clone this Repository
@@ -98,7 +105,7 @@ possible.**
 
 **DoctorID:** 1, **Username:** doctor1, **Password:** doctor@1
 
-
+<a name='streamlit'></a>
 ## Streamlit
 **This app can be accessed from below link bu only when the AWS RDS Database is running.**
 
@@ -109,7 +116,7 @@ https://hospital-management-system.streamlit.app/
 
 ### Dr. Sanajanasri J P, Assistant Professor, Amrita School of AI
 
-
+<a name='contributors'></a>
 ## Contributors
 
 - [P.S.S.Sai Keerthana](https://github.com/saikeerthana234)
