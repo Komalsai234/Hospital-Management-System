@@ -1,0 +1,6 @@
+RoomTypeID,TypeName,RoomRent
+1,Standard,1000
+2,Deluxe,2000
+3,Suite,3000
+4,Executive,2500
+5,General-Ward,800

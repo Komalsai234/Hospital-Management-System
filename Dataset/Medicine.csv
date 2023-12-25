@@ -1,0 +1,1001 @@
+MedicineID,Name,manufacturer_name,Price
+1,"Rabinist D 10mg/20mg Tablet","Venistro Biotech",65.4
+2,"Fibocob-G Tablet","Uniark Healthcare Pvt Ltd",120
+3,"Aznok 250mg Tablet","Green Lab Healthcare",62
+4,"Letin 5mg Tablet","Insight Labz",34.5
+5,"L-Zine Tablet","Glorious Biotech",17
+6,"Nerver-P 750mcg/75mg Capsule","Arlak Biotech Pvt Ltd",99
+7,"Diabeclaz 30 Tablet MR",Abbott,60
+8,"Topaheal 50mg Tablet","Healing Pharma India Pvt Ltd",170
+9,"Dilpra-OD 750 Tablet","Emcure Pharmaceuticals Ltd",153.15
+10,"Vrizolid 600mg Tablet","Vrinda Life",199
+11,"Etorvas 80mg Tablet","Precise Lifescience",285
+12,"Rocurofix 100 Injection","Varenyam Healthcare Pvt Ltd",1251
+13,"Lydic 75mg Injection","Leenate Pharma Pvt Ltd",16
+14,"Akrogat P Eye Drop","Akrovis Pharmaceuticals",42
+15,"Merogram 125mg Injection","Veritaz Healthcare Ltd",198
+16,"Cefikaa 200mg Tablet","Troikaa Pharmaceuticals Ltd",95.11
+17,"Melfix 200mg Tablet","Elwiss Biotech Private Limited",119
+18,"Nales Plus 50mg/10mg Tablet","Proqol Healthcare",82.5
+19,"Telmend-AM Tablet","Mendcure Life Sciences Pvt Ltd",66
+20,"Citolin P 500mg/400mg Tablet","Godase Healthcare",559
+21,"Irban Beta 3.125mg/5mg Tablet","Glenmark Pharmaceuticals Ltd",210
+22,"Parpex 1mg Tablet","Zydus Cadila",72.56
+23,"Rabilast-L Capsule SR","Zerico Lifesciences Pvt Ltd",150
+24,"Tobstik F Eye Drop","Dr Kumars Pharmaceuticals",120
+25,"Vap 40 Tablet","Omenta Pharma Pvt Ltd",59
+26,"Fasvivo Injection","Medicamen Biotech Ltd",14040
+27,"Sivto 20mg Tablet","Sivling Technologies Pvt Ltd",38
+28,"Eswell 20mg Tablet","Krypton Pharmaceuticals",120
+29,"Acinabid 25mg Tablet","Sarian Healthcare",30
+30,"Alenost 10mg Tablet","Macleods Pharmaceuticals Pvt Ltd",49
+31,"Cityx 250mg Injection","NYX Pharmaceutical Pvt Ltd",160
+32,"Themiclav IV 1000mg/200mg Injection","Themis Medicare Ltd",134
+33,"Elfast Tablet","Elivia Life Sciences Pvt Ltd",59
+34,"Melco 100mg/325mg Tablet","Neuracle Lifesciences Pvt Ltd",49
+35,"Lukobal PG 750mcg/75mg Tablet","Henin Lukinz Pvt Ltd",124
+36,"Butaproxyvon SP 100mg/325mg/15mg Tablet","Wockhardt Ltd",103
+37,"Adina-B Gel","Canbro Healthcare",179.3
+38,"Kristina V 1mg Injection","Khandelwal Laboratories Pvt Ltd",49.6
+39,"Cadrob D 30mg/20mg Capsule SR","Caddes Life Sciences",125
+40,"Sulfatrim Suspension","Shalina Laboratories Pvt Ltd",26
+41,"Itcoz 100mg Capsule","Derma Concepts",98
+42,"Axipin 5mg Tablet","Axis Life Science Pvt Ltd",31
+43,"Qsart-B25 Tablet ER","Quads Biotech Healthcare Private Limited",128
+44,"Candicul 100mg Tablet VT","Mapra Laboratories Pvt Ltd",45.63
+45,"Relirubicin 10mg Injection","Relic Biotechnology Pvt Ltd",565
+46,"Ulcicap PD 30 mg/40 mg Tablet","Sterkem Pharma Pvt Ltd",65
+47,"Arth 60mg Injection","Plus India",149
+48,"Levine Tablet","Zyris Derma Care (P) Ltd",25.1
+49,"Injectum 1000mg Injection","Euporie Pharmaceuticals",70
+50,"Axonrich Tablet","Primus Remedies Pvt Ltd",185.9
+51,"IGP's No Issue 72 Tablet","IGP Medventures Pvt Ltd",90
+52,"Martinor Tablet","Walter Bushnell",50.78
+53,"Astofen 200 SR Tablet","Hi-Cure Biotech",48.5
+54,"Zoprog 200 Soft Gelatin Capsule","Vibcare Pharma Pvt Ltd",280
+55,"Adiproz 40 Tablet","Adisys Healthcare",65
+56,"Malsunate Injection","Instant Remedies Pvt Ltd",189
+57,"Rosuchek-D Tablet","Indoco Remedies Ltd",147
+58,"Tuzin 10mg Tablet","Thrift Pharmaceuticals",16.06
+59,"Serotin 25mg Tablet","Psycogen Captab",59.95
+60,"Mefpar 500mg/450mg Tablet","Symet Drugs Ltd",21
+61,"Sarcan H 50mg/12.5mg Tablet","Canipla Care",45
+62,"Fudac-SP Tablet","Mensa Futura Life Sciences Pvt Ltd",55
+63,"Preganova 300 Capsule","Sentosa Geigy (India) Labs Limited",341
+64,"Seraris 10mg Tablet","Azaris Pharma",51
+65,"Agroflox M Syrup","Agron Remedies Pvt Ltd",10.37
+66,"Bronko Plus 2mg/100mg Tablet","Glaxo SmithKline Pharmaceuticals Ltd",5.81
+67,"Zawyu 6mg Tablet",Wyupharama,130
+68,"NO Dizz 8mg Tablet","Consern Pharma Limited",46
+69,"Oaxime 100mg Tablet DT","Yester Pharma Pvt Ltd",128
+70,"Signoflam-TH 8 Tablet","Lupin Ltd",269
+71,"Halow 1.5mg Tablet","Sigmund Promedica",12.7
+72,"Btclot XT Tablet","Incarnate Pharmachem Pvt Ltd",110
+73,"DOCETERO 120 MG INJECTION","Hetero Drugs Ltd",14000
+74,"Ektazo 4000mg/500mg Injection","Ekasar Lifescience",450
+75,"Kdfit Tablet","Sudha Lifesciences Pvt Ltd",155
+76,"Nervibur M 1500mcg/75mg Tablet","Burgeon Health Series Private Limited",154
+77,"Predzen 4mg Tablet","Ikon Remedies Pvt Ltd",49.5
+78,"Dolcare 20mg Tablet","Olcare Laboratories",31.25
+79,"Etoblis TH 60mg/4mg Tablet","Syndicate Life Sciences Pvt Ltd",205
+80,"Retoz-Neo 60 Tablet","Dr Reddy's Laboratories Ltd",128.25
+81,"Nitopan 40mg Tablet","Aenor Pharmaceuticals Private Limited",54
+82,"NV Cid Syrup","NV Pharmaceuticals",90
+83,"Milpride 8 Tablet","Hamswell Lifecare",72
+84,"Hiflo Z Capsule","Hippo Labs Pvt Ltd",69
+85,"Novacillin Plus 4.5gm Injection","Radicura Pharma pvt ltd",426.6
+86,"Cefia 100mg Tablet","Positif Life sciences",100
+87,"Cefpoglen 200mg Tablet","Glenmark Pharmaceuticals Ltd",82.5
+88,"Normogyl Suspension","Pharmasynth Formulations Ltd",22
+89,"Fexitage OZ 200mg/500mg Tablet","Beulah Biomedics Ltd",168
+90,"Jespas-D 80mg/250mg Tablet","Jeen Healthcare",59.9
+91,"Euromet GP 1mg/500mg Tablet SR","Europa Healthcare Pvt Ltd",60
+92,"Eradiclav DS Dry Syrup","Morepen Laboratories Ltd",109
+93,"Dilmox 250mg Tablet DT","Dial Pharmaceuticals Pvt Ltd",42
+94,"Oflip Suspension","Spire Pharma",29.4
+95,"Coldrum Tablet","Assign Drug Industries Pvt Ltd",36
+96,"Zeptin 200mg Tablet","Kentreck Laboratories Pvt Ltd",38
+97,"Rabeva 20mg Tablet","Gnova Biotech",54
+98,"Arteo LF 40 mg/240 mg Dry Syrup","Gujarat Terce Laboratories Ltd",135
+99,"Fondaflo 2.5 Injection","Lupin Ltd",1042.7
+100,"Anginac P 100mg/325mg Tablet","Enrico Pharmaceuticals",46.4
+101,"Axzyb Tablet","Glenmark Pharmaceuticals Ltd",4200
+102,"Nuprost Eye Drop","Micro Labs Ltd",292
+103,"Stimucor 2.5 Tablet","Corona Remedies Pvt Ltd",199.01
+104,"Nimron P 100mg/500mg Tablet","Avron Pharma Pvt Ltd",55
+105,"Audipant 40mg Tablet","Matins Pharma",70
+106,"Acepine-SP Tablet","Deon Healthcare",80
+107,"Pelfix-OX Tablet DT","Apikos Pharma",145
+108,"Cartiglad Tablet","Numera Life Sciences",169.9
+109,"Offilox 200mg Capsule","Shiwalic Formulations Pvt Ltd",65
+110,"Ceftrexa 1000mg Injection","R.T. Pharma",59
+111,"Norgaby 75mg/10mg Tablet","Shinto Organics (P) Limited",121
+112,"Zelglip 20mg Tablet","Bionext Pharma Pvt Ltd",113.3
+113,"Wodopod 50mg Dry Syrup","Eveson Pharma",68
+114,"Tosiban 6.75mg Injection","Zuventus Healthcare Ltd",1648.5
+115,"Monozide 4mg Tablet","Group Pharmaceuticals Ltd",19
+116,"Muchek-Cold Tablet","Mbco Lifesciences Pvt Ltd",55
+117,"Canogen 20mg Tablet","Enrico Pharmaceuticals",48.65
+118,"Tiptengio 25mg/5mg Tablet","Cipla Ltd",820
+119,"Carbee 6.25mg Tablet","Ranmarc Labs",34.5
+120,"Neo-Hp Kit","Parnasa Mediworld Pvt Ltd",190
+121,"Roxyrol RT 150 mg/60 mg Tablet","Concept Pharmaceuticals Ltd",91
+122,"Symopact D 30mg/20mg Capsule SR","Synex Global Services Llp",77
+123,"Torway 20mg Tablet","Allysia Lifesciences Pvt Ltd",85
+124,"Corolex T Syrup","Ambit Bio Medix",126.5
+125,"Glimrex PM 1mg/500mg/15mg Tablet SR","In Med Therapeutics",79.45
+126,"Cefistar-O Tablet","Gracious Pharmaceuticals",140
+127,"Vermox 500mg Capsule","J.K. Drugs & Pharmaceutical Pvt Ltd",39
+128,"Radifix OZ 200mg/500mg Tablet","Radico Remedies",149
+129,"Cefpar 1gm Injection","Karnataka Antibiotics & Pharmaceuticals Ltd",44.62
+130,"Kufwaq-BR Syrup","Rexit Pharmaceutical",65
+131,"Levoke Oral Suspension","Lewis Bioserch Pharma Pvt Ltd",66.4
+132,"Cefest 500mg Injection","Parex Pharmaceuticals Pvt Ltd",22.98
+133,"Itracan 100mg Capsule","Cipla Ltd",53.33
+134,"Clavmoxy Forte Syrup","Kiran Pharmaceutical",130
+135,"Fram AT 5mg/50mg Tablet","Frank Medilink",27
+136,"Clonam IR 2mg Tablet MD","Icon Life Sciences",49
+137,"Fosmet Plus Injection","Cubit Healthcare",53.5
+138,"Etlas 5mg Tablet","Advance Pharma",48
+139,"Socon 200mg Tablet","Sovicare Pharmaceuticals",17
+140,"Uva Cef CV 50mg/31.25mg Dry Syrup","Torrent Pharmaceuticals Ltd",90.55
+141,"Odulox 20mg Tablet","Galcare Pharmaceutical Pvt Ltd",77.3
+142,"Otic O 200mg/500mg Tablet","Haledew Remedies",75
+143,"Desla 50mg Tablet ER","Curelogic Pharma",105
+144,"Clavamo 1000mg/200mg Injection","Econ Healthcare Pvt Ltd",108.82
+145,"Cibustal 0.3mg Tablet","Pulse Pharmaceuticals",90
+146,"Recpar TH 100mg/4mg Tablet","Shiron Pharmaceuticals",154
+147,"Insugen 30/70 Injection 100IU/ml",Biocon,518.6
+148,"Dompan Forte Tablet","Medley Pharmaceuticals",120
+149,"Dalsix 100 DT Tablet","Candle Pharmaceuticals",82
+150,"Subiliv Syrup","Pray Healthcare",110
+151,"Euroxim 200mg Tablet","Euro Organics",130.2
+152,"Acio D 10mg/40mg Tablet","Arbour Pharmaceuticals Pvt Ltd",79
+153,"Dikvin S 50mg/325mg/15mg Tablet","Vintas Pharmaceuticals Pvt. Ltd.",72.4
+154,"L Montab Syrup","Kosmed Formulations",38
+155,"Myokid 0.01% Eye Drop","Raymed Pharmaceuticals Ltd",200
+156,"Terbitor 1% Cream","Sovicare Pharmaceuticals",86
+157,"Vanvopram 5 Tablet","Vanprom Lifesciences Pvt Ltd",50.06
+158,"Xmet-G 2/500 Tablet PR","Glenmark Pharmaceuticals Ltd",178.5
+159,"Italin 10mg Tablet","Sanity Pharma",69.5
+160,"Tocef 200mg Tablet","Synchem Lab",154
+161,"Pax-D Capsule SR","Mrl Pharma Opc Pvt Ltd",170
+162,"Dazone 6mg Oral Suspension","Mars Therapeutics & Chemicals Ltd",65
+163,"Oripod Dry Syrup","Orion Biotech Pvt Ltd",62
+164,"Odeworm 400mg Tablet","Vervetic Healthcare Pvt Ltd",7.95
+165,"Doxynix 10mg/10mg/2.5mg Tablet","Sonixa Lifecare",95
+166,"FX Daz M 10mg/120mg Tablet","Dermajoint India",240
+167,"Amidine 5 Tablet","Iatric Pharmaceuticals",24
+168,"Canozith 250 Tablet","Candela Healthcare",79
+169,"Magicobal 1500mcg Injection","Pharmagic Lifesciences",49.4
+170,"Lotan 50mg Tablet","Taurus Laboratories Pvt Ltd",7.5
+171,"Ulciren Plus Oral Suspension","Aarotax Pharmaceutical Pvt Ltd",89
+172,"Nazocept-P Nasal Drops","Zenstar Life Sciences",45
+173,"Zimno P Syrup","Exsan Healthcare",58
+174,"Pepsigard 1gm Tablet","SAF Fermion Ltd",66.5
+175,"Calio 500mg Tablet","Osmed Formulations",19
+176,"Herperax Tablet","Micro Labs Ltd",42.31
+177,"Canflo B Cream",Medopharm,34.62
+178,"DavaIndia Methylcobalamin+Pregabalin 1500mcg/75mg Tablet SR","Davaindia Generic Pharmacy",50
+179,"Fuket Cream","Connote Healthcare",140
+180,"Omevon 20mg Capsule","Von Remedies",31.5
+181,"Klotin 100mg Injection","Neon Laboratories Ltd",63
+182,"Novon 2mg Injection","Titan Bioscience Pvt Ltd",27
+183,"Vinzole 20mg Capsule","Vintage Labs Pvt Ltd",54.43
+184,"Ensera Forte 10mg Tablet","Bombay Tablet Mfg Co Pvt Ltd",81.5
+185,"Pacadon-IV Infusion","Emenox Healthcare",216
+186,"Clowin B Lotion","Winmac Laboratories Ltd",24.95
+187,"Seralyse D 50mg/10mg Tablet","Prophex Health Care Pvt Ltd",60
+188,"Zenali 500mg Tablet","Zenlabs Ethica Ltd",400
+189,"Exobob 20mg Tablet",Exodrug,54
+190,"Gluxit S 10mg/100mg Tablet","Eris Lifesciences Ltd",200
+191,"Noblinac R 200mg/20mg Capsule SR","Biofield Pharma",77
+192,"Suhagra 100 Tablet","Cipla Ltd",192
+193,"Minipar-P Tablet","Servocare Lifesciences Pvt Ltd",28
+194,"Vali MPS Syrup","Volks Biotech",110
+195,"Omalen D 10mg/20mg Capsule","Alencure Biotech Pvt Ltd",72.5
+196,"Rombispar 200mg Tablet","Rhombus Pharma Pvt Ltd",95.37
+197,"Terfin Cream","West-Coast Pharmaceutical Works Ltd",99
+198,"Celacob G 300mg/500mcg Tablet","Olens Healthcare Pvt Ltd",105
+199,"Abflox 50mg Suspension","American Biocare",32
+200,"Saneuron M 75mg Capsule","Sanat Products Ltd",84
+201,"Geftin Tablet","Khandelwal Laboratories Pvt Ltd",3949
+202,"Carvizole 12.5mg Tablet","Biotics Lab Life Services Private Limited",68
+203,"StayHappi Glimepiride+Metformin 3mg/1000mg Tablet","Sarvagunaushdhi Pvt Ltd",50
+204,"Zulta 375mg Tablet","Frank Medilink",410
+205,"Clobitra 100 Capsule","Indoco Remedies Ltd",145
+206,"Ceft S 1000mg/500mg Injection","JV Healthcare",128
+207,"Homoline 600mg Tablet","Homogreen Pharmaceutical",345
+208,"L Cetramac Syrup","Torque Pharmaceuticals Pvt Ltd",11.25
+209,"Gatinase 0.3% Eye Drop","Synergy Pharmaceuticals",55
+210,"Colisur Drop","Surge Biotech Pvt Ltd",27
+211,"Gpzide 5mg Tablet","Ronak Laboratories",10
+212,"Shizine-M Tablet","Shivon Lifesciences Pvt Ltd",95
+213,"Rosumend-AS 20/75 Capsule","Mendcure Life Sciences Pvt Ltd",175
+214,"Emfenacin 5mg Tablet","Emcure Pharmaceuticals Ltd",240
+215,"Livopill Tablet","Ordain Health Care Global Pvt Ltd",315.7
+216,"Mefnetra P Oral Suspension","Nectar Biopharma Pvt Limited",41.25
+217,"ORIPHEX 250 MG DROP","Zydus Healthcare Limited",33
+218,"Dtaxane 20mg Injection","Torrent Pharmaceuticals Ltd",2916
+219,"Cyquel 100 Tablet PR","Cyrus Remedies",90
+220,"Regrowee 5% Gel","West-Coast Pharmaceutical Works Ltd",600
+221,"Ripra 20mg Tablet","Ochoa Laboratories Ltd",30.77
+222,"Avisera Forte 15mg Tablet","Avalanche Pharmaceuticals",50.4
+223,"Falciden 60mg Injection","Welgenic Pharma",155
+224,"DavaIndia Azathioprine 50mg Tablet","Davaindia Generic Pharmacy",30
+225,"Amphylate AX Syrup Sugar Free","Jabs Biotech Pvt Ltd",65
+226,"C Get 50mg Tablet","Eumed Healthcare",290
+227,"Flamox CV 375 Tablet","Glenmark Pharmaceuticals Ltd",136
+228,"Nacnic 500mg/125mg Tablet","Nac International",310
+229,"VIDA 50MG TABLET","Lupin Ltd",49.73
+230,"Sorextil CV 500mg/125mg Tablet","Sonika Life Sciences Ltd",650
+231,"Geriflo  Tablet SR","Alembic Pharmaceuticals Ltd",255.6
+232,"K-Gem Tablet","Blue Cross Laboratories Ltd",57
+233,"Lavitrit 500mg Tablet","Theon Pharmaceuticals Ltd.",129.1
+234,"Colcin 200mg Tablet","Palco Healthcare",60
+235,"Fluter 150mg Tablet",Bluewaterresearch,14
+236,"Elspas C 2.5mg/5mg/10mg Tablet","Elkos Healthcare Pvt Ltd",39
+237,"Cofheal D 2.5 mg/1.5 mg/10 mg Syrup","Heal  India  Laboratories",76.4
+238,"Okavax Vaccine","Sanofi India  Ltd",1260
+239,"Cin-CT 500mg/600mg Tablet","Sbp Healthcare Pvt Ltd",68
+240,"Helkoss 25mg Injection","Lupin Ltd",3
+241,"Aceclobest MR 100mg/325mg/250mg Tablet","BestoChem Formulations  India  Ltd",82.13
+242,"Nexipride 100mg Tablet SR","Sun Pharmaceutical Industries Ltd",150
+243,"Lezatis Tablet","Volentis Healthcare Pvt Ltd",95
+244,"Zuef O 200mg Tablet DT","Zubit Lifecare",192
+245,"Crifix O 200mg/200mg Tablet","Kris Pharma",154
+246,"Proxym ER Tablet","Emcure Pharmaceuticals Ltd",284.4
+247,"Fenela T 100mg/8mg Tablet","Integral Lifesciences",225
+248,"Ivatryp D Tablet","Iva Healthcare Pvt. Ltd.",175
+249,"Prasidel 20mg Tablet","Adesan Pharma",118
+250,"DavaIndia Telmisartan+Cilnidipine+Chlorthalidone 40mg/10mg/12.5mg Tablet","Davaindia Generic Pharmacy",35
+251,"Ciprolac 500mg Tablet","MDC Pharmaceuticals  Pvt Ltd",64.18
+252,"Ketolac 30mg Injection","Intas Pharmaceuticals Ltd",32
+253,"ZY Fsh R 75I.U Injection","Zydus Cadila",1978.2
+254,"Adeone TAZ 1.125gm Injection","Adept Biocare",151
+255,"Stpl 75mg Tablet","Glanto Pharmaceuticals",70.5
+256,"Sporamiz 100mg Capsule","HBC Dermiza Healthcare Pvt Ltd",170
+257,"NO SCARS Cream","Torque Pharmaceuticals Pvt Ltd",259
+258,"Ticaford A 90mg/75mg Tablet","Leeford Healthcare Ltd",425
+259,"Zilo F 10mg/120mg Tablet","Dr Kumars Pharmaceuticals",130
+260,"Medther 150mg Injection","Medbionic Healthcare",94
+261,"Skinflu 150mg Tablet","Sunniva Life Science",38
+262,"Sleacold Oral Drops","Glacia Life Care",45
+263,"Cerehenz 60mg Injection","La Renon Healthcare Pvt Ltd",979
+264,"Glez 2.5mg Tablet","Aristo Pharmaceuticals Pvt Ltd",4.5
+265,"Anxigo 0.125mg Tablet","Nectar Remedies Ltd",10
+266,"Simtron Injection","Kenrox Healthcare Pvt. Ltd",21
+267,"Yewbrain 800mg Tablet","Yew Lifesciences",79.5
+268,"Etizest Forte 0.5mg/10mg Tablet","Consern Pharma Limited",120
+269,"Nervend Plus Injection","Rhine Biogenics Pvt Ltd",75
+270,"Feedigo Syrup","Myriad Hues Healthcare",89.9
+271,"Theovog M 500mg/0.3mg Tablet SR","Theon Pharmaceuticals Ltd.",115
+272,"Hycort 100mg Injection","Alkem Laboratories Ltd",40.92
+273,"Duzela M 20 Capsule DR","Sun Pharmaceutical Industries Ltd",132
+274,"Elvitam 500 Tablet","Ernst Pharmacia",120.18
+275,"Cefrodox 200mg Tablet DT","Voxiva Pharmaceuticals",192
+276,"Favizee 400mg Tablet","Zee Laboratories",1190
+277,"Gutclear Syrup","Zuventus Healthcare Ltd",156.5
+278,"Amoxtal-CA 500mg/125mg Tablet","Talson Pharmaceuticals",299
+279,"Coldciz Plus Tablet","Intellect Lifescience",59
+280,"Techlor 80 Tablet","Cipla Ltd",173
+281,"Cefocolt 100mg Tablet","Positive Medicare Pvt Ltd",95.9
+282,"Lostan 25 Tablet","Auspharma Private Limited",25.34
+283,"Enselin 8mg Tablet","Torrent Pharmaceuticals Ltd",100
+284,"Zenotic Kit 20mg/2ml Injection","Shreya Life Sciences Pvt Ltd",7.96
+285,"Neobid OZ 200mg/500mg Tablet","Brussels Laboratories Pvt Ltd",67
+286,"Cositra 200mg Tablet","Tripada Biotec Pvt Ltd",395
+287,"Leaf 500mg Tablet","Laxian Healthcare",65.4
+288,"Cefvil 200 Tablet DT","Fibovil Pharmaceuticals Pvt Ltd",97
+289,"Rabizena D 10mg/20mg Tablet","Elder Pharmaceuticals Ltd",90
+290,"Hymax 25 Tablet","Biomax Biotechnics Pvt Ltd",25
+291,"Lemok 5mg/10mg Tablet","Torance Healthcare Pvt Ltd",95
+292,"Sanilax 10mg Tablet","Sanity Pharma",45.6
+293,"Spasact Oral Suspension","NV Lifecare Pvt Ltd",26
+294,"Dolomide 100mg/500mg Tablet","Sun Pharmaceutical Industries Ltd",81
+295,"Psychodol 5mg Tablet","Ikon Pharmachem Pvt Ltd",30
+296,"Bufex C Tablet","CFPL Healthcare",24
+297,"Vidinorm Ophthalmic Solution","Sentiss Pharma",422
+298,"CC GO Tablet","Intas Pharmaceuticals Ltd",25.5
+299,"Moxilium 125mg Tablet DT","Biochem Pharmaceutical Industries",15.93
+300,"Dardflam Tablet","Healing Pharma India Pvt Ltd",100
+301,"Cefipride CL 200mg/125mg Tablet","Pride Healthcare",237.6
+302,"Poliovac PFS Vaccine","Serum Institute Of India Ltd",489.84
+303,"Auxigin 300 SR Tablet","Alniche Life Sciences Pvt Ltd",105
+304,"Morsin Tablet","Morecare Pharmatec Pvt Ltd",120
+305,"Imipod 100mg Dry Syrup","Cista Medicorp",128.5
+306,"Aripra MT 10mg Tablet","Sun Pharmaceutical Industries Ltd",60
+307,"Olcox TH 60mg/4mg Tablet","Osvel Pharma",190
+308,"Sitelol AM Tablet","Sanofi India  Ltd",58.07
+309,"Radcal-Max Softgel Capsule","Radicool Pharmaceutical Pvt Ltd",275
+310,"Richpan D 10mg/40mg Capsule","Biosafe Pharmaceuticals Pvt Ltd",80
+311,"Lepox 150mg Tablet","Werke Healthcare",70
+312,"Encetam 800mg Tablet","Ikon Remedies Pvt Ltd",115
+313,"Acidopar 10mg Tablet","Acichem Laboratories",18
+314,"Fiebre 650 Tablet","Veasley Pharmaceuticals Private Limited",16
+315,"Revicof Syrup","Ravenbhel Pharmaceuticals Pvt Ltd",54
+316,"Novarab D SR Tablet","Medinova Labs",65
+317,"Acepanac-P Tablet","Akshita Remedies",42
+318,"Oripect AX Syrup","Stanford Biotech Pvt Ltd",46.56
+319,"Ceruvin 75 Tablet","Sun Pharmaceutical Industries Ltd",129.4
+320,"Dilzem CD 90 Capsule ER","Torrent Pharmaceuticals Ltd",119.2
+321,"Flupen 3mg Tablet","Lifecare Innovations Pvt Ltd",69.68
+322,"Dolonix MF Oral Suspension","Blue Planet Laboratories Pvt. Ltd",43.9
+323,"Vardine Ointment","Varenyam Healthcare Pvt Ltd",39.17
+324,"B Zed Plus Oral Suspension","PRM Life Sciences Pvt Ltd",29
+325,"Neoprine 50mg Tablet","Eumedica Pharmaceuticals",82.5
+326,"Augumed 625mg Tablet","Medi Biotech Pvt Ltd",252
+327,"Rhoneamox 500mg Capsule","Rx Healthcare Ltd",69
+328,"Fulcef 500mg Tablet","Fine Formulations",749
+329,"Ofka 200mg Tablet","Aishika Pharma",38
+330,"LOFEQUIK 4MG/500MG TABLET","Sun Pharmaceutical Industries Ltd",52
+331,"Kandor CZ 15mg/20mg Tablet","Kalpataru Formulations Pvt Ltd",35
+332,"Sulflux 40mg Injection","Fawn Incorporation",44.25
+333,"Pantest 40mg Tablet","Ester Formulations",48
+334,"Predlast Eye Drop","Austrak Pvt Ltd",35
+335,"Methyco 500mcg Injection","JK Biochem Healthcare Pvt Ltd",30
+336,"Moxallit-CV 625 Tablet","Allito Biocare",155
+337,"Typlin 25mg Tablet","Sterkem Pharma Pvt Ltd",25.56
+338,"Terboril Syrup","Pranshu Healthcare",59
+339,"Telmavas-H Tablet","Biochem Pharmaceutical Industries",174
+340,"Voricet 5mg Tablet","In Med Therapeutics",38.5
+341,"Strocit Injection","Sun Pharmaceutical Industries Ltd",283
+342,"Ozacort 6mg Tablet","Vervetic Healthcare Pvt Ltd",89
+343,"Zantof LB 200mg Tablet","Nexus India",41
+344,"Dopakinde Injection","Nexokinde Healthcare Pvt Ltd",31.52
+345,"Zynicor 5 Tablet","Zydus Cadila",366.7
+346,"Taznex 250mg Injection","Biotic Healthcare",70
+347,"Dentogel Liquid","Indoco Remedies Ltd",97.5
+348,"Ufither 150mg Injection","Zeeford Life Sciences",90
+349,"Arthrin Plus 100 mg/500 mg Tablet","Elan Pharma India Pvt Ltd",50
+350,"Hytrin 2 Tablet",Abbott,326.63
+351,"Amlol 25mg Tablet XL","Ambromide Pharma Private Limited",52
+352,"Sherimont-L Kid Tablet","Sherim Squibss",49
+353,"Cynoclav DS Syrup","Cynosure Organics Pvt Ltd",58.5
+354,"Synpan-D Tablet","Senen Biotech",70
+355,"Crinodef 6mg Tablet","Crinova Healthcare",80
+356,"Storvas CV 10 Capsule","Sun Pharmaceutical Industries Ltd",170
+357,"Rolmo F 145mg/10mg Tablet","Ablus Pharma",100
+358,"Progab M 750mcg/150mg Tablet",Psycormedies,180
+359,"Clastin 500mg/500mg Injection","Amon Biotech",1490
+360,"Wypod 200mg Tablet","Yacca Pharmaceuticals Pvt Ltd",239
+361,"Eclospan Cream","Dr Reddy's Laboratories Ltd",156
+362,"Diziron Tablet","Glenmark Pharmaceuticals Ltd",168
+363,"Propynate NF Cream","Hegde and Hegde Pharmaceutical LLP",152
+364,"Oflokan 200mg Tablet","Fortune Life Sciences Private Limited",44
+365,"Spnï¬x 200mg Tablet","Spencure Biotech Pvt. Ltd.",127
+366,"Aldecef 200mg Tablet","Alde Medi Impex Ltd",159.3
+367,"RELAX D TABCAP","Logos Pharma",45
+368,"Ocicure-D Capsule","Scott Edil Pharmacia Ltd",66.3
+369,"Cefria 50mg Dry Syrup","Riasmo Lifesciences",49
+370,"Osani-NT 500mg/200mg Tablet","Sanify Healthcare Pvt  Ltd",100
+371,"Megazolid Plus  Tablet","Aristo Pharmaceuticals Pvt Ltd",330
+372,"Geocough AGL Syrup","Sigma Softgel Formulation",85
+373,"Vitaresp M 10mg Tablet","Alembic Pharmaceuticals Ltd",125.13
+374,"Fidonal Cream",Abbott,300
+375,"Sabpan D 10mg/40mg Tablet","Olamic Pharma Pvt. Ltd.",66
+376,"Furofed 250mg Tablet","Fedley Healthcare Private Limited",130
+377,"Salvadol MR 100mg/325mg/250mg Tablet","Salvus Pharma",70
+378,"Cefnew 200mg Tablet","Prism Life Sciences Ltd",95.23
+379,"Axetum 250mg Tablet DT","Toronto Pharmaceuticals Private Limited",299
+380,"Cefo-CV Tablet","Newgen Biotech Pvt. Ltd.",412
+381,"Citrolac K Syrup","Meddox Formulations",118.6
+382,"T2C-M 10/500 Tablet ER","Ipca Laboratories Ltd",162.1
+383,"Cado-Z Suspension","Omenta Pharma Pvt Ltd",55
+384,"Vertivor 8mg Tablet","JV Healthcare",49
+385,"Jornox 8mg Tablet","Morecare Pharmatec Pvt Ltd",78
+386,"Aldemox-LB Tablet","HS Aldem Healthcare",297
+387,"Ancer L 5mg Tablet","Bio Vitamins",29.7
+388,"Mxy Eye/Ear Drops","Alde Medi Impex Ltd",63
+389,"Lupizep Plus 25 mg/0.5 mg Tablet","Lupin Ltd",140
+390,"Miprost 200mcg Tablet","West-Coast Pharmaceutical Works Ltd",55
+391,"Qucef 200mg Tablet","Quixotic Pharma Pvt Ltd",170
+392,"M-Power Ointment","Zydus Cadila",104.1
+393,"Placef-O Tablet","Pharma Planet India",95
+394,"Rizkas M Tablet","Ignyte Pharma",60
+395,"Rekmox 500mg Tablet","Rekvina Laboratories Ltd",90
+396,"Duct CV 200mg/125mg Tablet","Atishya Biotech",185
+397,"Vertell-D Tablet","Ellanjey Lifesciences",50
+398,"Gidicon 25mg Tablet","Zen Pharma Pvt Ltd",15
+399,"Eryn Suspension","Intas Pharmaceuticals Ltd",21.76
+400,"Rapicon 150 Tablet","Haustus Biotech Pvt Ltd",22.5
+401,"Frox Cvds 200 mg/125 mg Tablet","Serin Formulations Pvt Ltd",280
+402,"C Off 200mg Tablet","Aztec Lifescience Pvt Ltd",50
+403,"Velrab L 75mg/20mg Capsule SR","Osvel Pharma",179
+404,"Jyocef-T 1000mg/125mg Injection","Biocin Genetics & Pharma",159
+405,"Ducent 20 Tablet","Quince Lifesciences Pvt Ltd",87.1
+406,"Loyosym 250mg Tablet","Symbiosis Pharmaceuticals Pvt Ltd",45
+407,"Ocdine Mouth Wash","Octane Biotech Pvt Ltd",90
+408,"Copred-M Eye Drop","Kinetic Lifescience (OPC) Pvt Ltd",130
+409,"Pulmosil 0.8mg Injection","Sun Pharmaceutical Industries Ltd",2195
+410,"Netromycin 10mg Injection","Fulford India Ltd",33
+411,"Rosugo 5mg Tablet","Seluria Pharmaceuticals",65
+412,"Amiot 1gm Injection","Mars Aventis Lifecare",799
+413,"Ventomet 500mg Tablet XL","Nicson Pharma",15
+414,"Ritlid 100mg/500mg Tablet","RSR Healthcare",22
+415,"A Fresh Mouth Wash","Arika Healthcare",42
+416,"Penom Clav 500mg/125mg Tablet","Apostle Remedies",96
+417,"Monterax L Tablet","Raxon Lifesciences Pvt Ltd",99
+418,"Opicetam 800 Tablet","Stermed India",156
+419,"Lefast M 5mg/10mg Tablet","Sea Life Care",69
+420,"Colitab MF 10 mg/250 mg Tablet","Swiss Pharma Pvt Ltd",27
+421,"Benipath 4 Tablet","Lupin Ltd",80
+422,"Warine 500mg Injection","Grapple Life Sciences Pvt Ltd",47
+423,"Ergagin 0.125mg Tablet","Mercury Laboratories Ltd",81.25
+424,"Setcool Syrup","Avalanche Pharmaceuticals",31.5
+425,"Glucodrive G 2mg/500mg Tablet PR","Addii Biotech Pvt Ltd",112
+426,"Tearflo Eye Drop","Flagship Biotech International",70
+427,"Fozone 250mg Injection","Progressive Life Care",31.5
+428,"Glistodent Toothpaste","Galpha Laboratories Ltd",80
+429,"Salvagesic 100mg/325mg Tablet","Salvus Pharma",40
+430,"Visthro 500mg Injection","Vistica Life Sciences",48.75
+431,"Emeran 2mg/5ml Syrup","Biological E Ltd",37
+432,"Omerose 20mg Capsule","Medirose drug & pharma",32.83
+433,"Castron 4mg Tablet","Casca Remedies Pvt Ltd",29
+434,"Zipod CV 200mg/125mg Tablet","FDC Ltd",309
+435,"Nurocap G 300mg/500mcg Tablet","Sycap Pharma",66
+436,"Maczone Plus 250 mg/125 mg Injection","Macleods Pharmaceuticals Pvt Ltd",51
+437,"Saicaine Injection","SPM Drugs Pvt Ltd",13
+438,"Cefpogem 50mg Tablet","Agron Remedies Pvt Ltd",48
+439,"Gabatol 300mg Capsule","Cyril Pharmaceuticals",94
+440,"Grawel 1mg Tablet","Zee Laboratories",40
+441,"Bycold 500mg/25mg/4mg Tablet","Parenteral Drugs India Ltd",40
+442,"Eso-Zan Injection","Suzan Pharma",259
+443,"Etimax 0.25mg Tablet","Thyone Health Care",42
+444,"Ascam D Syrup","RSR Healthcare",68
+445,"Neual 10 Tablet","Emcure Pharmaceuticals Ltd",83.1
+446,"Candiwell 1% Soap","Altrawell Biotech Pvt Ltd",150
+447,"Disermed MR 250mg/50mg/325mg Tablet","Meditouch Wellness",90
+448,"Mycobek 2% Cream","Helbek Pharma",122
+449,"Voxiflox OZ 200mg/500mg Tablet","Volks Biotech",95
+450,"Iten 20mg Capsule","Riasmo Lifesciences",177
+451,"Cefup 1000 mg/500 mg Injection","Sanat Products Ltd",32.83
+452,"Rexigut 200mg Tablet","Leeford Healthcare Ltd",185
+453,"Fuzy 6mg Tablet","Progressive Life Care",75
+454,"Malwin 50mg Tablet","Santo Formulations",170
+455,"Ronaus 2mg Injection","Ropoz Lifesciences Private Limited",16
+456,"F Tin 10mg Tablet","A N Pharmacia",27.32
+457,"Vizitra 100mg Capsule","Sol Derma Pharmaceuiticals Pvt Ltd",97
+458,"Optor 10mg Tablet","Opsiscare Lifesciences Pvt Ltd",53
+459,"Hopetel M 40mg/50mg Tablet ER","Aletheia Medicare Pvt Ltd",148
+460,"Glyact-M Tablet","Krishgir Pharmaceuticals Pvt Ltd",40
+461,"Rostrum 40 Tablet","Rostrumed Biotech Pvt Ltd",90
+462,"Ompire D 10mg/20mg Capsule","Spire Pharma",39
+463,"Emox 500mg Tablet","Elegant Drugs Pvt Ltd",58
+464,"Azamra 200mg Suspension","Amra Remedies",45
+465,"Nimez 100mg Tablet","Kaizen Pharmaceuticals Pvt Ltd",29.67
+466,"Alfabet Eye Drop","His Eyeness Ophthalmics Pvt Ltd",280
+467,"Difirn 50mg Capsule","Genesis Biotech Inc",99
+468,"Elicef 200mg Tablet DT","GRAF Laboratories Pvt Ltd",235
+469,"Zora 20mg Tablet","Corona Remedies Pvt Ltd",45
+470,"Zipod 100mg Tablet DT","FDC Ltd",121
+471,"Clavoiz DS Dry Syrup","Voizmed Pharma Pvt Ltd",110
+472,"Clavzen 500mg/125mg Tablet","Elder Pharmaceuticals Ltd",169.47
+473,"Broncheal T Syrup","Heal Dose",73
+474,"Ziprax CL 200mg/125mg Tablet","Cipla Ltd",210.5
+475,"Dezdin Tablet","Solace Biotech Ltd",59
+476,"Epixyl Tablet","Litaka Pharmaceuticals Ltd",10.68
+477,"IBUZONE PLUS 400MG/500MG TABLET","Zee Laboratories",13.5
+478,"Zymotryp-DP Tablet","Solace Biotech Ltd",89
+479,"Gladmet G 1mg/1000mg Tablet","Geniemed Pvt Ltd",83
+480,"Coeamax 250mg/125mg Tablet","Koye Pharmaceuticals Pvt ltd",165
+481,"Qinomil 200 Tablet","Meditouch Wellness",60
+482,"Fracef 500mg Injection","Frank Medilink",45
+483,"Osteoway-GM Tablet","Lezaa Biotech",135
+484,"Toriflam P 60mg/325mg Tablet","Exsan Healthcare",115
+485,"Movitol Oral Emulsion","Laxian Healthcare",140
+486,"Azith 500mg Tablet","Zee Laboratories",228.93
+487,"Rosloy Asp 10mg/150mg Capsule","Lloyd Healthcare Pvt Ltd",86.31
+488,"Avutine 8mg Tablet","Avunu Life Sciences",45
+489,"Jornoff 200mg Tablet","Jaqson Healthcare Pvt. Ltd",48.4
+490,"Artefed 60mg Injection","Fedley Healthcare Private Limited",165
+491,"Mirza 15mg Tablet","Nusearch Organic",109.72
+492,"Pazon 40mg Tablet","Medikem Pharmaceuticals",56
+493,"Fexall 120mg Tablet","Abyss Pharma Pvt Ltd",100
+494,"Pogo 100mg/5ml Dry Syrup","Cassel Research Laboratories Pvt Ltd",95.87
+495,"Fetpan 40mg Injection","Mosfet Healthcare Pvt Ltd",56
+496,"Raftria 1000mg Injection","Raj Bioceuticals",75
+497,"N-Lok 10 Tablet",Medopharm,71.25
+498,"Mdther 150mg Injection","Maneesh Pharmaceuticals Ltd",58.37
+499,"Levipil Syrup","Sun Pharmaceutical Industries Ltd",408.95
+500,"Rabibit DSR Tablet","Cubit Healthcare",79
+501,"Cefura 250mg Tablet DT","Secure Healthcare India Pvt Ltd",320
+502,"Suplo S 200mg Tablet","Mapra Laboratories Pvt Ltd",45.56
+503,"Ospol 200mg Tablet","Symbiosis Life Sciences Limited",53
+504,"Atorlip 5 Tablet","Cipla Ltd",68.8
+505,"Renitab 300mg Tablet","Micro Labs Ltd",8.7
+506,"Telzotan H 40mg/12.5mg Tablet","Calen Biotech",81
+507,"Azimax 500 Tablet","Cipla Ltd",71.7
+508,"Denzo Gel","Algen Healthcare Limited",105
+509,"Vomsyt 8mg Tablet MD","Scotwin Healthcare",85
+510,"Tenaclav 200 mg/28.5 mg Dry Syrup","Shreeyam Healthcare",55.31
+511,"Picetam 800mg Tablet","Gloucester Pharma",118
+512,"Cefocef O 100mg Tablet","Centaur Pharmaceuticals Pvt Ltd",63.85
+513,"Sial 200mg Tablet","Imed Healthcare",199
+514,"Ramigal 5mg Tablet","Galpha Laboratories Ltd",77.9
+515,"Sukan 1gm Syrup","Kansas Labs",135
+516,"Zinocarb 50mg Capsule","Miracalus Pharma Pvt Ltd",350
+517,"PX CT 3mg/40mg Capsule SR","Gonan Pharma",170
+518,"Cidlast-A Suspension","Axis Labs Pvt Ltd",110
+519,"Xymet 0.1% Nasal Drops","Aver Pharmaceuticals Pvt Ltd",38
+520,"Ondanhill 4mg Tablet MD","Tophill Pharma Ltd",44
+521,"Sevlabest 800mg Tablet","Grefith Life Sciences Pvt Ltd",365
+522,"Cefonox CV 200mg/125mg Tablet","Wannock Pharmaceuticals",201
+523,"Grisure 500mg Tablet","Indiabulls pharmaceutical ltd",145.2
+524,"Gzlcef 200mg Tablet","Gedzrlvin Pharmaceuticals Pvt Ltd",159.9
+525,"Jintum 250mg Injection","Om Biotec",97
+526,"Paraset 650 Tablet","Edrant Pharmaceuticals",19
+527,"Aarfen MR 100mg/325mg/250mg Tablet","Aarcin Pharmaceutical LLP",60
+528,"Mycobal Plus Plus Injection","Marc Laboratories Pvt Ltd",66
+529,"Nimucet NF 125mg Syrup","Intas Pharmaceuticals Ltd",20
+530,"Valpex 500mg Tablet ER","Alkem Laboratories Ltd",30.02
+531,"Alpuric 100mg Tablet","Carise Pharmaceuticals Pvt Ltd",15
+532,"Mic Sef 500mg Tablet","Alde Medi Impex Ltd",399.6
+533,"Gelucaine Suspension","The Pharmed Research Lab Pvt Ltd",63
+534,"Lab 100mg Tablet","Akumentis Healthcare Ltd",113.33
+535,"Abingem 1.4gm Injection","Miracalus Pharma Pvt Ltd",7500
+536,"Ubernac-MR Tablet","Ventura Pharmaceuticals",95
+537,"Axipar SP Tablet","Cure Tech Skincare",105
+538,"CT-Don 12.5 Tablet","Novazen Pharmaceuticals",110
+539,"Meth OD 10mg Tablet","Intas Pharmaceuticals Ltd",121
+540,"Cubast 10mg Tablet","Cubit Healthcare",66.75
+541,"Perirex 1.5mg Tablet","Ryon Pharma",16.5
+542,"Imalek 400mg Tablet","Sun Pharmaceutical Industries Ltd",1715.4
+543,"Lxfero Injection","Lxora Life Sciences",239
+544,"Antipod 200 Tablet DT","Gentronix Lifecare Pvt Ltd",160
+545,"Eminaz 2mg Tablet","Emenox Healthcare",63.81
+546,"Sofcef 1000mg Injection","Soft Pharmaceuticals",83.82
+547,"Azuvas-F 20 Tablet","Azkka Pharmaceuticals Pvt Ltd",119.9
+548,"Arpidon 5mg Tablet","Bondane Pharma",47
+549,"Brogikoff Syrup","Viwacure Healthcare Pvt Ltd",129
+550,"Ryps Forte 100000AU Tablet","Jabs Biotech Pvt Ltd",108
+551,"Defrich Syrup","Pharma Drugs & Chemicals",70
+552,"Entogesic 100mg/325mg Tablet","Entod Pharmaceuticals Ltd",35
+553,"Trijet 10mg/325mg/5mg Tablet","Novita Healthcare Pvt Ltd",27.5
+554,"Lipgard 20mg Tablet","Allied Chemicals & Pharmaceuticals Pvt Ltd",110
+555,"Magsone M Cream","Magnum Pharmaceuticals",110
+556,"Flumol 250mg/5ml Suspension","Elder Pharmaceuticals Ltd",13.2
+557,"Ulinim-P Tablet","Unique Life Sciences (P) Ltd",37
+558,"Gofalcy-AL Tablet","BMW Pharmaco India Pvt. Ltd.",178
+559,"Volmisar 10mg Tablet","Vrinda Life",44
+560,"Flu 150 Tablet","Cure Kelvin",17
+561,"Montemac 5mg Tablet","Macleods Pharmaceuticals Pvt Ltd",75.9
+562,"Pentovex-DSR Capsule","Vexilla Healthcare",87
+563,"Glimiwin MV2 Tablet","Docwin Healthcare",79.9
+564,"Itowar 200 Capsule","Syndicate Life Sciences Pvt Ltd",111
+565,"Glimzab M 2mg/500mg Tablet","Neucure Lifesciences Private Limited",120
+566,"Amrobest Cream","Indolands Pharma Pvt Ltd",185
+567,"Amifin 250mg Injection","Staunch Biotech",35.5
+568,"Alleto-L Syrup","Santo Formulations",50
+569,"Moxicin 0.5% Eye Drop","Growell Vision",81.5
+570,"Cogmentin 5mg/5mg Tablet","Alteus Biogenics Pvt Ltd",239.18
+571,"Novopip TZ 4000mg/500mg Injection","NovoLilly Pharmaceutical Pvt Ltd",493.19
+572,"Obrapan D 30mg/40mg Capsule PR","Larizona Pharmaceutical Private Limited",79
+573,"Actodip 50mg/325mg Tablet","Fitwel Pharmaceuticals Private Limited",58
+574,"Zosta 40mg Tablet","USV Ltd",105.71
+575,"Zykinase 1.5 MIU Injection","Cadila Pharmaceuticals Ltd",3898.08
+576,"Linopin Tablet","Pinarc Life Sciences",208.5
+577,"Ketosa Solution","Sarmain Pharmaceuticals",98
+578,"Teraxo-S 1.5GM Injection","Zenexa Healthcare",150
+579,"Mecadrol 50mg Injection","Mediphar Lifesciences Pvt Ltd",141
+580,"Rabby 20mg Tablet","Welbe Life Sciences",40
+581,"Itranase 200mg Capsule","S&S Health Care",111
+582,"Zyronic 100mg Tablet","Rx Healthcare Ltd",36
+583,"Vincitam 60 Injection","Vinson pharma",316.7
+584,"Seplyser Syrup","Sepik Life Sciences",65
+585,"Cico 1% Cream","Brinton Pharmaceuticals Pvt Ltd",250
+586,"Moxclik-CV LB Tablet","Curasia Medilabs",188.8
+587,"Noblok-AF Syrup","Mankind Pharma Ltd",66.55
+588,"Respizer L Oral Drops","Laxter Pharmaceutical Pvt Ltd",34
+589,"Rosameg Gold 75mg/10mg/75mg Capsule","Ridhima Biocare",130
+590,"Zyncet A Tablet","Torrent Pharmaceuticals Ltd",16.76
+591,"Serimet Tablet","Hamps India Pvt Ltd",53.43
+592,"Zymocef 250mg/125mg Tablet","Venus Remedies Ltd",196.87
+593,"Eprilom 150mg/200mg Tablet","Jubilation Bio Science",239
+594,"Fetnim P 100mg/325mg Tablet","Mosfet Healthcare Pvt Ltd",30
+595,"Dzcot 30mg Tablet","Sain Medicaments Pvt Ltd",250
+596,"Shipect D Syrup","Shilpex Pharmysis",112.5
+597,"Aldosh Suspension","Osho Pharma Pvt Ltd",16
+598,"B Bact Ointment","Wallace Pharmaceuticals Pvt Ltd",159
+599,"Mindwave 50 Tablet","Brainwave Healthcare Pvt Ltd",138
+600,"Pantastic D Capsule PR","Wanbury Ltd",150.4
+601,"Oflxcin 400mg Tablet","Bombay Tablet Mfg Co Pvt Ltd",32.78
+602,"Preega M 150 Capsule","Talent India ",200
+603,"Trilin Syrup","Zorion Drugs & Herbs Pvt. Ltd.",86
+604,"Finecort 6mg Tablet","Sunfine Healthcare",95
+605,"Levoglan 500mg Injection","Gland Pharma Limited",184.8
+606,"Solvodep 30 Tablet","Ealpharm Life Sciences Pvt Ltd",133
+607,"Superfen-BL Tablet","Celsius Healthcare Pvt Ltd",99.9
+608,"Iladac 10 Tablet","Zydus Cadila",155.1
+609,"Hynic Syrup Strawberry","Cascade India Pharmaceuticals",65
+610,"Solvecef-CV Tablet","Pharmatec India Pvt Ltd",350
+611,"Mot-LC Tablet","ADZO Lifesciences Pvt Ltd",129
+612,"Telsaan Beta 40mg/50mg Tablet","Saan Labs",110
+613,"Tacronol 0.1% Ointment","Knoll Pharmaceuticals Ltd",260
+614,"Serolo-DP Tablet","Grapple Life Sciences Pvt Ltd",75
+615,"Tribest Syrup","Trikut Humanities Bio Science Pvt Ltd",79
+616,"Conzo Tablet","Maxamus Pharma Pvt Ltd",450
+617,"Nicare P Syrup","Solace Biotech Ltd",24.66
+618,"Zantof LB 400mg Tablet","Nexus India",77
+619,"Rtcare Syrup","Pyrocare Pharmaceuticals Pvt Ltd",75
+620,"Terbidaz 250mg Tablet","Dazzle Healthcare",170
+621,"Crobeta 500mg Tablet CR","Betamax Remedies",92.6
+622,"Itrohit 100mg Capsule","Nihit Pharmaceuticals Pvt Ltd",170
+623,"Thiopace 8mg Capsule","Minova Life Sciences Pvt Ltd",190
+624,"Distaclor 500mg Capsule","A. Menarini India Pvt Ltd",195
+625,"Elriz XL Tablet","Zuventus Healthcare Ltd",114.9
+626,"Moxyfine CV Dry Syrup","Universal Micro Sciences",65
+627,"Elstar M Syrup","Novogen Captab",75
+628,"Azicure 500mg Tablet","Radicura Pharma pvt ltd",62.01
+629,"Azihom 200mg Oral Suspension","Homogreen Pharmaceutical",95
+630,"Sarimox-CV 500mg/125mg Tablet","Sarian Healthcare",101.6
+631,"Hepakind Syrup","Mankind Pharma Ltd",55
+632,"Vemol Eye Drop","Adley Formulations",24.95
+633,"Acrid Mps Syrup","Accretion Pharmaceuticals",115
+634,"Logofix DX 200mg/500mg Tablet","Novalab Healthcare Pvt Ltd",156
+635,"Safixime 100mg Tablet","Safe Life Care",85
+636,"Voglus gm 2mg Tablet","Aretaeus Pharmaceuticals",107.9
+637,"Tenmed 20 Tablet","Mednich Pharmaceuticals",130
+638,"Fixip CV 200mg/125mg Tablet","Cista Medicorp",170
+639,"Zardcef-S 1.5gm Injection","Vibcare Pharma Pvt Ltd",114
+640,"Librate 10mg Tablet","Talent India ",34
+641,"Onsan-MD 4 Tablet","Dansan Medichem",46.9
+642,"Starkuff LS Syrup","Sunwin Healthcare",89
+643,"Sqtine 5mg Tablet","Cubit Healthcare",56.5
+644,"Aziplas 500mg Tablet","Plasmid Healthcare Pvt Ltd",223
+645,"Cloclinda-VT Tablet","Tas Med India Pvt Ltd",149
+646,"Mikatro 500mg Injection","Tesni Pharmaceuticals",78
+647,"Melflam 15mg Tablet","Cipla Ltd",17.5
+648,"Acetuff P Oral Suspension","Servocare Lifesciences Pvt Ltd",48
+649,"Holday 5mg Syrup","Noel Pharma India Pvt Ltd",24.5
+650,"Es Robcid 40mg Tablet","Park Pharmaceuticals",85
+651,"Ketoeg 2% Soap","EG Lifecare Services Pvt Ltd",115
+652,"Unitrexate 50mg Injection","United Biotech Pvt Ltd",60.5
+653,"Metofix-XL 1000 Tablet","Alembic Pharmaceuticals Ltd",52.98
+654,"Odal Plus Oral Suspension","Klar Sehen Pvt Ltd",24.75
+655,"Oxi DSR Capsule","Oximed Remedies",99
+656,"Seotac D 10mg/20mg Capsule","Senate Laboratories",52
+657,"Cipwin 500mg Tablet","Purewin Labs Pvt Ltd",61.5
+658,"Cgfru 40mg Tablet","Cmg Biotech Pvt Ltd",5.4
+659,"Odeworm Plus Oral Suspension","Vervetic Healthcare Pvt Ltd",32.5
+660,"Cypidine Syrup","Ziotic Life Sciences",120
+661,"Complamina Retard 500 Tablet SR","Zydus Cadila",148.22
+662,"Esogp-DSR Capsule","IGP Medventures Pvt Ltd",95
+663,"Emmevoiz 2mg Oral Drops","Voizmed Pharma Pvt Ltd",35
+664,"Neurokia 2500 Injection","Alicanto Drugs Pvt Ltd",72
+665,"Zyrova Gold 20 Capsule","Zydus Cadila",268.2
+666,"Ethasyl 250 Tablet","FDC Ltd",123.9
+667,"Padi K Plus 250mg/50mg/325mg Tablet","LA Grande Pvt Ltd",28.5
+668,"Ctmycine 500mg Tablet","RND Laboratories Pvt Ltd",217
+669,"Dito M 80mg/250mg Tablet","Lifecom Pharmaceuticals Pvt Ltd",49.9
+670,"YBZ 400mg Tablet","Nuclear Pharmaceuticals Pvt Ltd",12
+671,"Sentolin 2mg Syrup","Ultratech Pharmaceuticals",35
+672,"MS Clav 500 mg/100 mg Injection","Calibar Pharmaceuticals",83.48
+673,"Kaycide-SB 750 Injection","Stenkem Molecules Pvt Ltd",70
+674,"Ipm 400 mg/325 mg/100 mg Tablet","Cipla Ltd",8.25
+675,"Torgus 120mg Tablet","Ernst Pharmacia",119.9
+676,"Deeflam KP 50mg/500mg Tablet","Care Pharma India Ltd",20
+677,"Neosoralen Forte 25mg Tablet","Mac Laboratories Ltd",114
+678,"Drozon 80mg Tablet","Canvarzys Healthcare Ltd",44.31
+679,"Naxipred 8mg Tablet","VHC Pharmaceuticals",125.6
+680,"Taznex 1000mg Injection","Biotic Healthcare",240
+681,"Ginicef 100mg Tablet DT","Genial Lifecare",85
+682,"Doxoril 100mg Syrup","Macleods Pharmaceuticals Pvt Ltd",61
+683,"Immcef O 200mg/200mg Tablet","Immence Life Sciences Pvt Ltd",155
+684,"Ximeceff DS Dry Syrup","Lupin Ltd",71.7
+685,"Surgicef-O Tablet DT","Focus Healthcare",145
+686,"Anxisure 0.5mg/10mg Tablet","Jemon Pharmaceutical",48
+687,"Nausetil 5mg Tablet","Intas Pharmaceuticals Ltd",14
+688,"Dip 2.5mg Tablet","Alkem Laboratories Ltd",14.9
+689,"Keydep-Forte 0.5mg/10mg Tablet","Macway Biotech Pvt Ltd",97
+690,"Eimorap 40mg Tablet","Haustus Biotech Pvt Ltd",62.45
+691,"Arilep 300mg Tablet SR","Ryon Pharma",29
+692,"AC-Breathe 200 SR Tablet","Saksham Pharmaceuticals India Ltd",179.9
+693,"Pregeb NT 75mg/10mg Tablet","Torrent Pharmaceuticals Ltd",188.05
+694,"Exmite AZ 500mg/500mg Tablet","Ridhima Biocare",500
+695,"Olmezest 10 Tablet","Sun Pharmaceutical Industries Ltd",87.5
+696,"Pioz MF G2 Tablet SR","USV Ltd",143
+697,"Amicos 250mg Injection","Corona Remedies Pvt Ltd",28
+698,"Pharmazin 5mg Tablet","A N Pharmacia",39.6
+699,"Udcament Oral Suspension","Delcure Life Sciences",390
+700,"Voglinorm GM 1/0.3 Tablet SR","Micro Labs Ltd",90.5
+701,"Leveteo 250 Tablet","Matteo Healthcare Pvt Ltd",65
+702,"Depzil Forte Tablet",Psycormedies,147
+703,"Alon 5mg Tablet","Shrinivas Gujarat Laboratories Pvt Ltd",56.25
+704,"Atorlip 40 Tablet","Cipla Ltd",239.9
+705,"Olixin 10mg Tablet","Signova Pharma Pvt Ltd",56.6
+706,"Gabavel 100mg Tablet","Zenolia Life Science Private Limited",59
+707,"Twinsorb Shampoo","Amwill Healthcare",210
+708,"Pariz 40mg Tablet","Win-Medicare Pvt Ltd",60
+709,"Tecoplus 400mg Injection","H2H India Biotech Private Limited",2049
+710,"Axclav 500mg/125mg Capsule","Junifer Pharmaceuticals",200
+711,"Cendu 60mg Capsule","USV Ltd",126.92
+712,"Odiwel 4mg Tablet MD","Dokcare Life Sciences",44
+713,"Masorate Syrup Orange","Masson Healthcare Pvt Ltd",129.92
+714,"Labdic 50 mg/500 mg/4 mg Tablet","Laborate Pharmaceuticals India Ltd",8.87
+715,"Rabinta DXR Capsule","Intra Life",101
+716,"Shilgem 1000mg Injection","Shilpa Medicare Ltd",5150
+717,"Pantorite D Capsule","MHS Pharmaceuticals Pvt Ltd",77
+718,"Lancer 30mg Capsule","Alkem Laboratories Ltd",35
+719,"Flunero 10mg Tablet","Ernst Pharmacia",49.9
+720,"Xoten C 10mg/75mg Tablet","Alteus Biogenics Pvt Ltd",119
+721,"Acmic 1500mcg Tablet","Adley Formulations",94
+722,"Cloridone 6.25mg Tablet","Maxford Labs Pvt. Ltd.",34.2
+723,"Gracof BR Syrup","GRAF Laboratories Pvt Ltd",27.42
+724,"Flarid D 50mg/10mg Tablet","Skylane Pharmaceuticals",49
+725,"Af-ter Lotion","Palsons Derma",157.3
+726,"Ciword 250 Tablet","Misha Biotech Pvt Ltd",550
+727,"Lhd 10mg Tablet","Ipca Laboratories Ltd",31.9
+728,"Abitor 20mg Tablet","Alpic Biotech Ltd",120
+729,"Zetam Suspension","Allenge India",168
+730,"Ascotus CF Syrup","Ridhima Biocare",60
+731,"Numin Trio 2mg/500mg/0.2mg Tablet","Laxian Healthcare",141
+732,"Inflacin 20mg Tablet DT","Ikon Remedies Pvt Ltd",49.5
+733,"MENOLATE 500MG TABLET","Pharma Drugs & Chemicals",85
+734,"Atorfit D 20mg/1000IU Tablet","Ajanta Pharma Ltd",81.63
+735,"Valpo 300mg Tablet CR","D D Pharmaceuticals",66.19
+736,"Abdoklis MF 80mg/250mg Tablet","Apa Pharmaceuticals",79
+737,"Montizer-LC Tablet","Zering Smith Lifesciences",95
+738,"Campto 100mg Injection","Pfizer Ltd",19950
+739,"Medfix Forte 100mg Dry Syrup","Medmom Pharmaceuticals LLP",72.24
+740,"Z Pod 50mg Dry Syrup","Arvincare Pharma",58
+741,"Esnax Plus Tablet","Anax Lifescience",100
+742,"Seriz Forte Tablet","Systemic Healthcare",65
+743,"Carloc I 3.125 Tablet","Cipla Ltd",195
+744,"Acicef O 200mg/200mg Tablet","Geneka Biotek",150
+745,"Calshore Tablet","Cue Labs",85
+746,"Veriaz 250mg Tablet","Veritaz Healthcare Ltd",57
+747,"Nucarnit-F Tablet","Emcure Pharmaceuticals Ltd",521.85
+748,"Melalite 15 Cream",Abbott,220.48
+749,"Cona Tablet","Monokem Labs",11.55
+750,"Ornivil Syrup","Vilco Laboratories Pvt Ltd",44.87
+751,"Increten M 500mg/20mg Tablet","Saan Labs",177
+752,"Ivalp 500mg Tablet","Kivi Labs Ltd",92
+753,"Moxiken 125mg Dry Syrup","Kentreck Laboratories Pvt Ltd",25.4
+754,"Cfo-T Injection","Wohltat Lifesciences",321
+755,"Brumol 250mg Oral Suspension","Brukem Life Care",42
+756,"Carepod-CV Dry Syrup","Lezaa Biotech",99
+757,"Peptilcer 40 Tablet","Biochem Pharmaceutical Industries",104.65
+758,"Cilacar T 20/40 Tablet","J B Chemicals and Pharmaceuticals Ltd",161.79
+759,"Calchek 10mg Tablet","Ipca Laboratories Ltd",61.9
+760,"Ziglim Plus 2 Tablet SR","FDC Ltd",77
+761,"Carypod Tablet DT","Evax Healthcare Pvt Ltd",220
+762,"Telmicalm-H Tablet","Assure Pharma",75
+763,"Melanorm-HC Cream","Unimarck Pharma India Ltd",125
+764,"Roxyvin Kid 50mg Tablet","Torino Labs (P) Ltd",50
+765,"Udan 2mg Syrup","Excare Laboratories",33
+766,"Que 200mg Tablet","Biologic Psychotropics India Pvt Ltd",93.2
+767,"Limapenem 500mg Injection","Ancalima Lifesciences Ltd",1180
+768,"Trigenic Syrup","Trigenesis Life Sciences Pvt Ltd",29
+769,"EFETRAN 75MG CAPSULE","Novartis India Ltd",60
+770,"Indikof LS Syrup Sugar Free","Alkem Laboratories Ltd",107
+771,"Profol Spiva 10mg Injection","Claris Lifesciences Ltd",750
+772,"Shixone 1000 Injection","Shivon Lifesciences Pvt Ltd",56
+773,"Celavi M 10/50 Tablet PR","Ajanta Pharma Ltd",137.59
+774,"Iliac 10mg Tablet","Suremed Lifecare Pvt Ltd",75
+775,"Cefolin 50mg Dry Syrup","Cablin Healthcare Pvt Ltd",50
+776,"Cezipod 50 Dry Syrup","Moderik Healthcare",85
+777,"Solutab Tablet","Captab Biotec",80
+778,"Vancoled 1gm Injection","Pfizer Ltd",683.04
+779,"Tazotop Cream","Sun Pharmaceutical Industries Ltd",92.02
+780,"Ketovue 0.5% Eye Drop","Bausch and Lomb India Pvt Ltd",63
+781,"Zylocef CV 200 mg/125 mg Tablet","Lupin Ltd",251.25
+782,"Megeetron 160mg Tablet","Alkem Laboratories Ltd",810
+783,"Resitan Amh Tablet","Bharti Life Sciences",71.42
+784,"Zabee L 75mg/20mg Capsule SR","Medok Life Sciences Pvt Ltd",160
+785,"Gliri M 2mg/500mg Tablet","Ridham Medicare",46
+786,"Refast D 30mg/20mg Capsule SR","Medicraft Group",110
+787,"Azikia 500 LB Tablet","Alicanto Drugs Pvt Ltd",167
+788,"Doff-OZ 200mg/500mg Tablet","DS Pharma",75
+789,"Steadpan Tablet","Aareen Healthcare Pvt Ltd",59
+790,"Yosin BRD Tablet","Morstella Biotech",145
+791,"Erubin 50mg Injection","RPG Life Sciences Ltd",597
+792,"Voglitum-Trio 0.3 Tablet ER","Advance Concept Pharmaceuticals Pvt. Ltd.",179
+793,"Anarizin D 15mg/20mg Tablet","Smayan Healthcare Pvt Ltd",45
+794,"Het 84.7mg/25.3mg Injection","Harson Laboratories",4.8
+795,"Sacdase 20mg Tablet","SAC Pharmaceuticals",69
+796,"Nispred 125mg Injection","Neiss Labs Pvt Ltd",240
+797,"Trigli LS 2 Tablet SR","Ordain Health Care Global Pvt Ltd",57
+798,"Veran 300mg Tablet","Vega Pharma",7
+799,"Gastrodeal 40mg Injection","Mini Pharmaceuticals",61
+800,"METLEAD G FORTE 2 MG/1000 MG TABLET SR","Glaxo SmithKline Pharmaceuticals Ltd",69
+801,"Pain 3 D 100mg/325mg/15mg Tablet","Unique Remedies & Pharmaceutical",82
+802,"Wellpred 16 Tablet","Syndicate Life Sciences Pvt Ltd",115
+803,"Lowin T Eye Drop","Ahlcon Parenterals  India  Limited",75
+804,"Alcopod 200 Tablet DT","Alicia Healthcare",185
+805,"Glimrox M1 Tablet PR","Deltis Pharma Private Limited",50
+806,"Unipraz-DSR Capsule","Wintech Pharmaceuticals",90
+807,"Geocef 200mg Tablet","Bliss Gvs Pharma Limited",93
+808,"Telmivas 80mg Tablet","Orchid Chemicals & Pharmaceuticals Ltd",103.33
+809,"Taxuba 120mg Injection","Glenmark Pharmaceuticals Ltd",14000
+810,"Axcef TZ 1000mg/125mg Injection","Axter Pharmaceuticals Pvt Ltd",190
+811,"Micropenam 1g Injection","Micro Labs Ltd",1074
+812,"Glitame-M1000 Tablet","Aishwarya Healthcare",112.5
+813,"Levosung Oral Drops","Neoliva Formulations",44
+814,"Citalop S 5mg Tablet","RPG Life Sciences Ltd",27
+815,"Beta Amlol 5 mg/50 mg Tablet","Themis Medicare Ltd",34.15
+816,"Wostat 40mg Tablet","Wockhardt Ltd",105
+817,"Clonate Lotion","Hegde and Hegde Pharmaceutical LLP",170
+818,"Flopres-D Tablet","Fawn Incorporation",169
+819,"Wardof D 30mg/40mg Capsule SR","Diamond Drugs Pvt Ltd",85
+820,"RA Quin 400mg Tablet","Sun Pharmaceutical Industries Ltd",115
+821,"Azcre 500mg Tablet","A. Menarini India Pvt Ltd",56.73
+822,"Silolyst 4mg Tablet","Septalyst Lifesciences Pvt.Ltd.",199.65
+823,"Acotra 100 Capsule","Ventus Pharmaceuticals Pvt Ltd",78
+824,"Xfit 125mg Injection","Ind Swift Laboratories Ltd",20
+825,"Tacrotaj 0.5mg Capsule","Taj Pharma India Ltd",227
+826,"Clocit 0.5mg/5mg Tablet","Salas Pharmaceuticals",117
+827,"Stilkast FX 10mg/120mg Tablet","Alvoncare Pharma",185
+828,"Aprylx Trio Tablet","Vernoxy Pharma Pvt Ltd",108.89
+829,"Zemhart 60mg Tablet","Leeford Healthcare Ltd",110
+830,"Unimox 125mg Dry Syrup","Mac Millon Pharmaceuticals Pvt Ltd",32.4
+831,"SP Doxime SB 1000mg/500mg Injection","Medicross Pharmaceuticals",130
+832,"Ivabid 5 Tablet",Abbott,346.01
+833,"Megamove MR 250mg/50mg/500mg Tablet","Helios Pharmaceuticals",66
+834,"Kotyod-M Syrup","Kotiya Pharma",78
+835,"Cidaflox 100mg Tablet DT","Juggat Pharma",121.7
+836,"Pyricare 500 Tablet","Health Care Formulations Pvt Ltd",10.82
+837,"VALCONTIN 500 MG TABLET","Modi Mundi Pharma Pvt Ltd",93
+838,"Hemoclot 500mg Tablet","Ethix Healthcare",70
+839,"Fujigraf 2mg Capsule","Hospimax Healthcare Pvt Ltd",804
+840,"Azimac 250mg Tablet","MAC Medilife Pvt Ltd",57
+841,"Sulbactum P 500mg/500mg Injection","Suave Pharmaceuticals",166
+842,"Ibsinorm 6mg Tablet","Sun Pharmaceutical Industries Ltd",60.45
+843,"Atorastin F 10mg/160mg Tablet","Zeelab Pharmacy Pvt Ltd",24
+844,"Quinolite Cream","Metamorf Lifesciences",147
+845,"Ramod 5mg Tablet","Aretaeus Pharmaceuticals",92.1
+846,"Qtoglym-M1 Tablet PR","Shashvat Healthcare",55
+847,"Ezinerv NT 400mg/10mg Capsule","DR Best pharmaceuticals Pvt Ltd",60
+848,"Azilsyn 80mg Tablet","Synokem Pharmaceuticals Ltd",199
+849,"Mlor 100mg/8mg Tablet","Murentia Pharmaceuticals",233
+850,"Erythrocin 100mg Tablet","Pfizer Ltd",16.55
+851,"Darbecon 25mcg Injection","Concord Biotech Ltd",1599
+852,"Alde Plus Tablet","HS Aldem Healthcare",119
+853,"Tacof Cold Oral Drops","Biostrass Health Sciences Pvt Ltd",35.71
+854,"Softy 100mg Injection","Genetic Pharma",65
+855,"Dermikem 4 Cream","Alkem Laboratories Ltd",75
+856,"Sinadom Tablet","Leeford Healthcare Ltd",35
+857,"Oftacin OZ Tablet","Intag Remedies",84
+858,"Dtel-MT 25 Tablet ER","Deify Pharma",135
+859,"Nipfone S 1000mg/500mg Injection","Dhamus Pharma",128.65
+860,"Molanz 15mg Tablet MD","Medon Pharmaceuticals Pvt Ltd",91
+861,"Olsar-A 40 Tablet","Torrent Pharmaceuticals Ltd",243.6
+862,"Enclex 40 Injection","Cipla Ltd",425.67
+863,"Castor NF Ointment","Leeford Healthcare Ltd",100
+864,"Cefgrace-CV Tablet","Venova Pharmaceuticals Pvt Ltd",950
+865,"Gluconorm PG 2 Forte Tablet SR","Lupin Ltd",177.45
+866,"Polaramine 6mg Tablet","Fulford India Ltd",15.4
+867,"Deekacin 500mg Injection","Anvik Biotech",58
+868,"Voz CV 250mg/125mg Tablet","Gurgrace Pharmaceuticals",172
+869,"Qutidin 25mg Tablet","Knoll Pharmaceuticals Ltd",38
+870,"Finus 50mg Tablet","Cronus Biotech Ltd",65
+871,"Febumera 40mg Tablet","Numera Life Sciences",99
+872,"Zeemox CV 250mg/125mg Tablet","CE-Biotec Pvt Ltd",89
+873,"Fex M 10mg/120mg Tablet","East West Pharma",150.8
+874,"Valtril 500mg Tablet","Wockhardt Ltd",49.95
+875,"Gliart-M 2 Tablet SR","Medicil Healthcare",89
+876,"Doxozip AX 400mg/30mg Tablet","Theon Pharmaceuticals Ltd.",115
+877,"Scarbic Lotion","Leeford Healthcare Ltd",58.7
+878,"Enducef 500mg Injection","Endurance Healthcare Ltd",47
+879,"Xylanta Suspension","Troikaa Pharmaceuticals Ltd",53
+880,"Biogab A 300mg/10mg Tablet","Biosys Medisciences",95
+881,"Etrogod SP 60mg/10mg Tablet","Godase Healthcare",106
+882,"Alonac SP Tablet","East West Pharma",61.5
+883,"Olmost-AZ 40mg/8mg Tablet","Raymedica Pharmaceuticals",190
+884,"Triaxophin SB 1000mg/500mg Injection","Kryptochem Medicament Pvt. Ltd.",139
+885,"Aftercold Syrup","Biofield Pharma",49
+886,"Accuon Syrup","Pharma Drugs & Chemicals",35
+887,"Lynzie 100mg Syrup","Alencure Biotech Pvt Ltd",120
+888,"Vertines D 15mg/20mg Tablet","Blubell Pharma",46
+889,"Ceftraphy-S Injection","Glomphy Pharma",127.4
+890,"Lufo 150mg Tablet","Man Serve Pharma",14.45
+891,"Deficort 40mg Injection","Ridhima Biocare",18
+892,"Tapcynta 75mg Tablet","Macleods Pharmaceuticals Pvt Ltd",138.4
+893,"Amidol RB Tablet","Amnicure Healthcare Pvt Ltd",200
+894,"Nebivie 2.5mg Tablet","Azcad Pharmaceuticals Pvt Ltd",73
+895,"Applevit D Tablet","Apple Lifescience",141
+896,"Fedol 100mg/325mg Tablet","Mint Life Sciences Pvt Ltd",40
+897,"Dicnox AQ 25mg Injection","Sonixa Lifecare",15
+898,"Dorfix Dry Syrup","Dorphyll Healthcare",49
+899,"Mobipar Plus Tablet","Anant Pharmaceuticals Pvt Ltd",30
+900,"L250 250mg Tablet","Maneesh Pharmaceuticals Ltd",21.33
+901,"Ulrid 40mg Injection","Radicura Pharma pvt ltd",55
+902,"Alvomat M 5mg/10mg Tablet","Matias Healthcare Pvt Ltd",109
+903,"Vayclav 250mg/125mg Tablet","Anevay Pharmaceuticals Pvt. Ltd.",135
+904,"Zynac Gel","Zydus Cadila",53.4
+905,"Zisper 2mg Tablet MD","Torrent Pharmaceuticals Ltd",28.46
+906,"Olpod 100 Tablet DT","M.M Pharma",140
+907,"Etkotic 90mg Tablet","Asiatic Pharmaceuticals",135
+908,"Gofix 200mg Tablet DT","Isis Healthcare Pvt Ltd",107.18
+909,"Itrazil 200 Capsule","Nilrise Pharmaceuticals Pvt Ltd",298
+910,"Lfine 1% Lotion","Omni Lifesciences Pvt Ltd",215
+911,"Alone 50mg Injection","Avni Healthcare",135
+912,"Sudhapan 40mg Tablet","Sudha Lifesciences Pvt Ltd",96
+913,"Levosef-OZ Tablet","Saphnix Life Sciences",90
+914,"Mucocil LS Syrup","Troikaa Pharmaceuticals Ltd",82.5
+915,"Minidolo Tablet","Winsome Laboratories Pvt Ltd",60
+916,"Simnol 50 Tablet","Care Formulation Labs Pvt Ltd",24.4
+917,"Neurospark 500mg Injection","Venus Remedies Ltd",105
+918,"Ziglim-MV 2 Tablet","FDC Ltd",78
+919,"Wordoxime 50mg Dry Syrup","World Healthcare Pharma",67
+920,"Weliflox OZ KID Syrup","Welisynth Pharmaceuticals",42.5
+921,"Cetzone 500mg Injection","Grace Drugs & Pharmaceuticals",43.25
+922,"Instantino 0.25mg Injection","Zuventus Healthcare Ltd",168
+923,"Xeronac-P Tablet","Gms Biomax Medicare Pvt Ltd",70
+924,"Genericart Cefixime 200mg Tablet DT","Swast Aushadhi Seva Generic Medicine Store",100.91
+925,"Pemmet 500 Injection","Intas Pharmaceuticals Ltd",5467.6
+926,"Dfc Oral Suspension","Vee Remedies",68.75
+927,"Ebet 10 Tablet","Gary Pharmaceuticals Pvt Ltd",60
+928,"Aceclotrue MR 100mg/325mg/250mg Tablet","Truecure Healthcare Private Limited",89
+929,"Miso-Gyn 200 Tablet","Bharat Serums & Vaccines Ltd",72
+930,"Effective CV 500mg/125mg Tablet","Serbia Molecules Pvt Ltd",374
+931,"Raxcef TZ 1000mg/125mg Injection","Rax Health Care Pvt Ltd",135
+932,"Cormet 25mg Tablet SR","Lia Life Sciences Pvt Ltd",42.5
+933,"Childryl ZP Syrup","Wiscon Pharmaceuticals Pvt Ltd",45.05
+934,"Tapcynta 50mg Tablet","Macleods Pharmaceuticals Pvt Ltd",99
+935,"Glucan G 2mg/500mg Tablet","Lucan Pharmaceuticals Private Limited",94
+936,"Tryser 200mg Tablet","Try Drugs Pharmaceuticals",70
+937,"Abiof 400 Tablet","Abia Pharmaceuticals Pvt. Ltd.",89
+938,"Mavdol TP Tablet","Maverick Pharma Pvt Ltd",73
+939,"Wan-D Tablet","Mediaim Pharmaceutical",100
+940,"Rozact-Gold 20 Capsule IR","AP Medicare",201
+941,"Ursodic 300mg Tablet","Ambreyo Lifesciences",334
+942,"Calvicare Dry Syrup",Ultilab,58
+943,"Levolin Plus Syrup Pineapple & Black currant","Cipla Ltd",104.67
+944,"Eldofen Super  Gel","Elder Pharmaceuticals Ltd",25
+945,"Envelaf 37.5mg Tablet XR","Alkem Laboratories Ltd",28
+946,"Themcid Oral Suspension Mango Sugar Free","Asgard Labs Private Limited",78
+947,"Uasta 250mg Oral Suspension","Uniword Pharma",37
+948,"Arflox 0.3% Eye Drop","Health Biotech Limited",14
+949,"Clindalen-A Gel","Skylla Pharmaceuticals",145
+950,"Acceclopee Plus 100mg/325mg/15mg Tablet","Peenak Pharma",75
+951,"Cosaben 400mg Tablet","Smaco Biocon",9.75
+952,"Efonta 20 Tablet","Ajanta Pharma Ltd",120
+953,"Canditral 100 Capsule","Glenmark Pharmaceuticals Ltd",140
+954,"Zunalgia Plus Injection","Zunarsh Lifesciences Pvt Ltd",97
+955,"Forsemer 800mg Tablet","Micro Labs Ltd",257
+956,"Etoblend MR Tablet","Cue Labs",180
+957,"Cetin Plus Syrup","Ind Swift Laboratories Ltd",22.04
+958,"Jycyp Syrup","Jydem Bio Pharma Pvt Ltd",98
+959,"Forixone-TZ Injection","Fortune Labs",34
+960,"Sclerogem 240mg Capsule DR","Cipla Ltd",1625
+961,"Frp 200 Tablet","Evans Healthcare",655
+962,"Dinac 50mg/500mg Tablet","Flora & Pharma",12.5
+963,"Clamotel Oral Suspension","Cartel Laboratories",62
+964,"Favenza 400mg Tablet","FDC Ltd",950
+965,"Candid TV Suspension","Glenmark Pharmaceuticals Ltd",305
+966,"Onton 4mg Tablet MD","Hi-Cure Biotech",45
+967,"Xing Cuf Tablet","Bindlysh Biotec Ltd",26
+968,"Zanin 500mg Injection","Zenlabs Ethica Ltd",115
+969,"Azawan Tablet","Rowan Bioceuticals Pvt Ltd",90
+970,"Cefiraz Syrup","Shreeji Healthcare Impex",58
+971,"Eliquin EC 300mg Tablet","Elikem Pharmaceuticals Pvt Ltd",53
+972,"Zetitor 10mg Tablet","Glenmark Pharmaceuticals Ltd",57.6
+973,"Barbinol 100mg Injection","Human Antibiotic Pharmaceuticals Pvt Ltd",14.5
+974,"Azigate 250mg Tablet","Symbiosis Pharmaceuticals Pvt Ltd",52
+975,"Cypramycetin 250mg Capsule","Cyper Drugs & Pharmaceuticals Pvt Ltd",28.9
+976,"Relexulide 100mg Tablet","Maitri Healthcare Pvt Ltd",15
+977,"Synovit 2500mcg Injection","Shalman Pharma Pvt Ltd",70
+978,"Qmox 250mg Tablet DT","Scutage Pharmaceuticals",40
+979,"Megavog MF 0.3/500 Tablet SR","Aristo Pharmaceuticals Pvt Ltd",97
+980,"VOTCEF 50 MG DRY SYRUP","Apostle Remedies",80
+981,"Nucez MC 5mg/10mg Tablet","Little Greave Pharmaceutical Pvt Ltd",79.9
+982,"Leebonn 500mg Tablet","Iscon Life Sciences",75
+983,"Ifcetri-L Syrup","Positif Life sciences",26
+984,"Zesunate Kit","Zodak Healthcare",189
+985,"Zenof 100mg Tablet","Zenon Healthcare Ltd",29
+986,"Ranidom Suspension","Mankind Pharma Ltd",99
+987,"Sitared-M Tablet 50/500","Sun Pharmaceutical Industries Ltd",142.5
+988,"Naturogest 8% Vaginal gel","Zydus Cadila",167.4
+989,"Ibstatin C 10mg/75mg Tablet","Indiabulls pharmaceutical ltd",142.86
+990,"Sylev-M Oral Suspension","Sycon Healthcare Pvt Ltd",72.5
+991,"Meflodin 10mg/250mg Tablet","Axodin Pharmaceuticals Pvt. Ltd.",37.4
+992,"Avks TH 100mg/4mg Tablet","Taksa LIfe Sciences",170
+993,"Acefem 200mg Tablet SR","Femgrace Formulations",35
+994,"Zinco Sulpha Eye Drop","Bell Pharma Pvt Ltd",57.24
+995,"Zepid 2mg Tablet","Psychotropics India Ltd",19.8
+996,"Degrain Oral Suspension","Reantis Pharmaceuticals Pvt. Ltd.",35
+997,"Anitryp 10mg Tablet","Anikem Laboratories",12.2
+998,"Aziprl 500mg Tablet","Pristine Pearl Pharma Pvt Ltd",71.7
+999,"Baicab 0.5mg Tablet","Bageo Pharmaceuticals Pvt Ltd",356
+1000,"Cetanil M 50 Tablet ER","Alembic Pharmaceuticals Ltd",134.3

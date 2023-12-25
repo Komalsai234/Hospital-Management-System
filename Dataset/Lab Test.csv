@@ -1,0 +1,21 @@
+TestID,Name,Price
+1,"Blood Pressure Monitoring",50
+2,"Blood Sugar Test",80
+3,"Complete Blood Count",200
+4,"Lipid Profile",300
+5,"Liver Function Test",350
+6,"Thyroid Function Test",250
+7,"Hemoglobin A1C",150
+8,"Basic Metabolic Panel",400
+9,"Comprehensive Metabolic Panel",450
+10,"Electrolyte Panel",200
+11,Urinalysis,100
+12,"C-Reactive Protein",180
+13,"Routine Urine Analysis",90
+14,"Chest X-ray",300
+15,"Abdominal X-ray",350
+16,"Bone Density Scan",400
+17,"CT Scan - Head",1200
+18,"MRI - Lumbar Spine",1500
+19,"Ultrasound - Abdomen",600
+20,Echocardiogram,700

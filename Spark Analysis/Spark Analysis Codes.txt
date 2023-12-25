@@ -1,0 +1,338 @@
+1.Age and Gender Distribution Analysis in Patient Data
+
+val patientDF = readTable("Patient")
+
+val currentYear = year(current_date())
+
+val ageGenderDistribution = patientDF
+  .withColumn("Age", currentYear - year($"DOB"))
+  .withColumn("AgeGroup", 
+    when($"Age" < 18, "18 Below")
+    .when($"Age" < 40, "18-39")
+    .when($"Age" < 65, "40-64")
+    .otherwise("65+"))
+  .groupBy($"Gender", $"AgeGroup")
+  .count()
+  .orderBy($"Gender", $"AgeGroup")
+
+ageGenderDistribution.show()
+
+
+2. Analysis of Geographic Distribution of Patients
+
+val patientAddressDF = readTable("PatientAddress")
+
+val geographicDistribution = patientAddressDF
+  .groupBy($"State", $"Country")
+  .agg(countDistinct("PatientID").alias("NumberOfPatients"))
+  .orderBy($"NumberOfPatients".desc)
+
+
+
+3. Analysis of Familial and Personal Incidence of Diabetes in Patients
+
+val familyMedicalBackgroundDF = readTable("PatientFamilyMedicalBackground")
+
+val diseaseDF = readTable("Disease")
+
+val patientMedicalBackgroundDF = readTable("PatientMedicalBackground ")
+
+val FamilyPatientDiabeticCount = familyMedicalBackgroundDF
+  .join(patientMedicalBackgroundDF, "PatientID")
+  .join(diseaseDF, "DiseaseID")
+  .filter($"DiseaseName" === "Diabetes" && $"IsDiabetic" === true)
+  .count()
+
+val FamilyDiabeticCount = familyMedicalBackgroundDF
+  .join(diseaseDF, "DiseaseID")
+  .filter($"DiseaseName" === "Diabetes")
+  .select("PatientID")
+  .count()
+
+val percentage = (FamilyPatientDiabeticCount.toDouble / FamilyDiabeticCount.toDouble) * 100
+
+
+
+
+4. Age Distribution Analysis Among Different Blood Groups
+
+import org.apache.spark.sql.functions.{year, current_date}
+
+val patientMedicalBackgroundDF = readTable("PatientMedicalBackground")
+
+val patientDF = readTable("Patient")
+
+val ageDistribution = patientMedicalBackgroundDF
+  .join(patientDF, "PatientID")
+  .withColumn("Age", year(current_date()) - year($"DOB"))
+  .groupBy($"BloodGroup")
+  .agg(expr("percentile(Age, array(0.25, 0.5, 0.75)) as AgePercentiles"))
+
+
+5. Analysis of Prevalent Diseases in Family Medical Histories of Patient
+
+val familyMedicalBackgroundDF = readTable("PatientFamilyMedicalBackground")
+
+val diseaseDF = readTable("Disease")
+
+val familydiseaseDF = familyMedicalBackgroundDF.join(diseaseDF, "DiseaseID")
+
+val diseaseCountDF = familydiseaseDF
+  .groupBy("DiseaseName")
+  .agg(count("*").alias("Count"))
+  .orderBy(desc("Count"))
+
+
+
+6. Analysis of Doctor Distribution Across Departments by Experience
+
+import org.apache.spark.sql.functions._
+
+val doctorDF = readTable("Doctor")
+
+val doctorDepartmentDF = readTable("DoctorDepartment")
+
+val doctorDepartmentDistribution = doctorDF
+  .join(doctorDepartmentDF, "DoctorDepartmentID")
+  .groupBy($"DepartmentName")
+  .agg(
+    count("DoctorID").alias("DoctorCount"),
+    round(avg("YearOfExperience")).alias("AverageExperience"),
+    max("YearOfExperience").alias("MaxExperience"),
+    min("YearOfExperience").alias("MinExperience")
+  )
+  .orderBy($"DoctorCount".desc)
+
+
+7. Analysis of Patient Diversity Across Insurance Providers and Coverage Plans
+
+val insuranceDF = readTable("HealtInsurance")
+
+val patientInsuranceDiversityAnalysis = insuranceDF
+  .groupBy($"ProviderName")
+  .pivot("CoveragePlan")
+  .count()
+  .na.fill(0)
+  .orderBy($"ProviderName")
+
+
+
+8. Analysis of Room Type Utilization Efficiency
+
+import org.apache.spark.sql.functions._
+
+val roomDF = readTable("Room")
+
+val inPatientDF = readTable("InPatient")
+
+val roomTypeDF = readTable("RoomType")
+
+val roomTypeUtilization = inPatientDF
+  .join(roomDF, "RoomNumber") 
+  .join(roomTypeDF, "RoomTypeID")
+  .withColumn("OccupancyDays", datediff($"DateOfDischarge", $"DateOfAdmission"))
+  .groupBy(roomTypeDF("TypeName"))
+  .agg(
+    count("*").alias("TotalOccupancies"),
+    sum("OccupancyDays").alias("TotalOccupancyDays"),
+    max("OccupancyDays").alias("MaxOccupancyDuration")
+  )
+  .orderBy($"TotalOccupancies".desc)
+
+
+val roomCountPerType = roomDF
+  .groupBy("RoomTypeID")
+  .agg(count("*").alias("RoomCount"))
+  .join(roomTypeDF, "RoomTypeID")
+  .select(roomTypeDF("TypeName"), $"RoomCount")
+
+
+val FinalRoomTypeUtilization = roomTypeUtilization
+  .join(roomCountPerType, "TypeName")
+  .withColumn("AvgOccupationDays", $"TotalOccupancyDays" / $"TotalOccupancies")
+
+
+
+9. Analysis of Total Bill Amount by Payment Methods
+
+val billDF = readTable("Bill")
+
+val totalBillByPaymentMethodDF = billDF
+  .groupBy("PaymentMethod")
+  .sum("TotalBill")
+  .withColumnRenamed("sum(TotalBill)", "TotalAmountBilled")
+  .orderBy($"TotalAmountBilled".desc)
+
+
+10. Patient Engagement and Doctor Workload Analysis
+
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.expressions.Window
+
+val doctorDepartmentDF = readTable("DoctorDepartment")
+val doctorDF = readTable("Doctor")
+val appointmentDF = readTable("Appointment")
+
+val doctorWithDepartmentDF = doctorDF
+  .join(doctorDepartmentDF, doctorDF("DoctorDepartmentID") === 
+                                  doctorDepartmentDF("DepartmentID"))
+
+
+val joinedDF = appointmentDF
+  .join(doctorWithDepartmentDF, appointmentDF("DoctorID") === 
+                                   doctorWithDepartmentDF("DoctorID"))
+
+val doctorStats = joinedDF
+  .groupBy(doctorWithDepartmentDF("DoctorID"), doctorWithDepartmentDF("DepartmentName"))
+  .agg(
+    count("AppointmentID").alias("TotalAppointments"),
+    countDistinct("PatientID").alias("DistinctPatients"),
+    (round(count("AppointmentID") / countDistinct("PatientID")))
+                                          .alias("AvgVisitsPerPatient"))
+
+val windowSpec = Window.partitionBy("DepartmentName")
+
+
+val departmentLevelStats = doctorStats
+  .withColumn("TotalAppointmentsInDept", sum("TotalAppointments").over(windowSpec))
+  .withColumn("TotalPatientsInDept", sum("DistinctPatients").over(windowSpec))
+  .select(
+    "DoctorID", "DepartmentName", "TotalAppointments", "DistinctPatients",
+    "AvgVisitsPerPatient", "TotalAppointmentsInDept", "TotalPatientsInDept"
+  )
+  .orderBy("DepartmentName", "DoctorID")
+
+
+11. Patient Admission Analysis by Season and Year
+
+import org.apache.spark.sql.functions._
+
+val admissionsDF = readTable("Admissions")
+
+val admissionsWithMonthAndYear = admissionsDF
+  .withColumn("AdmissionMonth", month(col("DateOfAdmission")))
+  .withColumn("AdmissionYear", year(col("DateOfAdmission")))
+
+val admissionsWithSeasons = admissionsWithMonthAndYear
+  .withColumn("Season",
+    when(col("AdmissionMonth").isin(11, 12, 1, 2), lit("Winter"))
+    .when(col("AdmissionMonth").isin(7, 8, 9, 10), lit("Rainy"))
+    .otherwise(lit("Summer"))
+  )
+
+val admissionsAnalysisBySeason = admissionsWithSeasons
+  .groupBy("AdmissionYear", "Season")
+  .agg(count("InPatientID").alias("TotalAdmissions"))
+  .orderBy("AdmissionYear", "Season")
+
+
+
+12. Analysis of Relationship Types in Emergency Contact Information
+
+val emergencyContactDF = readTable("EmergencyContact")
+
+val relationshipTypeCountDF = emergencyContactDF
+  .groupBy("RelationshipToPatient")
+  .count()
+  .orderBy(desc("count"))
+
+
+
+13.Relation Analysis Between Diabetes Prevalence and Substance Use (Alcohol and Tobacco) in patients
+
+val medicalBackgroundDF = readTable("PatientMedicalBackground")
+
+val diabeticAlcoholCount = medicalBackgroundDF.filter("AlcoholIntake == true 
+                                    AND IsDiabetic == true").count()
+
+val nonDiabeticAlcoholCount = medicalBackgroundDF.filter("AlcoholIntake == true 
+                                   AND IsDiabetic == false").count()
+
+val percentageDiabeticWithAlcohol = (diabeticAlcoholCount.toDouble 
+           / (diabeticAlcoholCount.toDouble + nonDiabeticAlcoholCount.toDouble)) * 100
+
+val diabetictobaccoCount = medicalBackgroundDF.filter("TobaccoUsage == true 
+                           AND IsDiabetic == true").count()
+
+val nonDiabeticTobaccoCount = medicalBackgroundDF.filter("TobaccoUsage == true 
+                             AND IsDiabetic == false").count()
+
+val percentageDiabeticWithTobacco = (diabetictobaccoCount.toDouble 
+            / (diabetictobaccoCount.toDouble + nonDiabeticTobaccoCount.toDouble)) * 100
+
+println(s"Percentage of diabetic patients with alcohol consumption: 
+                               $percentageDiabeticWithAlcohol")
+
+println(s"Percentage of diabetic patients with tobacco usage:
+                               $percentageDiabeticWithTobacco")
+
+
+
+14. Analysis of Health Insurance Coverage Types Among Patients
+
+val healthInsuranceDF = readTable("HealthInsurance")
+
+val coverageTypeCountDF = healthInsuranceDF
+  .groupBy("CoverageIsUnder")
+  .agg(count("*").alias("Count"))
+  .orderBy(desc("Count"))
+
+
+15. Analysis of the Most Frequently Performed Lab Tests for Patients
+
+val labDF = readTable("Lab")
+
+val labTestDF = readTable("LabTest")
+
+val labTestPopularityCost = labDF
+  .join(labTestDF, "TestID")
+  .groupBy($"Name")
+  .agg(count("*").alias("TestFrequency"))
+  .orderBy($"TestFrequency".desc)
+  .limit(5)
+
+
+
+16. Analysis of Peak Appointment Hours in Healthcare Facility
+
+import org.apache.spark.sql.functions.hour
+
+val appointmentDF = readTable("Appointment")
+
+val peakHoursAnalysis = appointmentDF
+  .withColumn("Hour", hour($"AppointmentStartTime"))
+  .groupBy($"Hour")
+  .count()
+  .withColumnRenamed("count", "NumberOfAppointments")
+  .orderBy($"NumberOfAppointments".desc)
+
+
+17. Summary of Room Statuses with Room Numbers in a Healthcare Facility
+
+val roomDF = readTable("Room")
+
+val roomStatusSummary = roomDF
+  .groupBy($"Status")
+  .agg(
+    count("*").alias("Count"),
+    collect_list($"RoomNumber").alias("RoomNumbers")
+  )
+  .orderBy($"Status") 
+
+
+18. Monthly Revenue Analysis from Room Rent and Lab Charges in Inpatient Care
+
+import org.apache.spark.sql.functions._
+
+val inPatientDF = readTable("InPatient")
+val billDF = readTable("Bill")
+
+val inPatientBillDF = inPatientDF.join(billDF, "PatientID")
+val monthlyRevenueDF = inPatientBillDF
+  .withColumn("Month", date_format(trunc(col("DateOfDischarge"), "MM"), "yyyy-MM"))
+  .groupBy("Month")
+  .agg(
+    sum("LabCharge").alias("TotalLabRevenue"),
+    sum("RoomRent").alias("TotalRoomRevenue")
+  )
+  .orderBy("Month")

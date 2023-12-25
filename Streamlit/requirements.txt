@@ -1,0 +1,7 @@
+mysql-connector-python==8.2.0
+numpy==1.24.4
+pandas==2.0.3
+pymongo==4.4.1
+streamlit==1.29.0
+streamlit_extras==0.3.5
+pytz==2023.3.post1

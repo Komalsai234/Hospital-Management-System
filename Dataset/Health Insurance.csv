@@ -1,0 +1,1001 @@
+PatientID,HealthInsuranceID,ProviderName,CoveragePlan,CoverageIsUnder
+1567,104,"Max Bupa Health Insurance",Family,Self
+4097,175,"HDFC ERGO General Insurance",Basic,Spouse
+4866,255,"Oriental Insurance Company",Family,Parent
+2938,311,"Tata AIG General Insurance",Basic,Parent
+425,396,"Max Bupa Health Insurance",Premium,Parent
+4923,439,"Star Health and Allied Insurance",Standard,Spouse
+5428,489,"Universal Sompo General Insurance",Individual,Self
+1804,1229,"United India Insurance",Premium,Employer
+2120,1585,"United India Insurance",Premium,Self
+5487,1806,"United India Insurance",Basic,Spouse
+2272,1957,"New India Assurance",Premium,Self
+996,2242,"Bajaj Allianz General Insurance",Individual,Spouse
+197,2861,"Oriental Insurance Company",Basic,Spouse
+916,3141,"Star Health and Allied Insurance",Basic,Self
+1678,3170,"New India Assurance",Family,Self
+639,3407,"Max Bupa Health Insurance",Premium,Spouse
+2151,3520,"Reliance General Insurance",Premium,Self
+931,4184,"Max Bupa Health Insurance",Premium,Spouse
+3610,4515,"Reliance General Insurance",Individual,Self
+714,4684,"HDFC ERGO General Insurance",Standard,Self
+4077,4731,"IFFCO Tokio General Insurance",Premium,Employer
+1716,4743,"Tata AIG General Insurance",Premium,Spouse
+3259,4804,"New India Assurance",Individual,Employer
+2256,5004,"Aetna Health Insurance",Basic,Parent
+5167,5382,"Tata AIG General Insurance",Standard,Parent
+2514,5446,"Apollo Munich Health Insurance",Individual,Self
+3986,5524,"Apollo Munich Health Insurance",Standard,Employer
+4641,5673,"National Insurance Company",Standard,Parent
+4204,5715,"Tata AIG General Insurance",Family,Spouse
+2047,5805,"Aetna Health Insurance",Premium,Self
+5251,6070,"HDFC ERGO General Insurance",Family,Self
+3134,6228,"Oriental Insurance Company",Premium,Self
+797,6678,"Star Health and Allied Insurance",Standard,Employer
+2969,6696,"Future Generali India Insurance",Individual,Self
+930,6817,"HDFC ERGO General Insurance",Individual,Parent
+1760,6851,"Tata AIG General Insurance",Basic,Parent
+4539,6927,"Tata AIG General Insurance",Family,Spouse
+3028,7227,"ICICI Lombard General Insurance",Standard,Self
+4222,7559,"United India Insurance",Premium,Employer
+5014,7903,"Religare Health Insurance",Individual,Self
+5405,8026,"Aetna Health Insurance",Family,Self
+149,8572,"Oriental Insurance Company",Individual,Employer
+1535,8913,"ICICI Lombard General Insurance",Standard,Self
+5401,9065,"SBI Health Insurance",Basic,Self
+1893,9603,"Aetna Health Insurance",Premium,Self
+2703,9738,"ICICI Lombard General Insurance",Standard,Self
+2553,9787,"Reliance General Insurance",Family,Employer
+1784,9833,"HDFC ERGO General Insurance",Family,Employer
+2746,10036,"Bharti AXA General Insurance",Individual,Self
+1789,10104,"New India Assurance",Premium,Self
+433,10210,"Apollo Munich Health Insurance",Individual,Spouse
+4576,10626,"Star Health and Allied Insurance",Standard,Self
+4164,10755,"SBI Health Insurance",Family,Employer
+2636,10912,"Oriental Insurance Company",Family,Spouse
+246,11075,"Bajaj Allianz General Insurance",Individual,Self
+2594,11109,"Oriental Insurance Company",Family,Employer
+842,11373,"National Insurance Company",Individual,Spouse
+3334,11382,"ICICI Lombard General Insurance",Premium,Spouse
+774,11803,"Aetna Health Insurance",Family,Spouse
+3268,11871,"Apollo Munich Health Insurance",Standard,Self
+649,12191,"Aetna Health Insurance",Individual,Employer
+2416,12288,"Bajaj Allianz General Insurance",Family,Spouse
+982,12494,"Star Health and Allied Insurance",Individual,Spouse
+101,12495,"Star Health and Allied Insurance",Premium,Parent
+328,12770,"United India Insurance",Individual,Parent
+5460,12833,"ICICI Lombard General Insurance",Premium,Self
+4715,13166,"SBI Health Insurance",Family,Spouse
+4120,13388,"Bharti AXA General Insurance",Premium,Self
+5250,13509,"Reliance General Insurance",Family,Parent
+65,13741,"SBI Health Insurance",Individual,Parent
+3829,13742,"Reliance General Insurance",Individual,Spouse
+807,13831,"Cigna TTK",Basic,Employer
+3405,14077,"IFFCO Tokio General Insurance",Standard,Self
+3659,14144,"Max Bupa Health Insurance",Family,Self
+5314,14154,"SBI Health Insurance",Individual,Self
+194,14463,"IFFCO Tokio General Insurance",Family,Employer
+4893,14579,"Apollo Munich Health Insurance",Premium,Spouse
+4627,14864,"Future Generali India Insurance",Basic,Self
+1344,15159,"SBI Health Insurance",Standard,Spouse
+4536,15453,"Religare Health Insurance",Family,Spouse
+3070,15503,"New India Assurance",Premium,Parent
+2979,15674,"Universal Sompo General Insurance",Family,Spouse
+4464,15755,"Aetna Health Insurance",Premium,Parent
+4262,15780,"National Insurance Company",Individual,Spouse
+2354,15867,"Future Generali India Insurance",Standard,Spouse
+3936,15880,"United India Insurance",Individual,Employer
+5444,15885,"SBI Health Insurance",Premium,Self
+2296,15912,"Cigna TTK",Standard,Spouse
+4050,16149,"New India Assurance",Individual,Self
+1254,16171,"Bajaj Allianz General Insurance",Standard,Spouse
+3391,16319,"Religare Health Insurance",Family,Parent
+3920,16560,"United India Insurance",Individual,Parent
+2882,16563,"Aetna Health Insurance",Premium,Parent
+4144,16784,"Max Bupa Health Insurance",Family,Self
+626,16796,"United India Insurance",Premium,Spouse
+100,16814,"SBI Health Insurance",Individual,Self
+2726,17067,"Star Health and Allied Insurance",Standard,Self
+5469,17301,"Bajaj Allianz General Insurance",Basic,Parent
+2906,17638,"New India Assurance",Family,Parent
+4093,17875,"Bajaj Allianz General Insurance",Family,Self
+1247,18118,"Aetna Health Insurance",Premium,Employer
+1704,18156,"Bharti AXA General Insurance",Standard,Self
+650,18196,"Cigna TTK",Standard,Employer
+3413,18397,"ICICI Lombard General Insurance",Basic,Spouse
+1664,19032,"New India Assurance",Individual,Employer
+4506,19154,"New India Assurance",Standard,Self
+3346,19268,"Oriental Insurance Company",Premium,Spouse
+1340,19416,"IFFCO Tokio General Insurance",Premium,Parent
+4402,19681,"IFFCO Tokio General Insurance",Individual,Employer
+158,19768,"Cigna TTK",Individual,Spouse
+970,19898,"SBI Health Insurance",Family,Spouse
+1739,20184,"United India Insurance",Individual,Employer
+294,20200,"United India Insurance",Family,Employer
+4249,20586,"United India Insurance",Premium,Spouse
+5315,20900,"Cigna TTK",Basic,Self
+1409,21415,"SBI Health Insurance",Individual,Parent
+829,21416,"Max Bupa Health Insurance",Standard,Self
+5295,21885,"Bajaj Allianz General Insurance",Individual,Spouse
+4861,22633,"Aetna Health Insurance",Basic,Spouse
+760,22721,"Tata AIG General Insurance",Standard,Employer
+3817,23165,"ICICI Lombard General Insurance",Premium,Parent
+1488,23346,"Tata AIG General Insurance",Basic,Parent
+3344,23430,"SBI Health Insurance",Premium,Spouse
+557,23579,"Religare Health Insurance",Basic,Parent
+4178,23790,"National Insurance Company",Premium,Employer
+3345,24021,"Bharti AXA General Insurance",Basic,Parent
+5145,24030,"Bharti AXA General Insurance",Family,Employer
+4776,24438,"Tata AIG General Insurance",Standard,Parent
+799,24575,"Universal Sompo General Insurance",Standard,Employer
+4803,24684,"Aetna Health Insurance",Standard,Self
+4459,24767,"HDFC ERGO General Insurance",Standard,Spouse
+5150,24906,"SBI Health Insurance",Premium,Employer
+5380,25632,"New India Assurance",Family,Parent
+2978,25642,"Cigna TTK",Standard,Spouse
+2302,25674,"New India Assurance",Standard,Employer
+525,25685,"Star Health and Allied Insurance",Individual,Employer
+3798,25704,"Cigna TTK",Family,Parent
+5148,25711,"Apollo Munich Health Insurance",Basic,Parent
+2543,25865,"Religare Health Insurance",Individual,Parent
+251,25869,"ICICI Lombard General Insurance",Premium,Spouse
+1598,25976,"HDFC ERGO General Insurance",Basic,Self
+3330,26650,"Max Bupa Health Insurance",Individual,Employer
+2650,26718,"Oriental Insurance Company",Individual,Spouse
+3188,26734,"Future Generali India Insurance",Basic,Self
+5321,26738,"Reliance General Insurance",Individual,Parent
+4071,26856,"Reliance General Insurance",Family,Self
+5296,27325,"Max Bupa Health Insurance",Standard,Parent
+4255,27483,"Oriental Insurance Company",Standard,Employer
+1605,27516,"Future Generali India Insurance",Family,Spouse
+5204,27804,"Star Health and Allied Insurance",Individual,Employer
+1149,27858,"ICICI Lombard General Insurance",Premium,Parent
+1742,27872,"HDFC ERGO General Insurance",Family,Employer
+2521,28429,"Bajaj Allianz General Insurance",Basic,Self
+1667,28693,"Star Health and Allied Insurance",Standard,Spouse
+4662,28815,"National Insurance Company",Family,Spouse
+5059,28860,"Tata AIG General Insurance",Family,Spouse
+3319,29678,"HDFC ERGO General Insurance",Premium,Employer
+2297,29817,"Apollo Munich Health Insurance",Family,Employer
+3316,29914,"Max Bupa Health Insurance",Individual,Parent
+3831,30059,"ICICI Lombard General Insurance",Family,Parent
+892,30070,"Cigna TTK",Individual,Employer
+3985,30162,"Oriental Insurance Company",Standard,Self
+680,30194,"Max Bupa Health Insurance",Family,Employer
+5078,30668,"Bajaj Allianz General Insurance",Individual,Spouse
+3837,31151,"Religare Health Insurance",Individual,Parent
+4105,31233,"Future Generali India Insurance",Individual,Employer
+577,31810,"ICICI Lombard General Insurance",Premium,Spouse
+3739,31856,"Apollo Munich Health Insurance",Basic,Employer
+1944,32087,"ICICI Lombard General Insurance",Family,Parent
+4416,32225,"Bajaj Allianz General Insurance",Standard,Employer
+4482,32351,"Apollo Munich Health Insurance",Premium,Self
+3768,32598,"Oriental Insurance Company",Individual,Employer
+5346,32742,"Max Bupa Health Insurance",Family,Spouse
+3178,33561,"Max Bupa Health Insurance",Premium,Employer
+1756,33864,"New India Assurance",Basic,Self
+3483,34235,"SBI Health Insurance",Basic,Self
+4279,34415,"Universal Sompo General Insurance",Family,Spouse
+3488,34460,"HDFC ERGO General Insurance",Family,Self
+775,34752,"Bharti AXA General Insurance",Premium,Self
+5169,34963,"Cigna TTK",Premium,Self
+591,35000,"Reliance General Insurance",Premium,Parent
+2201,35281,"ICICI Lombard General Insurance",Standard,Parent
+3599,35794,"ICICI Lombard General Insurance",Basic,Spouse
+5069,36012,"HDFC ERGO General Insurance",Individual,Employer
+1971,36073,"New India Assurance",Individual,Parent
+5284,36619,"Tata AIG General Insurance",Premium,Self
+4805,36712,"Future Generali India Insurance",Individual,Employer
+4718,36745,"Reliance General Insurance",Standard,Spouse
+1858,36759,"Bharti AXA General Insurance",Basic,Self
+2091,36873,"HDFC ERGO General Insurance",Standard,Spouse
+4202,36994,"Bharti AXA General Insurance",Basic,Parent
+1323,37289,"Religare Health Insurance",Premium,Employer
+4123,37419,"Oriental Insurance Company",Premium,Self
+1916,37658,"IFFCO Tokio General Insurance",Premium,Parent
+3582,37672,"Max Bupa Health Insurance",Premium,Employer
+3579,37880,"Bharti AXA General Insurance",Individual,Self
+866,37958,"Oriental Insurance Company",Family,Parent
+2412,38175,"National Insurance Company",Premium,Employer
+4992,38347,"Reliance General Insurance",Family,Employer
+5254,38734,"Star Health and Allied Insurance",Basic,Parent
+1227,38962,"HDFC ERGO General Insurance",Premium,Self
+5464,39025,"Star Health and Allied Insurance",Basic,Employer
+2400,39082,"HDFC ERGO General Insurance",Individual,Spouse
+4546,39093,"IFFCO Tokio General Insurance",Premium,Self
+5105,39120,"Bharti AXA General Insurance",Family,Self
+407,39593,"Bharti AXA General Insurance",Family,Parent
+524,39889,"Cigna TTK",Basic,Employer
+2820,39937,"Max Bupa Health Insurance",Standard,Parent
+2115,40501,"Tata AIG General Insurance",Premium,Self
+4154,40526,"Star Health and Allied Insurance",Premium,Employer
+3350,40594,"United India Insurance",Basic,Parent
+4477,40674,"Star Health and Allied Insurance",Premium,Spouse
+184,40781,"Tata AIG General Insurance",Premium,Spouse
+5072,40965,"HDFC ERGO General Insurance",Family,Self
+3324,41283,"HDFC ERGO General Insurance",Standard,Spouse
+5463,41393,"National Insurance Company",Basic,Spouse
+992,41781,"New India Assurance",Premium,Spouse
+483,41852,"National Insurance Company",Basic,Parent
+1737,42104,"Cigna TTK",Family,Self
+2638,42304,"IFFCO Tokio General Insurance",Premium,Self
+2016,42431,"Max Bupa Health Insurance",Premium,Spouse
+687,42516,"Oriental Insurance Company",Basic,Parent
+174,42617,"Aetna Health Insurance",Basic,Spouse
+2099,42787,"Bharti AXA General Insurance",Standard,Employer
+4317,42821,"Reliance General Insurance",Family,Employer
+3242,42836,"ICICI Lombard General Insurance",Family,Employer
+4376,43056,"Oriental Insurance Company",Family,Spouse
+3481,43132,"HDFC ERGO General Insurance",Basic,Employer
+5131,43152,"National Insurance Company",Individual,Spouse
+5193,43323,"Future Generali India Insurance",Basic,Parent
+432,44101,"Religare Health Insurance",Family,Employer
+605,44146,"Star Health and Allied Insurance",Basic,Spouse
+791,44529,"HDFC ERGO General Insurance",Individual,Self
+2864,44548,"Bajaj Allianz General Insurance",Standard,Self
+4135,44681,"National Insurance Company",Family,Spouse
+2397,45048,"Bajaj Allianz General Insurance",Family,Self
+4837,45236,"Star Health and Allied Insurance",Family,Parent
+2076,45360,"National Insurance Company",Basic,Employer
+1180,45414,"HDFC ERGO General Insurance",Basic,Employer
+3341,45837,"Oriental Insurance Company",Basic,Spouse
+344,46032,"IFFCO Tokio General Insurance",Family,Spouse
+4855,46296,"Tata AIG General Insurance",Standard,Spouse
+3196,46331,"Cigna TTK",Individual,Parent
+2474,46333,"National Insurance Company",Basic,Self
+1226,46651,"IFFCO Tokio General Insurance",Family,Spouse
+459,46931,"Oriental Insurance Company",Basic,Self
+4744,46953,"Bharti AXA General Insurance",Standard,Parent
+5253,47004,"IFFCO Tokio General Insurance",Premium,Spouse
+3068,47274,"Cigna TTK",Standard,Spouse
+453,47857,"SBI Health Insurance",Basic,Spouse
+215,48260,"Bharti AXA General Insurance",Basic,Self
+274,48523,"SBI Health Insurance",Premium,Parent
+3447,48711,"SBI Health Insurance",Standard,Self
+811,48950,"Reliance General Insurance",Standard,Self
+2117,49091,"Religare Health Insurance",Premium,Employer
+923,49119,"New India Assurance",Premium,Employer
+2840,49123,"Star Health and Allied Insurance",Basic,Spouse
+4328,49127,"Bajaj Allianz General Insurance",Basic,Spouse
+3524,49192,"SBI Health Insurance",Individual,Self
+3240,49646,"ICICI Lombard General Insurance",Basic,Employer
+2517,49775,"SBI Health Insurance",Family,Spouse
+2051,49815,"Aetna Health Insurance",Family,Parent
+4288,49977,"Aetna Health Insurance",Premium,Spouse
+289,50104,"United India Insurance",Basic,Self
+4337,50455,"Universal Sompo General Insurance",Family,Employer
+2933,50581,"HDFC ERGO General Insurance",Standard,Self
+46,50665,"Religare Health Insurance",Premium,Self
+4197,50971,"Religare Health Insurance",Standard,Employer
+3728,51117,"United India Insurance",Family,Self
+3261,51265,"IFFCO Tokio General Insurance",Standard,Employer
+5076,51364,"Future Generali India Insurance",Premium,Self
+2402,51372,"Cigna TTK",Basic,Self
+4784,51379,"Star Health and Allied Insurance",Family,Self
+4238,51478,"SBI Health Insurance",Family,Parent
+5013,51497,"HDFC ERGO General Insurance",Basic,Employer
+5483,52125,"Reliance General Insurance",Individual,Self
+5024,52191,"United India Insurance",Premium,Employer
+126,52235,"Oriental Insurance Company",Basic,Self
+3110,52734,"National Insurance Company",Individual,Employer
+2516,53029,"Star Health and Allied Insurance",Individual,Self
+2565,53440,"Religare Health Insurance",Family,Employer
+4978,53541,"IFFCO Tokio General Insurance",Basic,Employer
+5122,53908,"SBI Health Insurance",Family,Spouse
+2343,53922,"Universal Sompo General Insurance",Basic,Spouse
+4810,53935,"Religare Health Insurance",Basic,Self
+1030,53986,"Future Generali India Insurance",Individual,Parent
+2902,54160,"Universal Sompo General Insurance",Family,Parent
+1517,54286,"United India Insurance",Standard,Self
+2025,55653,"Universal Sompo General Insurance",Premium,Parent
+2633,55917,"IFFCO Tokio General Insurance",Standard,Parent
+4193,56086,"HDFC ERGO General Insurance",Standard,Spouse
+5457,56113,"HDFC ERGO General Insurance",Family,Spouse
+4634,56156,"Reliance General Insurance",Family,Self
+1908,56417,"Reliance General Insurance",Premium,Spouse
+1006,56512,"Bharti AXA General Insurance",Basic,Spouse
+3093,56603,"Bharti AXA General Insurance",Basic,Employer
+4859,56655,"Reliance General Insurance",Basic,Parent
+423,56659,"United India Insurance",Individual,Employer
+1200,56713,"Apollo Munich Health Insurance",Premium,Employer
+5442,56812,"Aetna Health Insurance",Premium,Parent
+5177,57004,"Oriental Insurance Company",Premium,Parent
+4129,57106,"IFFCO Tokio General Insurance",Family,Parent
+4158,57118,"National Insurance Company",Individual,Self
+1730,57725,"Bajaj Allianz General Insurance",Standard,Self
+1410,57929,"Aetna Health Insurance",Family,Parent
+1402,58103,"Bajaj Allianz General Insurance",Family,Parent
+2797,58248,"Bajaj Allianz General Insurance",Basic,Spouse
+547,58293,"United India Insurance",Basic,Spouse
+2955,58460,"ICICI Lombard General Insurance",Family,Employer
+2688,59069,"HDFC ERGO General Insurance",Basic,Spouse
+3034,59076,"Oriental Insurance Company",Standard,Spouse
+2137,59199,"HDFC ERGO General Insurance",Individual,Employer
+792,59312,"Religare Health Insurance",Individual,Parent
+1379,59397,"Apollo Munich Health Insurance",Individual,Self
+4134,59569,"HDFC ERGO General Insurance",Standard,Self
+5285,59620,"ICICI Lombard General Insurance",Premium,Self
+5201,59635,"National Insurance Company",Basic,Employer
+4086,59767,"Cigna TTK",Standard,Spouse
+4976,59782,"Universal Sompo General Insurance",Family,Self
+4061,60114,"Future Generali India Insurance",Family,Spouse
+3527,60305,"Tata AIG General Insurance",Family,Parent
+1093,60314,"ICICI Lombard General Insurance",Basic,Self
+2705,60423,"Universal Sompo General Insurance",Individual,Spouse
+2411,61035,"Reliance General Insurance",Basic,Spouse
+1774,61398,"SBI Health Insurance",Premium,Employer
+285,61460,"IFFCO Tokio General Insurance",Basic,Employer
+4081,61476,"HDFC ERGO General Insurance",Basic,Spouse
+4885,61547,"Bajaj Allianz General Insurance",Basic,Employer
+3698,61640,"Oriental Insurance Company",Family,Spouse
+3499,61830,"National Insurance Company",Individual,Employer
+2997,61961,"Tata AIG General Insurance",Standard,Employer
+989,62061,"ICICI Lombard General Insurance",Premium,Self
+768,62145,"Apollo Munich Health Insurance",Individual,Employer
+2123,62183,"Bajaj Allianz General Insurance",Standard,Self
+4686,62407,"ICICI Lombard General Insurance",Basic,Employer
+4145,62507,"SBI Health Insurance",Family,Parent
+538,62598,"Apollo Munich Health Insurance",Standard,Self
+3048,62957,"National Insurance Company",Family,Employer
+5281,62997,"Star Health and Allied Insurance",Standard,Employer
+1546,63972,"Universal Sompo General Insurance",Individual,Spouse
+2240,64374,"HDFC ERGO General Insurance",Standard,Parent
+3575,64436,"Cigna TTK",Family,Employer
+2001,64598,"ICICI Lombard General Insurance",Premium,Spouse
+3460,64651,"Tata AIG General Insurance",Family,Self
+3492,64687,"HDFC ERGO General Insurance",Individual,Self
+1217,64973,"New India Assurance",Individual,Spouse
+5415,65027,"Apollo Munich Health Insurance",Basic,Employer
+2061,65257,"Religare Health Insurance",Family,Self
+1261,65354,"National Insurance Company",Individual,Spouse
+1884,65765,"SBI Health Insurance",Standard,Self
+1677,66392,"Oriental Insurance Company",Individual,Spouse
+900,66591,"Reliance General Insurance",Family,Parent
+4891,66608,"IFFCO Tokio General Insurance",Basic,Self
+4448,66986,"Bharti AXA General Insurance",Individual,Parent
+4415,67202,"Apollo Munich Health Insurance",Basic,Spouse
+2263,67205,"National Insurance Company",Basic,Employer
+394,67374,"Max Bupa Health Insurance",Basic,Employer
+125,67453,"Universal Sompo General Insurance",Standard,Employer
+4900,67466,"Aetna Health Insurance",Standard,Parent
+2857,67598,"New India Assurance",Standard,Spouse
+1776,67653,"Cigna TTK",Standard,Self
+588,67719,"Bajaj Allianz General Insurance",Standard,Parent
+707,67935,"Oriental Insurance Company",Family,Spouse
+3681,68079,"Cigna TTK",Standard,Self
+3518,68264,"United India Insurance",Individual,Parent
+2580,68332,"United India Insurance",Basic,Employer
+2975,68452,"SBI Health Insurance",Individual,Self
+4044,68769,"Bajaj Allianz General Insurance",Standard,Self
+202,69294,"Tata AIG General Insurance",Basic,Self
+4603,69326,"United India Insurance",Basic,Spouse
+5224,69875,"Star Health and Allied Insurance",Individual,Employer
+2295,69897,"Bajaj Allianz General Insurance",Standard,Spouse
+3592,70089,"IFFCO Tokio General Insurance",Basic,Employer
+802,70491,"Religare Health Insurance",Family,Spouse
+4438,70638,"Religare Health Insurance",Premium,Parent
+2587,70894,"United India Insurance",Family,Self
+898,70901,"ICICI Lombard General Insurance",Family,Self
+2002,71578,"Cigna TTK",Individual,Spouse
+3781,71827,"Apollo Munich Health Insurance",Basic,Employer
+29,71969,"National Insurance Company",Family,Self
+3508,72081,"Aetna Health Insurance",Standard,Parent
+896,72115,"Max Bupa Health Insurance",Basic,Self
+5454,72123,"Tata AIG General Insurance",Standard,Parent
+3253,72256,"New India Assurance",Premium,Parent
+2972,72565,"Bajaj Allianz General Insurance",Individual,Parent
+5113,72625,"Universal Sompo General Insurance",Standard,Self
+1979,72628,"Tata AIG General Insurance",Individual,Spouse
+1137,72639,"IFFCO Tokio General Insurance",Premium,Spouse
+3722,72650,"Star Health and Allied Insurance",Family,Employer
+4851,72812,"Future Generali India Insurance",Family,Parent
+5280,73671,"Tata AIG General Insurance",Premium,Spouse
+732,73950,"Religare Health Insurance",Premium,Parent
+4766,74366,"National Insurance Company",Basic,Self
+3969,74850,"Bajaj Allianz General Insurance",Individual,Self
+3214,75001,"Universal Sompo General Insurance",Premium,Employer
+218,75149,"Max Bupa Health Insurance",Premium,Parent
+3190,75564,"Apollo Munich Health Insurance",Standard,Employer
+1764,75584,"Religare Health Insurance",Premium,Employer
+2837,75749,"Apollo Munich Health Insurance",Premium,Parent
+3989,75999,"Apollo Munich Health Insurance",Individual,Employer
+2904,76220,"Oriental Insurance Company",Individual,Spouse
+4890,76253,"Cigna TTK",Family,Employer
+4589,76292,"Tata AIG General Insurance",Family,Self
+4719,76647,"Star Health and Allied Insurance",Premium,Self
+4590,77119,"IFFCO Tokio General Insurance",Standard,Parent
+3072,77295,"Cigna TTK",Family,Employer
+1022,77511,"Religare Health Insurance",Standard,Employer
+929,77845,"Tata AIG General Insurance",Standard,Employer
+5286,77853,"Star Health and Allied Insurance",Premium,Spouse
+2632,77933,"Reliance General Insurance",Individual,Spouse
+1033,78278,"United India Insurance",Family,Employer
+3033,78410,"Future Generali India Insurance",Basic,Spouse
+4321,78491,"ICICI Lombard General Insurance",Premium,Spouse
+763,78518,"Reliance General Insurance",Standard,Spouse
+4117,78732,"New India Assurance",Standard,Parent
+1337,78826,"Star Health and Allied Insurance",Individual,Employer
+1723,79024,"SBI Health Insurance",Basic,Parent
+4112,79161,"Reliance General Insurance",Premium,Self
+332,79184,"United India Insurance",Basic,Self
+3724,79241,"Universal Sompo General Insurance",Premium,Parent
+568,79259,"Max Bupa Health Insurance",Individual,Employer
+4549,79330,"ICICI Lombard General Insurance",Premium,Spouse
+767,80245,"Cigna TTK",Individual,Parent
+5243,80251,"National Insurance Company",Basic,Employer
+3187,80604,"Aetna Health Insurance",Premium,Employer
+4526,80678,"Future Generali India Insurance",Standard,Spouse
+563,80680,"United India Insurance",Individual,Parent
+3452,80919,"Religare Health Insurance",Basic,Parent
+4331,80962,"HDFC ERGO General Insurance",Individual,Parent
+1043,81544,"Cigna TTK",Family,Parent
+2849,81762,"Star Health and Allied Insurance",Family,Spouse
+1956,81915,"Bajaj Allianz General Insurance",Premium,Self
+2990,82077,"Oriental Insurance Company",Premium,Self
+3880,82114,"HDFC ERGO General Insurance",Standard,Self
+4088,82433,"IFFCO Tokio General Insurance",Premium,Parent
+1466,82527,"Universal Sompo General Insurance",Family,Spouse
+1095,82609,"Tata AIG General Insurance",Standard,Spouse
+2802,82933,"IFFCO Tokio General Insurance",Individual,Spouse
+771,83254,"HDFC ERGO General Insurance",Family,Spouse
+1109,83290,"ICICI Lombard General Insurance",Individual,Spouse
+324,83297,"HDFC ERGO General Insurance",Basic,Employer
+613,83329,"Cigna TTK",Basic,Parent
+4559,83505,"Star Health and Allied Insurance",Basic,Parent
+4395,83561,"Tata AIG General Insurance",Standard,Employer
+921,84014,"Oriental Insurance Company",Basic,Employer
+3263,84156,"IFFCO Tokio General Insurance",Standard,Self
+1019,84356,"Star Health and Allied Insurance",Standard,Employer
+3112,84661,"Star Health and Allied Insurance",Premium,Spouse
+4034,84917,"Cigna TTK",Family,Parent
+800,84934,"HDFC ERGO General Insurance",Standard,Employer
+2891,84939,"Future Generali India Insurance",Basic,Spouse
+1360,84967,"Universal Sompo General Insurance",Individual,Employer
+4432,85000,"IFFCO Tokio General Insurance",Basic,Employer
+4592,85165,"Max Bupa Health Insurance",Premium,Parent
+5240,85756,"Cigna TTK",Premium,Parent
+4791,85825,"Bajaj Allianz General Insurance",Family,Spouse
+942,85897,"Aetna Health Insurance",Standard,Self
+4443,85998,"ICICI Lombard General Insurance",Basic,Self
+72,86117,"Bajaj Allianz General Insurance",Individual,Employer
+1371,86186,"Bharti AXA General Insurance",Individual,Self
+781,86205,"ICICI Lombard General Insurance",Individual,Spouse
+1296,86489,"Max Bupa Health Insurance",Basic,Self
+1039,86571,"IFFCO Tokio General Insurance",Premium,Self
+5276,86663,"United India Insurance",Family,Spouse
+130,86722,"Oriental Insurance Company",Family,Self
+3519,87008,"National Insurance Company",Basic,Spouse
+3782,87087,"SBI Health Insurance",Individual,Self
+4490,87321,"Future Generali India Insurance",Basic,Self
+5270,88130,"Star Health and Allied Insurance",Family,Employer
+4437,88186,"Tata AIG General Insurance",Standard,Spouse
+601,88212,"Cigna TTK",Standard,Self
+3208,88343,"Aetna Health Insurance",Individual,Self
+3556,88465,"Cigna TTK",Premium,Self
+2141,88474,"Oriental Insurance Company",Family,Employer
+473,88860,"Universal Sompo General Insurance",Individual,Self
+2407,89061,"Bajaj Allianz General Insurance",Basic,Spouse
+1527,89525,"Aetna Health Insurance",Individual,Parent
+4928,89645,"ICICI Lombard General Insurance",Family,Spouse
+226,89700,"Oriental Insurance Company",Basic,Spouse
+3456,89767,"Cigna TTK",Family,Self
+4912,89872,"Star Health and Allied Insurance",Standard,Employer
+1081,89938,"Religare Health Insurance",Standard,Self
+2312,89952,"Apollo Munich Health Insurance",Standard,Self
+91,90523,"Cigna TTK",Individual,Employer
+1103,90579,"Aetna Health Insurance",Individual,Spouse
+2915,90683,"Universal Sompo General Insurance",Basic,Spouse
+4558,91033,"Religare Health Insurance",Individual,Spouse
+2010,91143,"Max Bupa Health Insurance",Family,Self
+2649,91323,"National Insurance Company",Individual,Spouse
+4687,91373,"SBI Health Insurance",Individual,Employer
+2066,91376,"HDFC ERGO General Insurance",Standard,Employer
+2523,91456,"Bajaj Allianz General Insurance",Premium,Self
+2884,91541,"IFFCO Tokio General Insurance",Family,Employer
+97,91624,"Aetna Health Insurance",Premium,Parent
+2224,91738,"Apollo Munich Health Insurance",Premium,Employer
+1722,91943,"Religare Health Insurance",Basic,Employer
+3758,92109,"Apollo Munich Health Insurance",Premium,Self
+2863,92193,"Future Generali India Insurance",Individual,Parent
+2954,92341,"Reliance General Insurance",Individual,Parent
+5025,92511,"Tata AIG General Insurance",Standard,Self
+3661,92520,"Tata AIG General Insurance",Family,Employer
+1495,92619,"Star Health and Allied Insurance",Standard,Spouse
+2626,92639,"Oriental Insurance Company",Premium,Self
+444,93023,"Future Generali India Insurance",Individual,Parent
+4471,93050,"New India Assurance",Premium,Self
+3279,93622,"SBI Health Insurance",Family,Spouse
+3772,94002,"New India Assurance",Family,Self
+4881,94290,"Tata AIG General Insurance",Individual,Parent
+1128,94561,"Universal Sompo General Insurance",Family,Employer
+3559,94710,"Universal Sompo General Insurance",Basic,Parent
+2056,94817,"Tata AIG General Insurance",Individual,Employer
+5165,95003,"Bharti AXA General Insurance",Premium,Employer
+4365,95177,"Reliance General Insurance",Standard,Employer
+1110,95582,"SBI Health Insurance",Individual,Spouse
+277,95873,"HDFC ERGO General Insurance",Basic,Parent
+950,96222,"United India Insurance",Individual,Employer
+3296,96641,"HDFC ERGO General Insurance",Family,Self
+4212,96950,"IFFCO Tokio General Insurance",Premium,Self
+1606,97251,"New India Assurance",Family,Parent
+2269,97539,"Apollo Munich Health Insurance",Premium,Employer
+5030,97563,"Bharti AXA General Insurance",Individual,Spouse
+943,97922,"Aetna Health Insurance",Individual,Employer
+3475,98238,"HDFC ERGO General Insurance",Premium,Employer
+2489,98584,"Tata AIG General Insurance",Family,Employer
+4004,98728,"Future Generali India Insurance",Basic,Parent
+1190,98793,"Cigna TTK",Standard,Self
+2575,98865,"United India Insurance",Individual,Employer
+2872,99006,"SBI Health Insurance",Family,Parent
+3746,99211,"Oriental Insurance Company",Premium,Self
+4504,99213,"Aetna Health Insurance",Standard,Self
+4048,99303,"National Insurance Company",Premium,Employer
+694,99348,"IFFCO Tokio General Insurance",Basic,Spouse
+4200,99847,"Apollo Munich Health Insurance",Premium,Parent
+3474,99970,"Oriental Insurance Company",Individual,Self
+4522,99975,"Max Bupa Health Insurance",Premium,Parent
+1960,100337,"Oriental Insurance Company",Premium,Spouse
+1753,100358,"SBI Health Insurance",Standard,Parent
+1751,100398,"HDFC ERGO General Insurance",Individual,Employer
+4848,100399,"Cigna TTK",Premium,Parent
+2478,100498,"SBI Health Insurance",Basic,Self
+3422,100549,"Tata AIG General Insurance",Family,Spouse
+495,100637,"Reliance General Insurance",Basic,Self
+657,100742,"New India Assurance",Family,Spouse
+3825,101009,"United India Insurance",Standard,Spouse
+4013,101019,"Universal Sompo General Insurance",Family,Parent
+398,101130,"Aetna Health Insurance",Family,Parent
+1331,101326,"Star Health and Allied Insurance",Standard,Employer
+4450,101426,"HDFC ERGO General Insurance",Premium,Self
+5126,101520,"Religare Health Insurance",Family,Parent
+3175,101615,"Reliance General Insurance",Basic,Self
+2563,101661,"ICICI Lombard General Insurance",Family,Spouse
+4040,101702,"Future Generali India Insurance",Family,Employer
+3089,102078,"ICICI Lombard General Insurance",Basic,Self
+3844,102481,"Reliance General Insurance",Family,Parent
+597,102703,"Religare Health Insurance",Premium,Employer
+2888,102743,"United India Insurance",Standard,Self
+3207,102862,"Max Bupa Health Insurance",Individual,Parent
+3129,103353,"New India Assurance",Standard,Parent
+4378,103374,"Aetna Health Insurance",Basic,Self
+2102,103469,"Aetna Health Insurance",Family,Parent
+4374,103501,"Future Generali India Insurance",Family,Spouse
+278,103702,"Religare Health Insurance",Basic,Parent
+2508,104058,"Apollo Munich Health Insurance",Standard,Employer
+977,104065,"Oriental Insurance Company",Basic,Employer
+860,104238,"Apollo Munich Health Insurance",Premium,Parent
+3794,104242,"Universal Sompo General Insurance",Family,Self
+3914,104593,"Religare Health Insurance",Standard,Parent
+3653,104724,"Tata AIG General Insurance",Individual,Spouse
+3573,104873,"Reliance General Insurance",Basic,Spouse
+1427,104879,"Religare Health Insurance",Standard,Spouse
+3916,104947,"Cigna TTK",Family,Parent
+4875,105240,"Tata AIG General Insurance",Individual,Employer
+492,105563,"Cigna TTK",Individual,Self
+4025,105783,"IFFCO Tokio General Insurance",Premium,Parent
+2603,106042,"Aetna Health Insurance",Basic,Employer
+1759,106167,"Future Generali India Insurance",Individual,Parent
+1502,106324,"National Insurance Company",Standard,Self
+4264,106480,"SBI Health Insurance",Individual,Self
+3165,106550,"Reliance General Insurance",Premium,Spouse
+4427,106595,"SBI Health Insurance",Basic,Self
+3361,106798,"HDFC ERGO General Insurance",Individual,Parent
+4476,106890,"United India Insurance",Standard,Spouse
+5188,107155,"ICICI Lombard General Insurance",Basic,Spouse
+3558,107618,"HDFC ERGO General Insurance",Standard,Spouse
+44,107642,"Max Bupa Health Insurance",Premium,Self
+4998,108300,"Oriental Insurance Company",Basic,Self
+3560,108470,"Star Health and Allied Insurance",Premium,Parent
+987,108730,"Aetna Health Insurance",Individual,Spouse
+1299,108794,"New India Assurance",Basic,Self
+4301,108990,"Religare Health Insurance",Standard,Employer
+1288,109203,"Universal Sompo General Insurance",Standard,Parent
+2503,109239,"IFFCO Tokio General Insurance",Standard,Employer
+2294,109269,"Max Bupa Health Insurance",Basic,Employer
+4360,109291,"Future Generali India Insurance",Standard,Employer
+5223,109301,"ICICI Lombard General Insurance",Premium,Parent
+1886,109345,"Bajaj Allianz General Insurance",Individual,Parent
+3035,109463,"Tata AIG General Insurance",Individual,Spouse
+1588,109520,"Bajaj Allianz General Insurance",Basic,Spouse
+778,109610,"ICICI Lombard General Insurance",Standard,Employer
+2609,109832,"Oriental Insurance Company",Standard,Self
+2057,109904,"National Insurance Company",Premium,Employer
+4913,110132,"HDFC ERGO General Insurance",Premium,Self
+2624,110389,"Tata AIG General Insurance",Premium,Spouse
+1625,110709,"Apollo Munich Health Insurance",Premium,Employer
+4066,110825,"New India Assurance",Premium,Self
+3625,110895,"National Insurance Company",Individual,Self
+4886,111052,"Reliance General Insurance",Basic,Parent
+2528,111398,"Bajaj Allianz General Insurance",Premium,Spouse
+3886,111421,"IFFCO Tokio General Insurance",Family,Parent
+3286,111489,"Reliance General Insurance",Standard,Spouse
+5358,111545,"Oriental Insurance Company",Standard,Self
+1308,111556,"Apollo Munich Health Insurance",Premium,Spouse
+1397,111612,"ICICI Lombard General Insurance",Family,Parent
+504,111682,"National Insurance Company",Family,Self
+3309,111778,"Bharti AXA General Insurance",Family,Parent
+2408,111927,"ICICI Lombard General Insurance",Individual,Employer
+4347,111948,"Aetna Health Insurance",Premium,Employer
+3220,112059,"Max Bupa Health Insurance",Standard,Parent
+4955,112244,"Oriental Insurance Company",Family,Parent
+3589,112456,"Oriental Insurance Company",Premium,Employer
+177,113096,"Religare Health Insurance",Standard,Employer
+3111,113137,"New India Assurance",Basic,Spouse
+3278,113185,"United India Insurance",Standard,Spouse
+1127,113687,"Reliance General Insurance",Standard,Employer
+2808,113815,"Reliance General Insurance",Standard,Parent
+2588,113961,"United India Insurance",Basic,Spouse
+5121,114296,"Cigna TTK",Individual,Parent
+4629,114327,"HDFC ERGO General Insurance",Standard,Spouse
+3780,114336,"Reliance General Insurance",Premium,Self
+3441,114535,"SBI Health Insurance",Basic,Self
+5458,114677,"New India Assurance",Family,Parent
+1376,115050,"Star Health and Allied Insurance",Premium,Spouse
+2719,115366,"Bharti AXA General Insurance",Standard,Spouse
+4389,115443,"Star Health and Allied Insurance",Basic,Spouse
+2813,115809,"Bharti AXA General Insurance",Standard,Spouse
+2527,115837,"Bharti AXA General Insurance",Basic,Employer
+1289,115893,"Future Generali India Insurance",Premium,Self
+4265,115955,"Universal Sompo General Insurance",Family,Spouse
+3302,116103,"SBI Health Insurance",Premium,Self
+1782,116766,"Tata AIG General Insurance",Family,Parent
+5350,117906,"HDFC ERGO General Insurance",Family,Spouse
+4106,117909,"Bajaj Allianz General Insurance",Basic,Spouse
+519,118047,"Reliance General Insurance",Premium,Spouse
+4538,118196,"Star Health and Allied Insurance",Basic,Spouse
+3163,118224,"Universal Sompo General Insurance",Premium,Self
+4906,118343,"Bharti AXA General Insurance",Basic,Self
+4457,118353,"Cigna TTK",Premium,Self
+2767,118361,"Star Health and Allied Insurance",Standard,Spouse
+1282,118562,"Apollo Munich Health Insurance",Family,Parent
+231,119021,"Oriental Insurance Company",Family,Employer
+580,119195,"Future Generali India Insurance",Family,Parent
+2950,119314,"Aetna Health Insurance",Family,Employer
+2097,119884,"ICICI Lombard General Insurance",Individual,Employer
+518,119917,"HDFC ERGO General Insurance",Premium,Parent
+297,119929,"Cigna TTK",Family,Parent
+3142,120204,"Star Health and Allied Insurance",Standard,Spouse
+43,120310,"Apollo Munich Health Insurance",Individual,Self
+894,120703,"National Insurance Company",Individual,Parent
+3360,120713,"IFFCO Tokio General Insurance",Premium,Spouse
+5219,120877,"Cigna TTK",Basic,Spouse
+2381,120897,"National Insurance Company",Basic,Employer
+478,120931,"United India Insurance",Individual,Spouse
+4039,120952,"Max Bupa Health Insurance",Standard,Spouse
+1589,121072,"IFFCO Tokio General Insurance",Premium,Self
+2674,121328,"IFFCO Tokio General Insurance",Basic,Self
+1883,121418,"Bajaj Allianz General Insurance",Family,Self
+393,121796,"National Insurance Company",Premium,Employer
+90,121828,"ICICI Lombard General Insurance",Family,Self
+697,121860,"United India Insurance",Family,Spouse
+3836,121955,"Bajaj Allianz General Insurance",Individual,Spouse
+3762,121987,"Universal Sompo General Insurance",Premium,Parent
+3186,122152,"ICICI Lombard General Insurance",Standard,Parent
+208,122172,"New India Assurance",Family,Parent
+3314,122314,"IFFCO Tokio General Insurance",Basic,Parent
+4952,122748,"Bharti AXA General Insurance",Individual,Employer
+1457,122775,"Star Health and Allied Insurance",Standard,Employer
+1250,122831,"Tata AIG General Insurance",Family,Spouse
+3137,122908,"Star Health and Allied Insurance",Basic,Spouse
+5293,122943,"Bharti AXA General Insurance",Premium,Self
+1469,122956,"Bajaj Allianz General Insurance",Standard,Employer
+3663,123050,"Reliance General Insurance",Premium,Parent
+3878,123150,"Future Generali India Insurance",Family,Parent
+181,123336,"Star Health and Allied Insurance",Family,Employer
+993,123438,"Oriental Insurance Company",Basic,Self
+796,123447,"National Insurance Company",Family,Parent
+3618,123567,"Aetna Health Insurance",Basic,Parent
+3156,123660,"Universal Sompo General Insurance",Family,Self
+1809,123909,"United India Insurance",Premium,Parent
+136,124434,"Bajaj Allianz General Insurance",Basic,Self
+167,124813,"Religare Health Insurance",Family,Employer
+5178,124865,"SBI Health Insurance",Family,Self
+2338,125239,"IFFCO Tokio General Insurance",Premium,Spouse
+1870,125343,"New India Assurance",Basic,Self
+3690,125885,"Future Generali India Insurance",Basic,Parent
+4375,125972,"Bharti AXA General Insurance",Standard,Parent
+3399,126007,"Cigna TTK",Family,Spouse
+4997,126076,"Universal Sompo General Insurance",Basic,Self
+4190,126106,"Bajaj Allianz General Insurance",Family,Self
+337,126667,"Bajaj Allianz General Insurance",Basic,Self
+5215,126683,"Apollo Munich Health Insurance",Basic,Spouse
+4868,126814,"Max Bupa Health Insurance",Standard,Parent
+1744,126995,"Tata AIG General Insurance",Family,Self
+2268,127470,"HDFC ERGO General Insurance",Premium,Spouse
+1816,127649,"National Insurance Company",Basic,Self
+3813,127823,"Max Bupa Health Insurance",Family,Self
+1690,128102,"National Insurance Company",Individual,Employer
+2750,128109,"National Insurance Company",Family,Self
+1320,128383,"New India Assurance",Basic,Employer
+358,128518,"Tata AIG General Insurance",Family,Spouse
+395,128537,"Universal Sompo General Insurance",Basic,Parent
+4679,128714,"Cigna TTK",Standard,Employer
+1425,128840,"National Insurance Company",Basic,Parent
+4754,128860,"Aetna Health Insurance",Individual,Spouse
+3430,129073,"National Insurance Company",Individual,Spouse
+1176,129413,"IFFCO Tokio General Insurance",Standard,Self
+428,129419,"Tata AIG General Insurance",Standard,Parent
+4625,129584,"Religare Health Insurance",Family,Parent
+3887,129642,"Aetna Health Insurance",Premium,Spouse
+3598,129805,"Tata AIG General Insurance",Family,Spouse
+333,129866,"New India Assurance",Individual,Parent
+230,130393,"Bajaj Allianz General Insurance",Family,Parent
+1368,130704,"Star Health and Allied Insurance",Standard,Spouse
+1891,130739,"Oriental Insurance Company",Individual,Parent
+4937,131099,"Apollo Munich Health Insurance",Premium,Parent
+3031,131255,"Religare Health Insurance",Family,Spouse
+3694,131971,"ICICI Lombard General Insurance",Standard,Employer
+2667,132474,"New India Assurance",Premium,Parent
+2415,132571,"Reliance General Insurance",Standard,Parent
+964,132852,"Religare Health Insurance",Standard,Parent
+1720,133346,"ICICI Lombard General Insurance",Individual,Employer
+4108,133374,"ICICI Lombard General Insurance",Standard,Employer
+1312,133410,"Max Bupa Health Insurance",Individual,Employer
+2257,133490,"IFFCO Tokio General Insurance",Basic,Parent
+4382,133569,"IFFCO Tokio General Insurance",Basic,Spouse
+1871,134002,"Future Generali India Insurance",Premium,Parent
+2019,134115,"Reliance General Insurance",Individual,Parent
+3875,134153,"Bajaj Allianz General Insurance",Basic,Employer
+2045,134184,"Aetna Health Insurance",Standard,Spouse
+2798,134375,"Religare Health Insurance",Family,Self
+3331,134450,"Star Health and Allied Insurance",Premium,Parent
+2181,134468,"HDFC ERGO General Insurance",Individual,Self
+135,134831,"Bharti AXA General Insurance",Basic,Employer
+108,135284,"Star Health and Allied Insurance",Individual,Parent
+5438,135286,"SBI Health Insurance",Individual,Spouse
+1496,135355,"Oriental Insurance Company",Individual,Self
+4836,135722,"Universal Sompo General Insurance",Family,Spouse
+1108,135815,"ICICI Lombard General Insurance",Individual,Self
+4943,136026,"Bajaj Allianz General Insurance",Standard,Parent
+3550,136112,"Reliance General Insurance",Individual,Employer
+4669,136352,"SBI Health Insurance",Family,Employer
+5453,136446,"Max Bupa Health Insurance",Family,Employer
+4971,136469,"Cigna TTK",Basic,Employer
+5011,136558,"United India Insurance",Basic,Spouse
+509,136664,"National Insurance Company",Standard,Parent
+3973,137118,"IFFCO Tokio General Insurance",Family,Spouse
+1676,137645,"Reliance General Insurance",Standard,Self
+4557,137688,"Aetna Health Insurance",Standard,Employer
+118,138041,"Star Health and Allied Insurance",Individual,Self
+4412,138092,"Cigna TTK",Individual,Parent
+689,138610,"Religare Health Insurance",Premium,Spouse
+2024,138634,"Future Generali India Insurance",Individual,Self
+1240,139002,"Reliance General Insurance",Premium,Employer
+4292,139167,"Future Generali India Insurance",Standard,Spouse
+1313,139455,"Tata AIG General Insurance",Basic,Parent
+4038,139751,"Future Generali India Insurance",Standard,Parent
+706,140061,"Religare Health Insurance",Standard,Spouse
+3252,140226,"Cigna TTK",Family,Parent
+4188,140672,"Max Bupa Health Insurance",Individual,Spouse
+147,140750,"IFFCO Tokio General Insurance",Basic,Self
+4417,141226,"Aetna Health Insurance",Basic,Employer
+3398,141276,"Reliance General Insurance",Individual,Self
+203,141284,"Bharti AXA General Insurance",Premium,Spouse
+2215,141465,"Star Health and Allied Insurance",Premium,Parent
+4581,141584,"IFFCO Tokio General Insurance",Standard,Self
+2211,141609,"Star Health and Allied Insurance",Premium,Employer
+1061,141762,"Cigna TTK",Basic,Self
+3297,141909,"Bharti AXA General Insurance",Family,Spouse
+4215,142000,"SBI Health Insurance",Standard,Spouse
+1873,142319,"ICICI Lombard General Insurance",Basic,Parent
+574,142426,"HDFC ERGO General Insurance",Basic,Employer
+4173,142735,"Oriental Insurance Company",Individual,Spouse
+1942,142744,"New India Assurance",Standard,Spouse
+2110,142760,"National Insurance Company",Basic,Employer
+3105,142792,"Max Bupa Health Insurance",Premium,Parent
+4907,142907,"Oriental Insurance Company",Basic,Employer
+254,143196,"Oriental Insurance Company",Premium,Employer
+4386,143272,"Future Generali India Insurance",Standard,Spouse
+3339,143374,"SBI Health Insurance",Individual,Parent
+5499,143511,"Apollo Munich Health Insurance",Individual,Employer
+3198,143874,"Universal Sompo General Insurance",Premium,Employer
+1135,143981,"IFFCO Tokio General Insurance",Individual,Spouse
+3874,144114,"Star Health and Allied Insurance",Premium,Employer
+5474,144162,"HDFC ERGO General Insurance",Standard,Self
+4830,144218,"Oriental Insurance Company",Family,Parent
+4793,144325,"New India Assurance",Basic,Parent
+4165,144387,"Oriental Insurance Company",Family,Spouse
+906,144394,"National Insurance Company",Individual,Parent
+1680,144991,"Universal Sompo General Insurance",Premium,Employer
+1844,145059,"Future Generali India Insurance",Basic,Parent
+5390,145124,"National Insurance Company",Family,Self
+5292,145341,"Religare Health Insurance",Basic,Spouse
+3087,145915,"IFFCO Tokio General Insurance",Standard,Self
+1528,145962,"ICICI Lombard General Insurance",Individual,Employer
+1619,146062,"Tata AIG General Insurance",Individual,Spouse
+2332,146122,"Reliance General Insurance",Individual,Self
+664,146223,"Reliance General Insurance",Family,Employer
+2627,146373,"Future Generali India Insurance",Basic,Spouse
+4568,146471,"Aetna Health Insurance",Premium,Spouse
+467,146839,"SBI Health Insurance",Standard,Spouse
+5123,146900,"Oriental Insurance Company",Premium,Spouse
+2140,146902,"United India Insurance",Premium,Self
+2814,146979,"Max Bupa Health Insurance",Family,Employer
+2827,147199,"Tata AIG General Insurance",Family,Self
+323,147377,"Religare Health Insurance",Basic,Spouse
+2351,147558,"HDFC ERGO General Insurance",Standard,Self
+4350,147657,"SBI Health Insurance",Basic,Self
+1182,147663,"Universal Sompo General Insurance",Standard,Spouse
+2907,147842,"Aetna Health Insurance",Individual,Spouse
+610,148293,"Cigna TTK",Family,Employer
+625,148404,"New India Assurance",Individual,Parent
+1982,148523,"Reliance General Insurance",Basic,Self
+3130,148612,"Universal Sompo General Insurance",Standard,Employer
+1508,148769,"Aetna Health Insurance",Family,Parent
+1571,149105,"Tata AIG General Insurance",Premium,Self
+5238,149157,"ICICI Lombard General Insurance",Family,Self
+31,149178,"Cigna TTK",Family,Spouse
+4800,149195,"National Insurance Company",Standard,Employer
+1372,149232,"SBI Health Insurance",Basic,Parent
+2605,149469,"Cigna TTK",Standard,Self
+849,149570,"Oriental Insurance Company",Basic,Spouse
+1063,149702,"ICICI Lombard General Insurance",Standard,Spouse
+436,149731,"Max Bupa Health Insurance",Family,Employer
+786,150046,"Oriental Insurance Company",Individual,Spouse
+120,150067,"New India Assurance",Individual,Parent
+5445,150167,"Aetna Health Insurance",Individual,Employer
+4115,150185,"Star Health and Allied Insurance",Family,Employer
+3150,150684,"Cigna TTK",Family,Spouse
+1229,150685,"Bajaj Allianz General Insurance",Family,Self
+4036,150970,"Tata AIG General Insurance",Individual,Spouse
+3547,151093,"Aetna Health Insurance",Family,Self
+1003,151105,"National Insurance Company",Individual,Spouse
+994,151208,"Universal Sompo General Insurance",Standard,Parent
+4498,151240,"Oriental Insurance Company",Family,Spouse
+182,151857,"IFFCO Tokio General Insurance",Basic,Parent
+2484,151986,"Apollo Munich Health Insurance",Family,Employer
+4012,151992,"Reliance General Insurance",Individual,Parent
+417,152129,"Religare Health Insurance",Family,Self
+2329,152314,"Cigna TTK",Basic,Employer
+4614,152608,"Aetna Health Insurance",Individual,Self
+3454,152783,"Reliance General Insurance",Premium,Spouse
+4692,153218,"Future Generali India Insurance",Basic,Employer
+2953,153316,"IFFCO Tokio General Insurance",Individual,Parent
+4544,153325,"Bharti AXA General Insurance",Individual,Employer
+715,153425,"Cigna TTK",Basic,Parent
+1872,153449,"Future Generali India Insurance",Basic,Spouse
+2871,153564,"Future Generali India Insurance",Basic,Spouse
+3793,153653,"IFFCO Tokio General Insurance",Family,Self
+4814,153790,"Apollo Munich Health Insurance",Individual,Employer
+4029,154046,"Tata AIG General Insurance",Standard,Employer
+958,154064,"SBI Health Insurance",Basic,Spouse
+1356,154146,"National Insurance Company",Basic,Self
+1686,154155,"Future Generali India Insurance",Individual,Self
+3397,154185,"HDFC ERGO General Insurance",Premium,Self
+4794,154203,"Cigna TTK",Premium,Employer
+1277,154480,"Aetna Health Insurance",Standard,Self
+422,154543,"United India Insurance",Premium,Self
+4521,154583,"Star Health and Allied Insurance",Premium,Spouse
+3322,154684,"Future Generali India Insurance",Individual,Employer
+3764,154774,"Future Generali India Insurance",Standard,Spouse
+2187,154792,"Future Generali India Insurance",Standard,Employer
+5235,154842,"Universal Sompo General Insurance",Individual,Self
+3269,155022,"SBI Health Insurance",Individual,Employer
+5225,155066,"HDFC ERGO General Insurance",Family,Employer
+1939,155221,"Aetna Health Insurance",Basic,Parent
+33,155510,"HDFC ERGO General Insurance",Family,Parent
+3227,155787,"HDFC ERGO General Insurance",Standard,Self
+4201,155792,"SBI Health Insurance",Individual,Self
+3947,155853,"Max Bupa Health Insurance",Basic,Spouse
+4968,155973,"Reliance General Insurance",Standard,Self
+4760,156091,"Religare Health Insurance",Premium,Parent
+1580,156295,"Bharti AXA General Insurance",Individual,Parent
+4423,156321,"New India Assurance",Premium,Spouse
+864,156758,"Aetna Health Insurance",Basic,Employer
+4405,157397,"Bharti AXA General Insurance",Premium,Parent
+2043,157847,"Bajaj Allianz General Insurance",Standard,Spouse
+3249,158015,"Apollo Munich Health Insurance",Family,Employer
+2235,158037,"Reliance General Insurance",Individual,Self
+1144,158383,"Max Bupa Health Insurance",Individual,Employer
+2687,158662,"SBI Health Insurance",Individual,Self
+3445,158834,"ICICI Lombard General Insurance",Premium,Parent
+1987,158904,"United India Insurance",Premium,Employer
+4787,158919,"Cigna TTK",Family,Parent
+1072,158991,"New India Assurance",Family,Parent
+1846,159022,"Bharti AXA General Insurance",Individual,Self
+3080,159041,"Tata AIG General Insurance",Basic,Parent
+638,159243,"United India Insurance",Basic,Self
+2919,159583,"IFFCO Tokio General Insurance",Family,Parent
+2971,159661,"New India Assurance",Individual,Self
+1890,159826,"Future Generali India Insurance",Basic,Self
+4020,160155,"National Insurance Company",Premium,Parent
+2500,160163,"Religare Health Insurance",Individual,Self
+2096,160194,"Max Bupa Health Insurance",Standard,Parent
+3109,160445,"SBI Health Insurance",Premium,Spouse
+388,160730,"New India Assurance",Family,Employer
+2559,160902,"IFFCO Tokio General Insurance",Premium,Parent
+3410,161236,"National Insurance Company",Standard,Employer
+1593,161314,"Cigna TTK",Standard,Self
+1888,161419,"National Insurance Company",Basic,Self
+1507,161515,"IFFCO Tokio General Insurance",Family,Self
+1359,161558,"Aetna Health Insurance",Individual,Spouse
+5088,161929,"New India Assurance",Standard,Spouse
+1548,161968,"IFFCO Tokio General Insurance",Individual,Spouse
+1855,162102,"HDFC ERGO General Insurance",Individual,Employer
+3108,162457,"ICICI Lombard General Insurance",Basic,Employer
+730,162775,"United India Insurance",Premium,Parent
+3074,162805,"Universal Sompo General Insurance",Individual,Employer
+933,162863,"Apollo Munich Health Insurance",Basic,Parent
+2367,163019,"Future Generali India Insurance",Standard,Parent
+600,163684,"ICICI Lombard General Insurance",Family,Parent
+3183,163811,"Cigna TTK",Premium,Spouse
+3544,163986,"Cigna TTK",Individual,Parent
+5258,164045,"Oriental Insurance Company",Premium,Spouse
+4425,164398,"Aetna Health Insurance",Premium,Employer
+2417,164688,"Reliance General Insurance",Individual,Self
+2495,165211,"Cigna TTK",Premium,Spouse
+1836,165575,"Apollo Munich Health Insurance",Standard,Employer
+5331,165887,"Reliance General Insurance",Individual,Self
+2641,165913,"ICICI Lombard General Insurance",Individual,Parent
+2493,166356,"Universal Sompo General Insurance",Basic,Employer
+5312,166525,"Bajaj Allianz General Insurance",Family,Self
+4969,166569,"Star Health and Allied Insurance",Family,Spouse
+3842,166830,"Tata AIG General Insurance",Premium,Employer
+4745,166857,"National Insurance Company",Family,Self
+4053,166871,"Apollo Munich Health Insurance",Individual,Spouse
+2582,167168,"HDFC ERGO General Insurance",Individual,Parent
+1684,167332,"IFFCO Tokio General Insurance",Standard,Employer
+2195,167350,"Religare Health Insurance",Standard,Spouse
+3154,167537,"IFFCO Tokio General Insurance",Basic,Employer
+3271,167622,"Tata AIG General Insurance",Individual,Spouse
+98,168102,"HDFC ERGO General Insurance",Basic,Self
+1499,168249,"Reliance General Insurance",Individual,Spouse
+5288,168269,"SBI Health Insurance",Standard,Parent
+4591,168338,"Future Generali India Insurance",Family,Self
+5006,168348,"Bajaj Allianz General Insurance",Premium,Spouse
+530,168422,"Cigna TTK",Basic,Parent
+462,168809,"SBI Health Insurance",Individual,Self
+598,168995,"Max Bupa Health Insurance",Basic,Parent
+623,169051,"ICICI Lombard General Insurance",Standard,Self
+1946,169079,"Universal Sompo General Insurance",Individual,Self
+1712,169471,"Max Bupa Health Insurance",Basic,Spouse
+2875,169835,"Reliance General Insurance",Individual,Spouse
+2579,170150,"Bharti AXA General Insurance",Family,Spouse
+712,170156,"Tata AIG General Insurance",Family,Spouse
+3753,170429,"Apollo Munich Health Insurance",Family,Parent
+4650,170525,"Star Health and Allied Insurance",Individual,Spouse
+5010,170588,"Star Health and Allied Insurance",Individual,Self
+5361,170874,"Reliance General Insurance",Premium,Spouse
+1216,171018,"Oriental Insurance Company",Basic,Spouse
+2322,171108,"Bharti AXA General Insurance",Family,Self
+4059,171360,"Future Generali India Insurance",Premium,Spouse
+4346,171417,"Max Bupa Health Insurance",Family,Spouse
+745,171440,"Future Generali India Insurance",Basic,Spouse
+4852,171812,"United India Insurance",Premium,Employer
+1510,171813,"Cigna TTK",Basic,Employer
+2743,171856,"Religare Health Insurance",Individual,Parent
+1163,172275,"Reliance General Insurance",Premium,Spouse
+2164,172740,"IFFCO Tokio General Insurance",Individual,Spouse
+1948,172877,"Oriental Insurance Company",Basic,Spouse
+3284,172892,"Future Generali India Insurance",Individual,Employer
+4882,172925,"Oriental Insurance Company",Standard,Parent
+587,172954,"Star Health and Allied Insurance",Premium,Self
+2288,173406,"Universal Sompo General Insurance",Basic,Employer
+4155,173623,"Apollo Munich Health Insurance",Basic,Employer
+1310,173697,"Future Generali India Insurance",Standard,Spouse
+2731,173774,"Oriental Insurance Company",Family,Employer
+3182,174098,"Universal Sompo General Insurance",Standard,Spouse
+4726,174172,"Future Generali India Insurance",Individual,Parent
+2476,174226,"New India Assurance",Premium,Employer
+4896,174439,"National Insurance Company",Family,Parent
+3925,174766,"Cigna TTK",Individual,Spouse
+1083,175121,"Reliance General Insurance",Basic,Spouse
+3167,175664,"SBI Health Insurance",Basic,Self
+52,175851,"ICICI Lombard General Insurance",Basic,Employer
+441,175980,"SBI Health Insurance",Standard,Employer
+2583,176068,"Cigna TTK",Basic,Self
+4921,176149,"New India Assurance",Basic,Self
+2659,176424,"New India Assurance",Individual,Employer
+4847,177602,"Reliance General Insurance",Family,Spouse
+2892,177622,"Tata AIG General Insurance",Standard,Parent
+1904,177643,"Max Bupa Health Insurance",Standard,Self
+1374,177851,"Max Bupa Health Insurance",Family,Spouse
+1815,178289,"Bharti AXA General Insurance",Basic,Spouse
+1549,178372,"Tata AIG General Insurance",Family,Employer
+5063,178603,"ICICI Lombard General Insurance",Standard,Self
+3335,178700,"Cigna TTK",Family,Self
+3629,179228,"Star Health and Allied Insurance",Standard,Spouse
+2127,179457,"Universal Sompo General Insurance",Individual,Parent
+5130,179472,"Max Bupa Health Insurance",Standard,Self
+4887,179640,"Apollo Munich Health Insurance",Individual,Parent
+2142,179889,"Religare Health Insurance",Standard,Employer
