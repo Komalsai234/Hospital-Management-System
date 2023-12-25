@@ -1,6 +1,6 @@
 # Healthcare System Database Schema
 
-This is the MYSQL database schema for a healthcare system. It includes tables for managing patient information, medical records, appointments, billing, and more.
+# SQL Database 
 
 ## 1. Patient Table
 - **Primary Key:** Patient ID
@@ -227,7 +227,11 @@ This is the MYSQL database schema for a healthcare system. It includes tables fo
 | Quantity Available  | INT       | Stock quantity of the medicine         |
 | Last Restocked      | DATE      | Most recent restock date of the medicine|
 
-# MongoDB Database Structure and Schema for Hospital Management System
+
+
+
+
+# MongoDB Database 
 
 ## Overview
 
