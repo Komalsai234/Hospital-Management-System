@@ -5,11 +5,12 @@
 # Contents
 
 * [Introduction](#introduction)
-* [Dataset Description](#DatasetDescription)
-* [Databases Schema](https://github.com/Komalsai234/Hospital-Management-System/blob/689660bed76b89adf94af6e64997f2a610d9dbdf/Database/readme.md)
 * [Tech Stack](#tectstack)
 * [Prerequisites](#prerequisites)
+* [Dataset Description](#DatasetDescription)
+* [Databases Schema](https://github.com/Komalsai234/Hospital-Management-System/blob/689660bed76b89adf94af6e64997f2a610d9dbdf/Database/readme.md)
 * [How to Run this App Locally](#HowtoRunthisAppLocally)
+* [How to Run Spark Ananlysis](https://github.com/Komalsai234/Hospital-Management-System/blob/fee848698d0b101f5bf421e57fb64448a8eb7d78/Spark%20Analysis/readme.md)
 * [Streamlit](#streamlit)
 * [Contributors](#contributors)
 
