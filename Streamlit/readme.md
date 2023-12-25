@@ -7,6 +7,8 @@
   
 ### **Patient Dashboard Page**
 
+  **Register New Patient:** Patients can enter their data through the interface. Upon submission, the information is stored across five MySQL tables: Patient,  Emergency Contact, Address, Medical Background, and Family Medical Background.
+**Book an Appointment:** Patients with a valid ID can book appointments. They can select a doctor, view available slots, and schedule appointments, avoiding double bookings.
 
 
    ![App Screenshot](https://github.com/Komalsai234/Hospital-Management-System/blob/436d40356a81e9dd34f85f1feaaa56c7b57e5b60/Screenshots/Patient.png)
