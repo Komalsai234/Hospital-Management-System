@@ -70,6 +70,17 @@ correctly. Without the database running and properly configured with the correct
 credentials in your environment, data insertion and retrieval operations will not be
 possible.**
 
+### Credentials to use Admin and Doctor Module
+
+**ADMIN** 
+
+**Username:** admin, **Password:** admin@123
+
+**Doctor** 
+
+**DoctorID:** 1, **Username:** doctor1, **Password:** doctor@1
+
+
 ## Streamlit
 **This app can be accessed from below link bu only when the AWS RDS Database is running.**
 
