@@ -102,11 +102,11 @@ possible.**
 
 **ADMIN** 
 
-**Username:** admin, **Password:** admin@123
+- **Username:** admin, **Password:** admin@123
 
 **Doctor** 
 
-**DoctorID:** 1, **Username:** doctor1, **Password:** doctor@1
+- **DoctorID:** 1, **Username:** doctor1, **Password:** doctor@1
 
 <a name='streamlit'></a>
 ## Streamlit
