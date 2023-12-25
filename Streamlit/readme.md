@@ -1,12 +1,12 @@
 # Streamlit Features
 
-- ### **Home Page**
+### **Home Page**
 
 
 
   ![App Screenshot](https://github.com/Komalsai234/Hospital-Management-System/blob/dcded4475dd7cff1c0e7879e110ec597256a164f/Screenshots/Home.png)
   
-- ### **Patient Dashboard Page**
+### **Patient Dashboard Page**
 
 
 
