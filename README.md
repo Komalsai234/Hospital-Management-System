@@ -7,10 +7,10 @@
 * [Introduction](#introduction)
 * [Dataset Description](#DatasetDescription)
 * [Tech Stack](#tectstack)
-    - [Prerequisites](#prerequisites)
-    - [How to Run this App Locally](#HowtoRunthisAppLocally)
-    - [Streamlit](#streamlit)
-    - [Contributors](#contributors)
+* [Prerequisites](#prerequisites)
+* [How to Run this App Locally](#HowtoRunthisAppLocally)
+* [Streamlit](#streamlit)
+* [Contributors](#contributors)
 
 <a name='introduction'></a>
 ## Introduction 
