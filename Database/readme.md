@@ -1,4 +1,4 @@
-# Healthcare System Database Schema
+# Hosptial Management System Database Schema
 
 # SQL Database 
 
