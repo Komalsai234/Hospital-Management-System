@@ -270,4 +270,3 @@ The 'lab reports' collection is a critical component of the database, structured
 The integration of GridFS streamlines the workflow in HMS by:
 - Facilitating the upload of large files without overburdening the network.
 - Allowing clinicians to access and download only necessary parts of a file, enhancing efficiency during patient consultations and treatment planning.
-- 
