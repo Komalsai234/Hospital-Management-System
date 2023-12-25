@@ -6,6 +6,7 @@
 
 * [Introduction](#introduction)
 * [Dataset Description](#DatasetDescription)
+* [Databases Schema](https://github.com/Komalsai234/Hospital-Management-System/blob/689660bed76b89adf94af6e64997f2a610d9dbdf/Database/readme.md)
 * [Tech Stack](#tectstack)
 * [Prerequisites](#prerequisites)
 * [How to Run this App Locally](#HowtoRunthisAppLocally)
