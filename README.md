@@ -7,10 +7,10 @@
 * [Introduction](#introduction)
 * [Dataset Description](#DatasetDescription)
 * [Tech Stack](#tectstack)
-* [Prerequisites](#prerequisites)
-* [How to Run this App Locally](#HowtoRunthisAppLocally)
-* [Streamlit](#streamlit)
-* [Contributors](#contributors)
+    - [Prerequisites](#prerequisites)
+    - [How to Run this App Locally](#HowtoRunthisAppLocally)
+    - [Streamlit](#streamlit)
+    - [Contributors](#contributors)
 
 <a name='introduction'></a>
 ## Introduction 
@@ -26,6 +26,9 @@ our project employs synthetic data to simulate the
 functionalities of the Hospital Management System. This
 approach allows for a comprehensive demonstration of the
 system's capabilities.
+
+[Click Here for the Dataset](https://github.com/Komalsai234/Hospital-Management-System/tree/436e1662abdbe00717a51cc540da0d4692bf1e55/Dataset)
+
 
 
 <a name='tectstack'></a>
