@@ -100,7 +100,7 @@ correctly. Without the database running and properly configured with the correct
 credentials in your environment, data insertion and retrieval operations will not be
 possible.**
 
-### Credentials to use Admin and Doctor Module
+### Credentials to access Admin and Doctor Module
 
 **ADMIN** 
 
