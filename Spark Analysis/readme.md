@@ -9,6 +9,8 @@
 
 **Download the JDBC Connector from the below link and save it in accessible location**
 
+* [JDBC Connector](https://drive.google.com/file/d/1KYVzaDqZOTQrM0Uzj2j5yLMYdEXvoAJB/view?usp=sharing)
+
 - **Start the Spark Shell by giving the path of JDBC Connector as argument**
 
 ```
