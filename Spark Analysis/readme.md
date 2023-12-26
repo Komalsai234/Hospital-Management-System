@@ -2,8 +2,8 @@
 # Spark Analysis on Hospital Data
 
 ## Prerequisites
-- Apache Spark == 3.5.0
-- Scala == 2.12.18
+- Apache Spark (version 3.5.0)
+- Scala (version 2.12.18)
 
 ## How to connect to AWS RDS/Localhost from Spark Shell
 
