@@ -94,6 +94,7 @@ cd src/Streamlit/
 streamlit run app.py
 ```
 
+
 ## ❗ Note
 **The application requires a connection to the AWS RDS database to function
 correctly. Without the database running and properly configured with the correct
