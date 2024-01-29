@@ -77,7 +77,7 @@ cd path/to/hospital-management-system
 ```
 
 
-### Install required Packages
+### Install required packages
 - **Install the required packages**
 ```bash
 pip install -r requirements.txt
