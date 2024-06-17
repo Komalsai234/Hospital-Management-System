@@ -119,9 +119,6 @@ possible.**
 
 
 [**Click Here for Features of Streamlit Interface**](https://github.com/Komalsai234/Hospital-Management-System/blob/88f8f211eb02d1bf5a259e26cd46741694d5f746/Streamlit/readme.md)
-## Instructor 
-
-### Dr. Sanajanasri J P, Assistant Professor, Amrita School of AI
 
 <a name='contributors'></a>
 ## Contributors
