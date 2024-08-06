@@ -113,7 +113,7 @@ possible.**
 
 <a name='streamlit'></a>
 ## Streamlit
-**This app can be accessed from below link bu only when the AWS RDS Database is running.**
+**This app can be accessed from below link  only when the AWS RDS Database is running.**
 
 **https://hospital-management-system.streamlit.app/**
 
