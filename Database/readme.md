@@ -17,18 +17,8 @@
 | DOB            | DATE         | Patient's date of birth             |
 | MaritalStatus  | ENUM         | Marital status: Single, Married, Divorced |
 
-## 2. Emergency Contact Table
-- **Primary Key, Foreign Key:** Patient ID
-- **Unique Key:** Email, Mobile Number
 
-| Attribute                  | Data Type    | Description                              |
-|----------------------------|--------------|------------------------------------------|
-| Patient ID                 | INT          | Unique identifier for each patient       |
-| Email                      | VARCHAR(100) | Email of emergency contact               |
-| Mobile Number              | VARCHAR(15)  | Mobile number of emergency contact       |
-| Relationship to the patient| VARCHAR(50)  | Contact's relationship to the patient    |
-
-## 3. Patient Address Table
+## 2. Patient Address Table
 - **Primary Key, Foreign Key:** Patient ID
 
 | Attribute   | Data Type             | Description                    |
@@ -40,7 +30,7 @@
 | State       | VARCHAR(100) NOT NULL | State or province             |
 | Country     | VARCHAR(100) NOT NULL | Country                       |
 
-## 4. Patient Medical Background Table
+## 3. Patient Medical Background Table
 - **Primary Key, Foreign Key:** Patient ID
 
 | Attribute         | Data Type | Description                                   |
@@ -53,25 +43,30 @@
 | Is Diabetic       | BOOLEAN   | Indicates if patient has diabetes             |
 | Is Having BP      | BOOLEAN   | Indicates if patient has blood pressure issues|
 
-## 5. Disease Table
-- **Primary Key:** Disease ID
-- **Unique Key:** Disease Name
+## 4. Emergency Contact Table
+- **Primary Key, Foreign Key:** Patient ID
+- **Unique Key:** Email, Mobile Number
 
-| Attribute     | Data Type   | Description                          |
-|---------------|-------------|--------------------------------------|
-| Disease ID    | INT         | Unique identifier for each disease   |
-| Disease Name  | VARCHAR(255)| Name of the disease                  |
+| Attribute                  | Data Type    | Description                              |
+|----------------------------|--------------|------------------------------------------|
+| Patient ID                 | INT          | Unique identifier for each patient       |
+| Email                      | VARCHAR(100) | Email of emergency contact               |
+| Mobile Number              | VARCHAR(15)  | Mobile number of emergency contact       |
+| Relationship to the patient| VARCHAR(50)  | Contact's relationship to the patient    |
 
-## 6. Patient Family Medical Background Table
-- **Primary Key:** Patient ID, Disease ID
-- **Foreign Key:** Patient ID, Disease ID
+### 5. PatientLogin Table
+- **Primary Key:** `id`
+- **Unique Key:** `email`
 
-| Attribute  | Data Type | Description                           |
-|------------|-----------|---------------------------------------|
-| Patient ID | INT       | Unique identifier for each patient    |
-| Disease ID | INT       | Unique identifier for each disease entry |
+| Attribute      | Data Type    | Description                            |
+|----------------|--------------|----------------------------------------|
+| id             | INT          | Unique identifier for each login       |
+| email          | VARCHAR(50)  | Email of the patient                   |
+| userpassword   | VARCHAR(256) | Password for the patient               |
 
-## 7. Doctor Department Table
+
+
+## 6. Doctor Department Table
 - **Primary Key:** Department ID
 - **Unique Key:** Department Name
 
@@ -80,7 +75,7 @@
 | Department ID    | INT                  | Unique identifier for each department |
 | Department Name  | VARCHAR(100) NOT NULL| Name of the department                |
 
-## 8. Doctor Table
+## 7. Doctor Table
 - **Primary Key:** Doctor ID
 - **Foreign Key:** Department ID
 
@@ -95,19 +90,16 @@
 | Years of Experience  | SMALL INT             | Years doctor has practiced           |
 | Is Active            | BOOLEAN               | If the doctor is currently active    |
 
-## 9. Health Insurance Table
-- **Primary Key:** Health Insurance ID
-- **Foreign Key:** Patient ID
+## 8. Doctor Consultant Fee Table
+- **Primary Key:** Doctor ID
+- **Foreign Key:** Doctor ID
 
-| Attribute       | Data Type            | Description                      |
-|-----------------|----------------------|----------------------------------|
-| Patient ID      | INT                  | Unique identifier for each patient |
-| Health Insurance ID | INT              | Unique identifier for insurance record |
-| Provider Name   | VARCHAR(255) NOT NULL| Name of health insurance provider|
-| Coverage Plan   | VARCHAR(255)         | Details of insurance coverage    |
-| Coverage Is Under | VARCHAR(100)      | Identifier for insurance department |
+| Attribute   | Data Type       | Description                              |
+|-------------|-----------------|------------------------------------------|
+| Doctor ID   | INT             | Unique identifier for each doctor        |
+| Fee Amount  | DECIMAL(10, 2)  | Consultant fee amount charged by the doctor |
 
-## 10. Appointment Table
+## 9. Appointment Table
 - **Primary Key:** Appointment ID
 - **Foreign Key:** Patient ID, Doctor ID
 
@@ -119,116 +111,138 @@
 | Appointment Date      | DATE NOT NULL     | Date of appointment               |
 | Appointment Start Time| TIME NOT NULL     | Start time of appointment         |
 | Appointment Status    | VARCHAR(50)       | Status of appointment             |
-| Reason For Visit      | VARCHAR(50)       | Reason for patient's visit        |
 
-## 11. Room Type Table
-- **Primary Key:** Room Type ID
-- **Unique Key:** Room Type Name
+### 10. DoctorLogin Table
+- **Primary Key:** `doctor_id`
 
-| Attribute       | Data Type        | Description                      |
-|-----------------|------------------|----------------------------------|
-| Room Type ID    | INT              | Unique identifier for room type  |
-| Room Type Name  | VARCHAR(100) NOT NULL | Name of room type             |
-| Room Rent       | INT              | Cost of the room per day         |
+| Attribute     | Data Type    | Description                             |
+|---------------|--------------|-----------------------------------------|
+| doctor_id     | INT          | Unique identifier for each doctor login |
+| docpassword    | VARCHAR(256) | Password for the doctor                 |
 
-## 12. Room Table
-- **Primary Key:** Room Number
-- **Foreign Key:** Room Type ID
+### 11. Medicine Table
+- **Primary Key:** `MedicineID`
+- **Unique Key:** `manufacturer_name`
 
-| Attribute    | Data Type             | Description                    |
-|--------------|-----------------------|--------------------------------|
-| Room Number  | INT                   | Unique identifier for each room|
-| Room Type ID | VARCHAR(100) NOT NULL | Name of room type              |
-| Status       | ENUM                  | Status of the room             |
+| Attribute           | Data Type      | Description                               |
+|---------------------|----------------|-------------------------------------------|
+| MedicineID          | INT            | Unique identifier for each medicine       |
+| Name                | VARCHAR(255)   | Name of the medicine                      |
+| manufacturer_name    | VARCHAR(100)   | Name of the manufacturer                  |
+| Price               | DECIMAL(10, 2) | Price of the medicine                     |
 
-## 13. In-Patient Table
-- **Primary Key:** In-Patient ID
-- **Foreign Key:** Patient ID, Room Number
+### 12. Prescription Table
+- **Primary Key:** `PrescriptionID`
+- **Foreign Keys:** `PatientID`, `DoctorID`, `MedicineID`, `AppointmentID`
 
-| Attribute        | Data Type       | Description                        |
-|------------------|-----------------|------------------------------------|
-| In-patient ID    | INT             | Unique identifier for each inpatient admission |
-| Patient ID       | INT             | Unique identifier for each patient |
-| Room Number      | INT             | Unique identifier for each room    |
-| Date of Admission| DATE NOT NULL   | Date of patient admission          |
-| Date of Discharge| DATE            | Date of patient discharge          |
-| Advance          | FLOAT           | Advance payment at admission       |
-| Reason For Visit | VARCHAR(50)     | Reason for patient's visit         |
+| Attribute          | Data Type    | Description                                 |
+|--------------------|--------------|---------------------------------------------|
+| PrescriptionID     | INT          | Unique identifier for each prescription     |
+| PatientID          | INT          | Unique identifier for the patient           |
+| DoctorID           | INT          | Unique identifier for the doctor            |
+| MedicineID         | INT          | Unique identifier for the medicine          |
+| MedicineDosage     | VARCHAR(255) | Dosage of the medicine                      |
+| MedicineDuration    | VARCHAR(255) | Duration for which the medicine is prescribed |
+| noOfTablets        | INT          | Number of tablets prescribed                 |
+| PrescribedDate     | TIMESTAMP    | Date and time the medicine was prescribed   |
+| PrescriptionStatus  | ENUM         | Status of the prescription: Active, Discontinued |
+| AppointmentID      | INT          | Unique identifier for the appointment       |
 
-## 14. Bill Table
-- **Primary Key:** Bill No
-- **Foreign Key:** Patient ID, In-Patient ID
+### 13. AdminLogin Table
+- **Primary Key:** `username`
 
-| Attribute                  | Data Type  | Description                    |
-|----------------------------|------------|--------------------------------|
-| Bill No                    | INT        | Unique identifier for bill     |
-| Patient ID                 | INT        | Unique identifier for each patient |
-| In-patient ID              | INT        | Unique identifier for each inpatient admission |
-| Room Rent                  | FLOAT      | Total cost of room rent        |
-| Number of days room occupancy | INT     | Number of days room was occupied |
-| Lab Charge                 | FLOAT      | Charges for lab tests          |
-| Payment Method             | ENUM       | Payment method used            |
-| Total Bill                 | FLOAT      | Total amount of the bill       |
+| Attribute      | Data Type    | Description                            |
+|----------------|--------------|----------------------------------------|
+| username       | VARCHAR(255) | Unique username for the admin          |
+| adminpassword   | VARCHAR(256) | Password for the admin                 |
 
-## 15. Medicine Table
-- **Primary Key:** Medicine ID
-- **Unique Key:** Medicine Name
+### 14. RoomType Table
+- **Primary Key:** `RoomTypeID`
+- **Unique Key:** `TypeName`
 
-| Attribute        | Data Type            | Description                     |
-|------------------|----------------------|---------------------------------|
-| Medicine ID      | INT                  | Unique identifier for each medicine |
-| Medicine Name    | VARCHAR(255) NOT NULL| Name of the medicine             |
-| Manufacturer Name| VARCHAR(100)         | Name of medicine manufacturer    |
-| Price            | FLOAT                | Price per unit of medicine       |
+| Attribute       | Data Type    | Description                             |
+|-----------------|--------------|-----------------------------------------|
+| RoomTypeID      | INT          | Unique identifier for each room type    |
+| TypeName        | VARCHAR(100) | Name of the room type                   |
+| RoomRent        | INT          | Rent for the room type                  |
 
-## 16. Prescription Table
-- **Primary Key:** Prescription ID
-- **Foreign Key:** Patient ID, Doctor ID, Medicine ID, Appointment ID
+### 15. Room Table
+- **Primary Key:** `RoomNumber`
+- **Unique Key:** `RoomNumber`
 
-| Attribute           | Data Type          | Description                                  |
-|---------------------|--------------------|----------------------------------------------|
-| Prescription ID     | INT                | Unique identifier for each prescription      |
-| Patient ID          | INT                | Unique identifier for each patient           |
-| Doctor ID           | INT                | Unique identifier for each doctor            |
-| Medicine ID         | INT                | Unique identifier for each medicine          |
-| Medicine Dosage     | VARCHAR(255)       | Dosage of the prescribed medicine            |
-| Medicine Duration   | VARCHAR(255)       | Duration for taking the medicine             |
-| Prescribed Date     | TIME STAMP         | Date and time when the prescription was made |
-| Prescription Status | ENUM               | Status of the prescription: Active, etc.     |
-| Appointment ID      | INT                | Identifier for the related appointment       |
+| Attribute      | Data Type    | Description                             |
+|----------------|--------------|-----------------------------------------|
+| RoomNumber     | INT          | Unique identifier for each room         |
+| RoomTypeID     | INT          | Identifier for the room type            |
+| Status         | ENUM         | Status of the room: Available, Occupied, Maintenance |
 
-## 17. Lab Test Table
-- **Primary Key:** Test ID
+### 16. InPatient Table
+- **Primary Key:** `InPatientID`
+- **Foreign Keys:** `PatientID`, `RoomNumber`
 
-| Attribute   | Data Type | Description                       |
-|-------------|-----------|-----------------------------------|
-| Test ID     | INT       | Unique identifier for each lab test|
-| Test Name   | INT       | Name of the lab test              |
-| Price       | FLOAT     | Cost of the lab test              |
+| Attribute      | Data Type    | Description                             |
+|----------------|--------------|-----------------------------------------|
+| InPatientID    | INT          | Unique identifier for each inpatient     |
+| PatientID      | INT          | Unique identifier for the patient        |
+| RoomNumber     | INT          | Room number assigned to the inpatient    |
+| DateOfAdmission| DATE         | Date of admission to the hospital       |
+| DateOfDischarge| DATE         | Date of discharge from the hospital     |
 
-## 18. Lab Table
-- **Primary Key:** Lab Record ID
-- **Foreign Key:** Patient ID, Referred Doctor ID, Test ID
+### 17. Pharmacy Table
+- **Primary Key, Foreign Key:** `MedicineID`
 
-| Attribute         | Data Type     | Description                                    |
-|-------------------|---------------|------------------------------------------------|
-| Lab Record ID     | INT           | Unique identifier for each lab record          |
-| Patient ID        | INT           | Unique identifier for each patient             |
-| Referred Doctor ID| INT           | Identifier for the doctor referring the test   |
-| Test ID           | INT           | Unique identifier for each test                |
-| Test Date Time    | DATE NOT NULL | Date and time when the lab test was conducted  |
+| Attribute           | Data Type      | Description                              |
+|---------------------|----------------|------------------------------------------|
+| MedicineID          | INT            | Unique identifier for the medicine       |
+| QuantityAvailable    | INT            | Quantity of the medicine available       |
+| LastRestocked       | DATE           | Date when the medicine was last restocked |
 
-## 19. Pharmacy Table
-- **Primary Key, Foreign Key:** Medicine ID
+### 18. RoomRent Table
+- **Primary Key, Foreign Keys:** `BillID`, 
+- **Foreign Keys:** `InPatientID`, `PatientID`
 
-| Attribute           | Data Type | Description                            |
-|---------------------|-----------|----------------------------------------|
-| Medicine ID         | INT       | Unique identifier for each medicine    |
-| Quantity Available  | INT       | Stock quantity of the medicine         |
-| Last Restocked      | DATE      | Most recent restock date of the medicine|
+| Attribute           | Data Type    | Description                             |
+|---------------------|--------------|-----------------------------------------|
+| BillID              | INT          | Unique identifier for each bill         |
+| InPatientID         | INT          | Unique identifier for the inpatient      |
+| PatientID           | INT          | Unique identifier for the patient        |
+| Stay_Duration       | INT          | Duration of stay in days                |
+| TotalRoomRent       | FLOAT        | Total rent for the room                  |
+| BillStatus          | ENUM         | Payment status: Paid, Not Paid          |
 
+### 19. LabTest Table
+- **Primary Key:** `TestID`
 
+| Attribute      | Data Type      | Description                             |
+|----------------|----------------|-----------------------------------------|
+| TestID         | INT            | Unique identifier for each lab test     |
+| Name           | VARCHAR(255)   | Name of the lab test                    |
+| Price          | FLOAT          | Price of the lab test                   |
 
+### 20. Lab Table
+- **Primary Key, Foreign Keys:** `LabRecordID`
+- **Foreign Keys:** `PatientID`, `ReferredDoctorID`, `TestID`
+
+| Attribute           | Data Type    | Description                             |
+|---------------------|--------------|-----------------------------------------|
+| LabRecordID         | INT          | Unique identifier for each lab record   |
+| PatientID           | INT          | Unique identifier for the patient       |
+| ReferredDoctorID    | INT          | Unique identifier for the referred doctor |
+| TestID              | INT          | Unique identifier for the test          |
+| TestDateTime        | DATETIME     | Date and time the test was performed    |
+| TestStatus          | ENUM         | Status of the test: Completed, In Progress |
+| BillStatus          | ENUM         | Billing status: Generated, Not Generated |
+
+### 21. LabBill Table
+- **Primary Key, Foreign Key:** `BillID`
+- **Primary Key, Foreign Key:** `PatientID`
+
+| Attribute        | Data Type    | Description                             |
+|------------------|--------------|-----------------------------------------|
+| BillID           | INT          | Unique identifier for each lab bill     |
+| PatientID        | INT          | Unique identifier for the patient       |
+| TotalLabBill     | FLOAT        | Total amount for the lab services       |
+| BillStatus       | ENUM         | Payment status: Paid, Not Paid          |
 
 
 # MongoDB Database 
