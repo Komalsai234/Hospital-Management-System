@@ -56,7 +56,6 @@
 
 ### 5. PatientLogin Table
 - **Primary Key:** `id`
-- **Unique Key:** `email`
 
 | Attribute      | Data Type    | Description                            |
 |----------------|--------------|----------------------------------------|
@@ -68,7 +67,6 @@
 
 ## 6. Doctor Department Table
 - **Primary Key:** Department ID
-- **Unique Key:** Department Name
 
 | Attribute        | Data Type            | Description                           |
 |------------------|----------------------|---------------------------------------|
@@ -122,7 +120,6 @@
 
 ### 11. Medicine Table
 - **Primary Key:** `MedicineID`
-- **Unique Key:** `manufacturer_name`
 
 | Attribute           | Data Type      | Description                               |
 |---------------------|----------------|-------------------------------------------|
@@ -141,12 +138,13 @@
 | PatientID          | INT          | Unique identifier for the patient           |
 | DoctorID           | INT          | Unique identifier for the doctor            |
 | MedicineID         | INT          | Unique identifier for the medicine          |
+| AppointmentID      | INT          | Unique identifier for the appointment       |
 | MedicineDosage     | VARCHAR(255) | Dosage of the medicine                      |
 | MedicineDuration    | VARCHAR(255) | Duration for which the medicine is prescribed |
 | noOfTablets        | INT          | Number of tablets prescribed                 |
 | PrescribedDate     | TIMESTAMP    | Date and time the medicine was prescribed   |
 | PrescriptionStatus  | ENUM         | Status of the prescription: Active, Discontinued |
-| AppointmentID      | INT          | Unique identifier for the appointment       |
+
 
 ### 13. AdminLogin Table
 - **Primary Key:** `username`
@@ -158,7 +156,6 @@
 
 ### 14. RoomType Table
 - **Primary Key:** `RoomTypeID`
-- **Unique Key:** `TypeName`
 
 | Attribute       | Data Type    | Description                             |
 |-----------------|--------------|-----------------------------------------|
@@ -168,7 +165,7 @@
 
 ### 15. Room Table
 - **Primary Key:** `RoomNumber`
-- **Unique Key:** `RoomNumber`
+- **Foreign Key:** `RoomTypeID`
 
 | Attribute      | Data Type    | Description                             |
 |----------------|--------------|-----------------------------------------|
@@ -198,7 +195,7 @@
 | LastRestocked       | DATE           | Date when the medicine was last restocked |
 
 ### 18. RoomRent Table
-- **Primary Key, Foreign Keys:** `BillID`, 
+- **Primary Key:** `BillID`, 
 - **Foreign Keys:** `InPatientID`, `PatientID`
 
 | Attribute           | Data Type    | Description                             |
@@ -220,8 +217,8 @@
 | Price          | FLOAT          | Price of the lab test                   |
 
 ### 20. Lab Table
-- **Primary Key, Foreign Keys:** `LabRecordID`
-- **Foreign Keys:** `PatientID`, `ReferredDoctorID`, `TestID`
+- **Primary Key:** `LabRecordID`
+- **Foreign Keys:** `PatientID`, `DoctorID`, `TestID`
 
 | Attribute           | Data Type    | Description                             |
 |---------------------|--------------|-----------------------------------------|
@@ -234,14 +231,25 @@
 | BillStatus          | ENUM         | Billing status: Generated, Not Generated |
 
 ### 21. LabBill Table
-- **Primary Key, Foreign Key:** `BillID`
-- **Primary Key, Foreign Key:** `PatientID`
+- **Primary Key:** `BillID`
+- **Foreign Key:** `PatientID`
 
 | Attribute        | Data Type    | Description                             |
 |------------------|--------------|-----------------------------------------|
 | BillID           | INT          | Unique identifier for each lab bill     |
 | PatientID        | INT          | Unique identifier for the patient       |
 | TotalLabBill     | FLOAT        | Total amount for the lab services       |
+| BillStatus       | ENUM         | Payment status: Paid, Not Paid          |
+
+### 22. AppointmentRescheduleBill Table
+- **Primary Key:** `BillID`
+- **Foreign Key:** `PatientID`
+
+| Attribute        | Data Type    | Description                             |
+|------------------|--------------|-----------------------------------------|
+| BillID           | INT          | Unique identifier for each lab bill     |
+| PatientID        | INT          | Unique identifier for the patient       |
+| Bill     | FLOAT        | Total amount for the lab services       |
 | BillStatus       | ENUM         | Payment status: Paid, Not Paid          |
 
 
