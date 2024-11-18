@@ -3,8 +3,8 @@
 # SQL Database 
 
 ## 1. Patient Table
-- **Primary Key:** Patient ID
-- **Unique Key:** Mobile, Email
+- **Primary Key:** `Patient ID`
+- **Unique Key:** `Mobile, Email`
 
 | Attribute      | Data Type    | Description                         |
 |----------------|--------------|-------------------------------------|
@@ -19,7 +19,7 @@
 
 
 ## 2. Patient Address Table
-- **Primary Key, Foreign Key:** Patient ID
+- **Primary Key, Foreign Key:** `Patient ID`
 
 | Attribute   | Data Type             | Description                    |
 |-------------|-----------------------|--------------------------------|
@@ -31,7 +31,7 @@
 | Country     | VARCHAR(100) NOT NULL | Country                       |
 
 ## 3. Patient Medical Background Table
-- **Primary Key, Foreign Key:** Patient ID
+- **Primary Key, Foreign Key:** `Patient ID`
 
 | Attribute         | Data Type | Description                                   |
 |-------------------|-----------|-----------------------------------------------|
@@ -44,8 +44,8 @@
 | Is Having BP      | BOOLEAN   | Indicates if patient has blood pressure issues|
 
 ## 4. Emergency Contact Table
-- **Primary Key, Foreign Key:** Patient ID
-- **Unique Key:** Email, Mobile Number
+- **Primary Key, Foreign Key:** `Patient ID`
+- **Unique Key:** `Email`, `Mobile Number`
 
 | Attribute                  | Data Type    | Description                              |
 |----------------------------|--------------|------------------------------------------|
@@ -66,7 +66,7 @@
 
 
 ## 6. Doctor Department Table
-- **Primary Key:** Department ID
+- **Primary Key:** `Department ID`
 
 | Attribute        | Data Type            | Description                           |
 |------------------|----------------------|---------------------------------------|
@@ -74,8 +74,8 @@
 | Department Name  | VARCHAR(100) NOT NULL| Name of the department                |
 
 ## 7. Doctor Table
-- **Primary Key:** Doctor ID
-- **Foreign Key:** Department ID
+- **Primary Key:** `Doctor ID`
+- **Foreign Key:** `Department ID`
 
 | Attribute            | Data Type             | Description                          |
 |----------------------|-----------------------|--------------------------------------|
@@ -89,8 +89,8 @@
 | Is Active            | BOOLEAN               | If the doctor is currently active    |
 
 ## 8. Doctor Consultant Fee Table
-- **Primary Key:** Doctor ID
-- **Foreign Key:** Doctor ID
+- **Primary Key:** `Doctor ID`
+- **Foreign Key:** `Doctor ID`
 
 | Attribute   | Data Type       | Description                              |
 |-------------|-----------------|------------------------------------------|
@@ -98,8 +98,8 @@
 | Fee Amount  | DECIMAL(10, 2)  | Consultant fee amount charged by the doctor |
 
 ## 9. Appointment Table
-- **Primary Key:** Appointment ID
-- **Foreign Key:** Patient ID, Doctor ID
+- **Primary Key:** `Appointment ID`
+- **Foreign Key:** `Patient ID, Doctor ID`
 
 | Attribute             | Data Type         | Description                       |
 |-----------------------|-------------------|-----------------------------------|
